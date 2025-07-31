@@ -3,7 +3,8 @@ const cors = require('cors');
 const bodyParser = require('body-parser');
 const { spawn } = require('child_process');
 const path = require('path');
-require('dotenv').config();
+// Load .env file from Scripts directory
+require('dotenv').config({ path: path.join(__dirname, '../../Scripts/.env') });
 
 const { login, authenticateJWT } = require('./auth');
 const { BigQuery } = require('@google-cloud/bigquery');

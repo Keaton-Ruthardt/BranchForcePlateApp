@@ -1,5 +1,7 @@
 const { BigQuery } = require('@google-cloud/bigquery');
 const path = require('path');
+// Load .env file from Scripts directory
+require('dotenv').config({ path: path.join(__dirname, '../../Scripts/.env') });
 
 class AnalyticsService {
   constructor() {

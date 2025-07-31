@@ -1,6 +1,7 @@
 const axios = require('axios');
 const path = require('path');
-require('dotenv').config();
+// Load .env file from Scripts directory
+require('dotenv').config({ path: path.join(__dirname, '../../Scripts/.env') });
 
 // Import existing VALD API helpers
 const { spawn } = require('child_process');
@@ -14,9 +15,39 @@ class VALDAPIService {
     this.tenantId = process.env.TENANT_ID;
     this.tokenCache = null;
     this.tokenExpiry = null;
+    
+    // Check if VALD API configuration is available
+    this.isConfigured = this.validateConfiguration();
+    if (!this.isConfigured) {
+      console.warn('⚠️  VALD API not configured - system will use cached data only');
+      console.warn('   Create .env file with VALD API credentials to enable live data');
+    }
+  }
+  
+  validateConfiguration() {
+    const required = ['FORCEDECKS_URL', 'CLIENT_ID', 'CLIENT_SECRET', 'AUTH_URL', 'TENANT_ID'];
+    const missing = required.filter(key => !process.env[key]);
+    
+    if (missing.length > 0) {
+      console.warn(`Missing VALD API environment variables: ${missing.join(', ')}`);
+      return false;
+    }
+    
+    try {
+      new URL(this.baseURL);
+      new URL(this.authURL);
+      return true;
+    } catch (error) {
+      console.warn('Invalid VALD API URLs in environment variables');
+      return false;
+    }
   }
 
   async getAccessToken() {
+    if (!this.isConfigured) {
+      throw new Error('VALD API not configured');
+    }
+    
     // Check if token is still valid
     if (this.tokenCache && this.tokenExpiry && Date.now() < this.tokenExpiry) {
       return this.tokenCache;
@@ -37,10 +68,10 @@ class VALDAPIService {
       const expiresIn = response.data.expires_in || 7200; // Default 2 hours
       this.tokenExpiry = Date.now() + (expiresIn - 60) * 1000; // Refresh 1 minute early
 
-      console.log('VALD API token refreshed successfully');
+      console.log('✅ VALD API token refreshed successfully');
       return this.tokenCache;
     } catch (error) {
-      console.error('Failed to get VALD API token:', error.response?.data || error.message);
+      console.error('❌ Failed to get VALD API token:', error.response?.data || error.message);
       throw new Error('Authentication failed');
     }
   }
@@ -69,6 +100,11 @@ class VALDAPIService {
   }
 
   async searchAthletes(searchTerm) {
+    if (!this.isConfigured) {
+      console.log('🔧 VALD API not configured, skipping live search');
+      return [];
+    }
+    
     try {
       const data = await this.makeAPIRequest('/profiles', {
         search: searchTerm,
@@ -84,12 +120,16 @@ class VALDAPIService {
         last_updated: new Date().toISOString()
       }));
     } catch (error) {
-      console.error('Search athletes failed:', error);
+      console.error('❌ Search athletes failed:', error);
       return [];
     }
   }
 
   async getAthleteProfile(athleteId) {
+    if (!this.isConfigured) {
+      throw new Error('VALD API not configured');
+    }
+    
     try {
       const data = await this.makeAPIRequest(`/profiles/${athleteId}`);
       
@@ -104,12 +144,16 @@ class VALDAPIService {
         source: 'live'
       };
     } catch (error) {
-      console.error('Get athlete profile failed:', error);
+      console.error('❌ Get athlete profile failed:', error);
       throw error;
     }
   }
 
   async getAthleteTestDates(athleteId) {
+    if (!this.isConfigured) {
+      throw new Error('VALD API not configured');
+    }
+    
     try {
       const data = await this.makeAPIRequest(`/profiles/${athleteId}/tests`, {
         includeResults: false
@@ -124,7 +168,8 @@ class VALDAPIService {
             test_date: testDate,
             result_id: test.id,
             assessment_id: test.assessmentId,
-            test_types: []
+            test_types: [],
+            source: 'live'
           };
         }
         testsByDate[testDate].test_types.push(test.testType);
@@ -133,7 +178,7 @@ class VALDAPIService {
       return Object.values(testsByDate)
         .sort((a, b) => new Date(b.test_date) - new Date(a.test_date));
     } catch (error) {
-      console.error('Get athlete test dates failed:', error);
+      console.error('❌ Get athlete test dates failed:', error);
       throw error;
     }
   }
