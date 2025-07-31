@@ -1,0 +1,137 @@
+resultId,value,time,limb,repeat,definition_id,result_key,description,name,unit,repeatable,asymmetry
+655365,48.636000000013475,48.636,Trial,0,655365,START_OF_MOVEMENT,Absolute time from the start of recording to start of movement,Start of Movement,Second,False,True
+655365,48.636000000013475,48.636,Left,0,655365,START_OF_MOVEMENT,Absolute time from the start of recording to start of movement,Start of Movement,Second,False,True
+655365,48.636000000013475,48.636,Right,0,655365,START_OF_MOVEMENT,Absolute time from the start of recording to start of movement,Start of Movement,Second,False,True
+655365,0.0,48.636,Asym,0,655365,START_OF_MOVEMENT,Absolute time from the start of recording to start of movement,Start of Movement,Second,False,True
+13107201,1628.7562862669247,48.636,Trial,0,13107201,BASELINE_FORCE,Baseline force at start of movement,Baseline Force,Newton,False,True
+13107201,705.7176015473888,48.636,Left,0,13107201,BASELINE_FORCE,Baseline force at start of movement,Baseline Force,Newton,False,True
+13107201,923.0386847195358,48.636,Right,0,13107201,BASELINE_FORCE,Baseline force at start of movement,Baseline Force,Newton,False,True
+13107201,23.544092655031008,48.636,Asym,0,13107201,BASELINE_FORCE,Baseline force at start of movement,Baseline Force,Newton,False,True
+13107202,2.918000000003566,51.554,Trial,0,13107202,START_TO_PEAK_FORCE,Time between start of movement and peak force,Start Time to Peak Force,Second,False,True
+13107202,2.6440000000032313,51.28,Left,0,13107202,START_TO_PEAK_FORCE,Time between start of movement and peak force,Start Time to Peak Force,Second,False,True
+13107202,2.9240000000035735,51.56,Right,0,13107202,START_TO_PEAK_FORCE,Time between start of movement and peak force,Start Time to Peak Force,Second,False,True
+13107202,9.575923392612859,51.554,Asym,0,13107202,START_TO_PEAK_FORCE,Time between start of movement and peak force,Start Time to Peak Force,Second,False,True
+13107203,4028.7562862669247,51.554,Trial,0,13107203,PEAK_VERTICAL_FORCE,Peak Vertical Force,Peak Vertical Force,Newton,False,True
+13107203,1856.7176015473888,51.28,Left,0,13107203,PEAK_VERTICAL_FORCE,Peak Vertical Force,Peak Vertical Force,Newton,False,True
+13107203,2245.038684719536,51.56,Right,0,13107203,PEAK_VERTICAL_FORCE,Peak Vertical Force,Peak Vertical Force,Newton,False,True
+13107203,17.296854874492222,51.554,Asym,0,13107203,PEAK_VERTICAL_FORCE,Peak Vertical Force,Peak Vertical Force,Newton,False,True
+13107204,1751.7562862669247,48.686,Trial,0,13107204,FORCE_AT_50MS,Force at 50ms after start of movement,Force at 50ms,Newton,False,True
+13107204,795.7176015473888,48.686,Left,0,13107204,FORCE_AT_50MS,Force at 50ms after start of movement,Force at 50ms,Newton,False,True
+13107204,956.0386847195358,48.686,Right,0,13107204,FORCE_AT_50MS,Force at 50ms after start of movement,Force at 50ms,Newton,False,True
+13107204,16.769309206267,48.686,Asym,0,13107204,FORCE_AT_50MS,Force at 50ms after start of movement,Force at 50ms,Newton,False,True
+13107205,1943.7562862669245,48.736,Trial,0,13107205,FORCE_AT_100MS,Force at 100ms after start of movement,Force at 100ms,Newton,False,True
+13107205,836.7176015473888,48.736,Left,0,13107205,FORCE_AT_100MS,Force at 100ms after start of movement,Force at 100ms,Newton,False,True
+13107205,1107.0386847195357,48.736,Right,0,13107205,FORCE_AT_100MS,Force at 100ms after start of movement,Force at 100ms,Newton,False,True
+13107205,24.41839539154242,48.736,Asym,0,13107205,FORCE_AT_100MS,Force at 100ms after start of movement,Force at 100ms,Newton,False,True
+13107206,2134.7562862669247,48.786,Trial,0,13107206,FORCE_AT_150MS,Force at 150ms after start of movement,Force at 150ms,Newton,False,True
+13107206,928.7176015473888,48.786,Left,0,13107206,FORCE_AT_150MS,Force at 150ms after start of movement,Force at 150ms,Newton,False,True
+13107206,1206.0386847195357,48.786,Right,0,13107206,FORCE_AT_150MS,Force at 150ms after start of movement,Force at 150ms,Newton,False,True
+13107206,22.994377102973107,48.786,Asym,0,13107206,FORCE_AT_150MS,Force at 150ms after start of movement,Force at 150ms,Newton,False,True
+13107207,2271.7562862669247,48.836,Trial,0,13107207,FORCE_AT_200MS,Force at 200ms after start of movement,Force at 200ms,Newton,False,True
+13107207,1003.7176015473888,48.836,Left,0,13107207,FORCE_AT_200MS,Force at 200ms after start of movement,Force at 200ms,Newton,False,True
+13107207,1268.0386847195357,48.836,Right,0,13107207,FORCE_AT_200MS,Force at 200ms after start of movement,Force at 200ms,Newton,False,True
+13107207,20.844875346260384,48.836,Asym,0,13107207,FORCE_AT_200MS,Force at 200ms after start of movement,Force at 200ms,Newton,False,True
+13107208,3066.666666662919,48.666,Trial,0,13107208,RFD_AT_30MS,Rate of force development over 30ms from start of movement,RFD - 30ms,Newton Per Second,False,True
+13107208,2199.9999999973115,48.666,Left,0,13107208,RFD_AT_30MS,Rate of force development over 30ms from start of movement,RFD - 30ms,Newton Per Second,False,True
+13107208,866.6666666656075,48.666,Right,0,13107208,RFD_AT_30MS,Rate of force development over 30ms from start of movement,RFD - 30ms,Newton Per Second,False,True
+13107208,-60.606060606060616,48.666,Asym,0,13107208,RFD_AT_30MS,Rate of force development over 30ms from start of movement,RFD - 30ms,Newton Per Second,False,True
+13107209,2459.9999999969937,48.686,Trial,0,13107209,RFD_AT_50MS,Rate of force development over 50ms from start of movement,RFD - 50ms,Newton Per Second,False,True
+13107209,1799.9999999978002,48.686,Left,0,13107209,RFD_AT_50MS,Rate of force development over 50ms from start of movement,RFD - 50ms,Newton Per Second,False,True
+13107209,659.9999999991934,48.686,Right,0,13107209,RFD_AT_50MS,Rate of force development over 50ms from start of movement,RFD - 50ms,Newton Per Second,False,True
+13107209,-63.33333333333333,48.686,Asym,0,13107209,RFD_AT_50MS,Rate of force development over 50ms from start of movement,RFD - 50ms,Newton Per Second,False,True
+13107210,2540.540540537436,48.71,Trial,0,13107210,RFD_AT_75MS,Rate of force development over 75ms from start of movement,RFD - 75ms,Newton Per Second,False,True
+13107210,1445.945945944179,48.71,Left,0,13107210,RFD_AT_75MS,Rate of force development over 75ms from start of movement,RFD - 75ms,Newton Per Second,False,True
+13107210,1094.594594593257,48.71,Right,0,13107210,RFD_AT_75MS,Rate of force development over 75ms from start of movement,RFD - 75ms,Newton Per Second,False,True
+13107210,-24.299065420560748,48.71,Asym,0,13107210,RFD_AT_75MS,Rate of force development over 75ms from start of movement,RFD - 75ms,Newton Per Second,False,True
+13107211,3149.999999996148,48.736,Trial,0,13107211,RFD_AT_100MS,Rate of force development over 100ms from start of movement,RFD - 100ms,Newton Per Second,False,True
+13107211,1309.999999998399,48.736,Left,0,13107211,RFD_AT_100MS,Rate of force development over 100ms from start of movement,RFD - 100ms,Newton Per Second,False,True
+13107211,1839.9999999977501,48.736,Right,0,13107211,RFD_AT_100MS,Rate of force development over 100ms from start of movement,RFD - 100ms,Newton Per Second,False,True
+13107211,28.804347826086907,48.736,Asym,0,13107211,RFD_AT_100MS,Rate of force development over 100ms from start of movement,RFD - 100ms,Newton Per Second,False,True
+13107212,3373.3333333292107,48.786,Trial,0,13107212,RFD_AT_150MS,Rate of force development over 150ms from start of movement,RFD - 150ms,Newton Per Second,False,True
+13107212,1486.6666666648498,48.786,Left,0,13107212,RFD_AT_150MS,Rate of force development over 150ms from start of movement,RFD - 150ms,Newton Per Second,False,True
+13107212,1886.6666666643603,48.786,Right,0,13107212,RFD_AT_150MS,Rate of force development over 150ms from start of movement,RFD - 150ms,Newton Per Second,False,True
+13107212,21.201413427561807,48.786,Asym,0,13107212,RFD_AT_150MS,Rate of force development over 150ms from start of movement,RFD - 150ms,Newton Per Second,False,True
+13107213,3214.999999996071,48.836,Trial,0,13107213,RFD_AT_200MS,Rate of force development over 200ms from start of movement,RFD - 200ms,Newton Per Second,False,True
+13107213,1489.999999998179,48.836,Left,0,13107213,RFD_AT_200MS,Rate of force development over 200ms from start of movement,RFD - 200ms,Newton Per Second,False,True
+13107213,1724.9999999978913,48.836,Right,0,13107213,RFD_AT_200MS,Rate of force development over 200ms from start of movement,RFD - 200ms,Newton Per Second,False,True
+13107213,13.623188405797078,48.836,Asym,0,13107213,RFD_AT_200MS,Rate of force development over 200ms from start of movement,RFD - 200ms,Newton Per Second,False,True
+13107214,3839.9999999953025,48.736,Trial,0,13107214,RFD_50_100MS,Rate of force development from 50ms to 100ms after start of movement,RFD - 50-100ms,Newton Per Second,False,True
+13107214,819.9999999989979,48.736,Left,0,13107214,RFD_50_100MS,Rate of force development from 50ms to 100ms after start of movement,RFD - 50-100ms,Newton Per Second,False,True
+13107214,3019.999999996307,48.736,Right,0,13107214,RFD_50_100MS,Rate of force development from 50ms to 100ms after start of movement,RFD - 50-100ms,Newton Per Second,False,True
+13107214,72.84768211920529,48.736,Asym,0,13107214,RFD_50_100MS,Rate of force development from 50ms to 100ms after start of movement,RFD - 50-100ms,Newton Per Second,False,True
+13107215,3819.999999995336,48.786,Trial,0,13107215,RFD_100_150MS,Rate of force development from 100ms to 150ms after start of movement,RFD - 100-150ms,Newton Per Second,False,True
+13107215,1839.9999999977513,48.786,Left,0,13107215,RFD_100_150MS,Rate of force development from 100ms to 150ms after start of movement,RFD - 100-150ms,Newton Per Second,False,True
+13107215,1979.9999999975803,48.786,Right,0,13107215,RFD_100_150MS,Rate of force development from 100ms to 150ms after start of movement,RFD - 100-150ms,Newton Per Second,False,True
+13107215,7.070707070707076,48.786,Asym,0,13107215,RFD_100_150MS,Rate of force development from 100ms to 150ms after start of movement,RFD - 100-150ms,Newton Per Second,False,True
+13107216,2739.9999999966512,48.836,Trial,0,13107216,RFD_150_200MS,Rate of force development from 150ms to 200ms after start of movement,RFD - 150-200ms,Newton Per Second,False,True
+13107216,1499.999999998167,48.836,Left,0,13107216,RFD_150_200MS,Rate of force development from 150ms to 200ms after start of movement,RFD - 150-200ms,Newton Per Second,False,True
+13107216,1239.9999999984846,48.836,Right,0,13107216,RFD_150_200MS,Rate of force development from 150ms to 200ms after start of movement,RFD - 150-200ms,Newton Per Second,False,True
+13107216,-17.33333333333334,48.836,Asym,0,13107216,RFD_150_200MS,Rate of force development from 150ms to 200ms after start of movement,RFD - 150-200ms,Newton Per Second,False,True
+13107217,2400.0,51.554,Trial,0,13107217,NET_PEAK_VERTICAL_FORCE,Net peak vertical force w.r.t baseline after start of movement,Net Peak Vertical Force,Newton,False,True
+13107217,1151.0,51.28,Left,0,13107217,NET_PEAK_VERTICAL_FORCE,Net peak vertical force w.r.t baseline after start of movement,Net Peak Vertical Force,Newton,False,True
+13107217,1322.0,51.56,Right,0,13107217,NET_PEAK_VERTICAL_FORCE,Net peak vertical force w.r.t baseline after start of movement,Net Peak Vertical Force,Newton,False,True
+13107217,12.934947049924356,51.554,Asym,0,13107217,NET_PEAK_VERTICAL_FORCE,Net peak vertical force w.r.t baseline after start of movement,Net Peak Vertical Force,Newton,False,True
+13107218,123.0,48.686,Trial,0,13107218,NET_FORCE_AT_50MS,Net vertical force w.r.t baseline at 50ms after start of movement,Net Force at 50ms,Newton,False,True
+13107218,90.0,48.686,Left,0,13107218,NET_FORCE_AT_50MS,Net vertical force w.r.t baseline at 50ms after start of movement,Net Force at 50ms,Newton,False,True
+13107218,33.0,48.686,Right,0,13107218,NET_FORCE_AT_50MS,Net vertical force w.r.t baseline at 50ms after start of movement,Net Force at 50ms,Newton,False,True
+13107218,-63.33333333333333,48.686,Asym,0,13107218,NET_FORCE_AT_50MS,Net vertical force w.r.t baseline at 50ms after start of movement,Net Force at 50ms,Newton,False,True
+13107219,314.9999999999998,48.736,Trial,0,13107219,NET_FORCE_AT_100MS,Net vertical force w.r.t baseline at 100ms after start of movement,Net Force at 100ms,Newton,False,True
+13107219,131.0,48.736,Left,0,13107219,NET_FORCE_AT_100MS,Net vertical force w.r.t baseline at 100ms after start of movement,Net Force at 100ms,Newton,False,True
+13107219,183.9999999999999,48.736,Right,0,13107219,NET_FORCE_AT_100MS,Net vertical force w.r.t baseline at 100ms after start of movement,Net Force at 100ms,Newton,False,True
+13107219,28.80434782608691,48.736,Asym,0,13107219,NET_FORCE_AT_100MS,Net vertical force w.r.t baseline at 100ms after start of movement,Net Force at 100ms,Newton,False,True
+13107220,506.0,48.786,Trial,0,13107220,NET_FORCE_AT_150MS,Net vertical force w.r.t baseline at 150ms after start of movement,Net Force at 150ms,Newton,False,True
+13107220,223.0,48.786,Left,0,13107220,NET_FORCE_AT_150MS,Net vertical force w.r.t baseline at 150ms after start of movement,Net Force at 150ms,Newton,False,True
+13107220,282.9999999999999,48.786,Right,0,13107220,NET_FORCE_AT_150MS,Net vertical force w.r.t baseline at 150ms after start of movement,Net Force at 150ms,Newton,False,True
+13107220,21.201413427561803,48.786,Asym,0,13107220,NET_FORCE_AT_150MS,Net vertical force w.r.t baseline at 150ms after start of movement,Net Force at 150ms,Newton,False,True
+13107221,643.0,48.836,Trial,0,13107221,NET_FORCE_AT_200MS,Net vertical force w.r.t baseline at 200ms after start of movement,Net Force at 200ms,Newton,False,True
+13107221,298.0,48.836,Left,0,13107221,NET_FORCE_AT_200MS,Net vertical force w.r.t baseline at 200ms after start of movement,Net Force at 200ms,Newton,False,True
+13107221,344.9999999999999,48.836,Right,0,13107221,NET_FORCE_AT_200MS,Net vertical force w.r.t baseline at 200ms after start of movement,Net Force at 200ms,Newton,False,True
+13107221,13.623188405797073,48.836,Asym,0,13107221,NET_FORCE_AT_200MS,Net vertical force w.r.t baseline at 200ms after start of movement,Net Force at 200ms,Newton,False,True
+13107222,1.0420000000012735,49.678,Trial,0,13107222,START_TO_80PC_PEAK_FORCE,Time from start of movement to 80% of net peak vertical force,Start Time to 80% Net Peak Force,Second,False,True
+13107222,1.324000000001618,49.96,Left,0,13107222,START_TO_80PC_PEAK_FORCE,Time from start of movement to 80% of net peak vertical force,Start Time to 80% Net Peak Force,Second,False,True
+13107222,1.0560000000012906,49.692,Right,0,13107222,START_TO_80PC_PEAK_FORCE,Time from start of movement to 80% of net peak vertical force,Start Time to 80% Net Peak Force,Second,False,True
+13107222,-20.241691842900302,49.678,Asym,0,13107222,START_TO_80PC_PEAK_FORCE,Time from start of movement to 80% of net peak vertical force,Start Time to 80% Net Peak Force,Second,False,True
+13107223,39.15595574173316,51.554,Trial,0,13107223,ISO_BM_REL_FORCE_PEAK,Peak vertical force relative to body mass,Peak Vertical Force / BM,Newton Per Kilo,False,False
+13107224,17.025525184827725,48.686,Trial,0,13107224,ISO_BM_REL_FORCE_50,Force at 50ms after start of movement relative to body mass,Force at 50ms / BM,Newton Per Kilo,False,False
+13107225,18.891595745620805,48.736,Trial,0,13107225,ISO_BM_REL_FORCE_100,Force at 100ms relative to body mass,Force at 100ms / BM,Newton Per Kilo,False,False
+13107226,20.747947188909755,48.786,Trial,0,13107226,ISO_BM_REL_FORCE_150,Force at 150ms relative to body mass,Force at 150ms / BM,Newton Per Kilo,False,False
+13107227,22.079466286975652,48.836,Trial,0,13107227,ISO_BM_REL_FORCE_200,Force at 200ms relative to body mass,Force at 200ms / BM,Newton Per Kilo,False,False
+13107228,84.75481431344983,48.636,Trial,0,13107228,ISO_ABS_IMPULSE_50,Absolute impulse over the first 50ms from start of movement,Absolute Impulse - 50ms,Newton Second,False,True
+13107228,37.66988007741548,48.636,Left,0,13107228,ISO_ABS_IMPULSE_50,Absolute impulse over the first 50ms from start of movement,Absolute Impulse - 50ms,Newton Second,False,True
+13107228,47.08493423603433,48.636,Right,0,13107228,ISO_ABS_IMPULSE_50,Absolute impulse over the first 50ms from start of movement,Absolute Impulse - 50ms,Newton Second,False,True
+13107228,19.995895314245686,48.636,Asym,0,13107228,ISO_ABS_IMPULSE_50,Absolute impulse over the first 50ms from start of movement,Absolute Impulse - 50ms,Newton Second,False,True
+13107229,127.85796518390869,48.636,Trial,0,13107229,ISO_ABS_IMPULSE_75,Absolute impulse over the first 75ms from start of movement,Absolute Impulse - 75ms,Newton Second,False,True
+13107229,57.104102514576574,48.636,Left,0,13107229,ISO_ABS_IMPULSE_75,Absolute impulse over the first 75ms from start of movement,Absolute Impulse - 75ms,Newton Second,False,True
+13107229,70.75386266933212,48.636,Right,0,13107229,ISO_ABS_IMPULSE_75,Absolute impulse over the first 75ms from start of movement,Absolute Impulse - 75ms,Newton Second,False,True
+13107229,19.291893954323942,48.636,Asym,0,13107229,ISO_ABS_IMPULSE_75,Absolute impulse over the first 75ms from start of movement,Absolute Impulse - 75ms,Newton Second,False,True
+13107230,176.47462862690813,48.636,Trial,0,13107230,ISO_ABS_IMPULSE_100,Absolute impulse over the first 100ms from start of movement,Absolute Impulse - 100ms,Newton Second,False,True
+13107230,78.42276015483475,48.636,Left,0,13107230,ISO_ABS_IMPULSE_100,Absolute impulse over the first 100ms from start of movement,Absolute Impulse - 100ms,Newton Second,False,True
+13107230,98.0518684720734,48.636,Right,0,13107230,ISO_ABS_IMPULSE_100,Absolute impulse over the first 100ms from start of movement,Absolute Impulse - 100ms,Newton Second,False,True
+13107230,20.019106849380748,48.636,Asym,0,13107230,ISO_ABS_IMPULSE_100,Absolute impulse over the first 100ms from start of movement,Absolute Impulse - 100ms,Newton Second,False,True
+13107231,278.9594429403797,48.636,Trial,0,13107231,ISO_ABS_IMPULSE_150,Absolute impulse over the first 150ms from start of movement,Absolute Impulse - 150ms,Newton Second,False,True
+13107231,122.38664023225793,48.636,Left,0,13107231,ISO_ABS_IMPULSE_150,Absolute impulse over the first 150ms from start of movement,Absolute Impulse - 150ms,Newton Second,False,True
+13107231,156.57280270812169,48.636,Right,0,13107231,ISO_ABS_IMPULSE_150,Absolute impulse over the first 150ms from start of movement,Absolute Impulse - 150ms,Newton Second,False,True
+13107231,21.834036233989227,48.636,Asym,0,13107231,ISO_ABS_IMPULSE_150,Absolute impulse over the first 150ms from start of movement,Absolute Impulse - 150ms,Newton Second,False,True
+13107232,388.2922572538596,48.636,Trial,0,13107232,ISO_ABS_IMPULSE_200,Absolute impulse over the first 200ms from start of movement,Absolute Impulse - 200ms,Newton Second,False,True
+13107232,170.63552030968634,48.636,Left,0,13107232,ISO_ABS_IMPULSE_200,Absolute impulse over the first 200ms from start of movement,Absolute Impulse - 200ms,Newton Second,False,True
+13107232,217.65673694417313,48.636,Right,0,13107232,ISO_ABS_IMPULSE_200,Absolute impulse over the first 200ms from start of movement,Absolute Impulse - 200ms,Newton Second,False,True
+13107232,21.603382139532528,48.636,Asym,0,13107232,ISO_ABS_IMPULSE_200,Absolute impulse over the first 200ms from start of movement,Absolute Impulse - 200ms,Newton Second,False,True
+13107233,3.9927962904491503,51.554,Trial,0,13107233,ISO_BW_REL_FORCE_PEAK,Peak vertical force relative to weight of body (in Newtons),Peak Vertical Force / BW,No Unit,False,False
+13107234,3251.9999999960255,48.886,Trial,0,13107234,RFD_AT_250MS,Rate of force development over 250ms from start of movement,RFD - 250ms,Newton Per Second,False,True
+13107234,1435.9999999982451,48.886,Left,0,13107234,RFD_AT_250MS,Rate of force development over 250ms from start of movement,RFD - 250ms,Newton Per Second,False,True
+13107234,1815.9999999977802,48.886,Right,0,13107234,RFD_AT_250MS,Rate of force development over 250ms from start of movement,RFD - 250ms,Newton Per Second,False,True
+13107234,20.925110132158565,48.886,Asym,0,13107234,RFD_AT_250MS,Rate of force development over 250ms from start of movement,RFD - 250ms,Newton Per Second,False,True
+13107235,3279.9999999959937,48.836,Trial,0,13107235,RFD_100_200MS,Rate of force development from 100ms to 200ms after start of movement,RFD - 100-200ms,Newton Per Second,False,True
+13107235,1669.999999997959,48.836,Left,0,13107235,RFD_100_200MS,Rate of force development from 100ms to 200ms after start of movement,RFD - 100-200ms,Newton Per Second,False,True
+13107235,1609.9999999980323,48.836,Right,0,13107235,RFD_100_200MS,Rate of force development from 100ms to 200ms after start of movement,RFD - 100-200ms,Newton Per Second,False,True
+13107235,-3.592814371257492,48.836,Asym,0,13107235,RFD_100_200MS,Rate of force development from 100ms to 200ms after start of movement,RFD - 100-200ms,Newton Per Second,False,True
+13107236,34.30450338838817,48.636,Trial,0,13107236,ISO_NET_IMPULSE_50,Impulse above bodyweight over the first 50ms from start of movement,Impulse (Net of BW) - 50ms,Newton Second,False,False
+13107237,53.191505014817444,48.636,Trial,0,13107237,ISO_NET_IMPULSE_75,Impulse above bodyweight over the first 75ms from start of movement,Impulse (Net of BW) - 75ms,Newton Second,False,False
+13107238,75.57400677678481,48.636,Trial,0,13107238,ISO_NET_IMPULSE_100,Impulse above bodyweight over the first 100ms from start of movement,Impulse (Net of BW) - 100ms,Newton Second,False,False
+13107239,127.60851016519463,48.636,Trial,0,13107239,ISO_NET_IMPULSE_150,Impulse above bodyweight over the first 150ms from start of movement,Impulse (Net of BW) - 150ms,Newton Second,False,False
+13107240,186.49101355361287,48.636,Trial,0,13107240,ISO_NET_IMPULSE_200,Impulse above bodyweight over the first 200ms from start of movement,Impulse (Net of BW) - 200ms,Newton Second,False,False
+13107241,742.7500677669248,48.686,Trial,0,13107241,BW_NET_FORCE_AT_50MS,Net vertical force w.r.t. bodyweight at 50ms after start of movement,Force (Net of BW) at 50ms,Newton,False,False
+13107242,934.7500677669245,48.736,Trial,0,13107242,BW_NET_FORCE_AT_100MS,Net vertical force w.r.t. bodyweight at 100ms after start of movement,Force (Net of BW) at 100ms,Newton,False,False
+13107243,1125.7500677669248,48.786,Trial,0,13107243,BW_NET_FORCE_AT_150MS,Net vertical force w.r.t. bodyweight at 150ms after start of movement,Force (Net of BW) at 150ms,Newton,False,False
+13107244,1262.7500677669248,48.836,Trial,0,13107244,BW_NET_FORCE_AT_200MS,Net vertical force w.r.t. bodyweight at 200ms after start of movement,Force (Net of BW) at 200ms,Newton,False,False
+13107245,3019.750067766925,51.554,Trial,0,13107245,BW_NET_FORCE_PEAK,Net peak vertical force w.r.t. bodyweight,Peak Vertical Force (Net of BW),Newton,False,False

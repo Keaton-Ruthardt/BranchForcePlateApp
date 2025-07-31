@@ -1,0 +1,433 @@
+,resultId,resultIdString,resultName,resultDescription,resultGroup,supportsAsymmetry,isRepeatResult,resultUnit,resultUnitName,resultUnitScaleFactor,numberOfDecimalPlaces,trendDirection
+0,0,NONE,No Result Selected,No Result Selected,None,True,False,NoUnit,,1.0,0,None
+1,1,COV,CoV,CoV,None,True,False,Percent,%,1.0,1,None
+2,2,STD_DEV,SD,SD,None,True,False,NoUnit,,1.0,3,None
+3,6553601,AVERAGE_FORCE,Average Force,Average Force,Takeoff,False,False,Newton,N,1.0,3,None
+4,6553602,BEGIN_CONCENTRIC_PHASE,Start of Concentric Phase,Asbolute time from the start of recording to the start of the concentric phase,Takeoff,False,False,Second,s,1.0,3,None
+5,6553603,COUNTERMOVEMENT_DEPTH,Countermovement Depth,The amount of displacement the CM goes through from contact (zero position) to the lowest value. Note if the hips and knees are flexed at contact this is still the reference zero position.,Takeoff,False,False,Centimeter,cm,1.0,1,None
+6,655361,BODY_MASS,Athlete Standing Weight,Body weight calculated from the steady period at the beginning of each rep,General,True,False,Kilo,kg,1.0,1,None
+7,655362,AUTO_BODY_MASS_START,Auto Weight Start,Start of averaging period to automatically determine system weight,General,False,False,Second,s,1.0,2,None
+8,655363,AUTO_BODY_MASS_END,Auto Weight End,End of averaging period to automatically determine system weight,General,False,False,Second,s,1.0,2,None
+9,655364,CORRECTED_BODY_MASS,Corrected Standing Weight,Standing weight calculated from impulse to ensure an end-of-jump velocity of 0 m/s,General,False,False,Kilo,kg,1.0,4,None
+10,655378,EFFECTIVE_BAR_MASS,Effective Additional Load,Additional load used for analysis determined from pre-test athlete weight and standing weight at the start of the trial,General,False,False,Kilo,kg,1.0,2,None
+11,655376,BAR_MASS,Additional Load,Weight of load in addition to body weight (bar weight) to nearest 2kg,None,False,False,Kilo,kg,1.0,2,None
+12,655381,EXERCISE_LENGTH,Exercise Length,Length of time to perform a single test/exercise trial,None,False,False,Second,s,1.0,0,None
+13,655382,EYES_CLOSED,Eyes Closed,Subject performs the test with eyes closed,None,False,False,Boolean,,1.0,0,None
+14,655383,UNSTABLE_SURFACE,Unstable Surface,Subject performs the test standing on a foam pad,None,False,False,Boolean,,1.0,0,None
+15,655384,SECONDARY_TASK,Secondary Task,Subject has an additional task to perform (distraction) while testing,None,False,False,Boolean,,1.0,0,None
+16,655385,CHAIR_HEIGHT,Chair Height,Height of chair used in exercise,None,False,False,Centimeter,cm,1.0,0,None
+17,655386,BODY_WEIGHT,Bodyweight in Kilograms,Mass of the profile in kilograms,General,False,False,Kilo,kg,1.0,1,None
+18,655387,BODY_WEIGHT_LBS,Bodyweight in Pounds,Mass of the profile in pounds,General,False,False,Pound,lbs,2.20462,1,None
+19,720897,EVALOPT_SOM_TYPE,Start of Movement Type,Method to use to perform start of movement detection in squat and countermovement jumps,None,False,False,Enum,,1.0,0,None
+20,720898,EVALOPT_SOM_THRESHOLD,Start of Movement Threshold,Bodyweight +/- threshold force for SoM detection in squat and countermovement jumps,None,False,False,Newton,N,1.0,2,None
+21,720899,EVALOPT_SOM_STDDEVS,Start of Movement Threshold StdDevs,Bodyweight +/- threshold force as number of StdDevs from pre-jump period in squat and countermovement jumps,None,False,False,NoUnit,,1.0,2,None
+22,720900,EVALOPT_PRETRIAL_STABLE_PERIOD,Auto-detect Pre-Trial Quiet Period,Maximum additional quiet period to include prior to normal start of trial for SoM threshold analysis,None,False,False,Second,s,1.0,2,None
+23,720901,EVALOPT_SOI_TYPE,Start of Integration Type,Method to use to determine start of integration in squat and countermovement jumps,None,False,False,Enum,,1.0,0,None
+24,720902,EVALOPT_SOI_OFFSET,Start of Integration Offset,Time prior to Start of Movement to begin integrating in squat and countermovement jumps,None,False,False,Millisecond,ms,1000.0,0,None
+25,720903,EVALOPT_MVT_STDEV_THRESHOLD,Mvt. StdDev Threshold,Maximum force standard deviation over a period to indicate movement/stable,None,False,False,Newton,N,1.0,0,None
+26,720904,EVALOPT_MVT_FORCE_THRESHOLD,Mvt. Force Threshold,Maximum force offset from stable or body weight to indicate movement/stable,None,False,False,Newton,N,1.0,0,None
+27,720905,EVALOPT_FILTER_5HZ,Low-Pass Filter (5Hz),Apply 5Hz low-pass butterworth filter to force to determine key test phases,None,False,False,Enum,,1.0,0,None
+28,6553604,BODYMASS_RELATIVE_TAKEOFF_POWER,Peak Power / BM,Peak power divided by body mass,Takeoff,False,False,WattPerKilo,W/kg,1.0,1,Positive
+29,6553605,CONTACT_TIME,Contact Time,Time in contact with the plate during takeoff,Takeoff,False,False,Second,s,1.0,3,Negative
+30,6553606,FLIGHT_TIME,Flight Time,The time interval between take-off and landing,Takeoff,False,False,Millisecond,ms,1000.0,0,Positive
+31,6553607,JUMP_HEIGHT,Jump Height (Flight Time),Jump height calculated from flight time,Takeoff,False,False,Centimeter,cm,1.0,1,Positive
+32,6553608,JUMP_HEIGHT_RELATIVE_LANDING_RFD,Jump Height (FT) Relative Landing RFD,Jump Height (FT) Relative Landing RFD,Landing,False,False,NewtonPerSecondPerCentimeter,N/s/cm,1.0,2,None
+33,6553609,JUMP_HEIGHT_RELATIVE_PEAK_LANDING_FORCE,Jump Height (FT) Relative Peak Landing Force,Jump Height (FT) Relative Peak Landing Force,Landing,False,False,NewtonPerCentimeter,N/cm,1.0,2,None
+34,6553610,IMPULSE_JUMP_HEIGHT,Jump Height (Imp-Dis),Jump height taken from the max displacement of the CM during the flight phase subtracting the displacement at the instant of take-off,Takeoff,False,False,Centimeter,cm,1.0,1,Positive
+35,6553611,JUMP_HEIGHT_IMP_MOM,Jump Height (Imp-Mom),"Jump height is determined from the Kinetic energy relationship after establishing the velocity at the instant of take-off (derived by determining the change in velocity from the impulse measurment throughout the contact phase, utilises the trapezium/simpsons rule)",Takeoff,False,False,Centimeter,cm,1.0,1,Positive
+36,6553612,LANDING_RFD,Landing RFD,Landing Rate of Force Development,Landing,True,False,NewtonPerSecond,N/s,1.0,0,None
+37,6553613,JUMP_HEIGHT_INCHES,Jump Height (Flight Time) in Inches,"Jump height calculated from flight time, in inches",Takeoff,False,False,Inch,in,1.0,1,Positive
+38,6553614,JUMP_HEIGHT_INCHES_IMP_MOM,Jump Height (Imp-Mom) in Inches,"Jump height is determined from the Kinetic energy relationship after establishing the velocity at the instant of take-off (derived by determining the change in velocity from the impulse measurment throughout the contact phase, utilises the trapezium/simpsons rule)",Takeoff,False,False,Inch,in,1.0,1,Positive
+39,6553615,MEAN_LANDING_ACCELERATION,Mean Landing Acceleration,The average acceleration during landing,Landing,False,False,MeterPerSecondPerSecond,m/s²,1.0,2,None
+40,6553616,MEAN_LANDING_POWER,Mean Landing Power,The average power (force x velocity) during landing,Landing,False,False,Watt,W,1.0,2,None
+41,6553617,MEAN_LANDING_VELOCITY,Mean Landing Velocity,The average velocity during landing,Landing,False,False,MeterPerSecond,m/s,1.0,2,None
+42,6553618,MEAN_TAKEOFF_ACCELERATION,Mean Takeoff Acceleration,Mean Takeoff Acceleration,Landing,False,False,MeterPerSecondPerSecond,m/s²,1.0,2,Positive
+43,6553619,MEAN_TAKEOFF_FORCE,Concentric Mean Force,The average force in the concentric phase,Takeoff,True,False,Newton,N,1.0,0,Positive
+44,6553620,MEAN_ECCENTRIC_FORCE,Eccentric Mean Force,The average force in the eccentric phase,Takeoff,True,False,Newton,N,1.0,0,Positive
+45,6553621,MEAN_ECCENTRIC_POWER,Eccentric Mean Power,Eccentric Mean Power,Takeoff,False,False,Watt,W,1.0,0,Positive
+46,6553622,MEAN_ECC_CON_RATIO,Eccentric:Concentric Mean Force Ratio,Ratio of mean forces in the eccentric and concentric phases,Takeoff,True,False,Percent,%,1.0,1,None
+47,6553623,MEAN_CONCENTRIC_POWER,Concentric Mean Power,The average power (force x velocity) in the concentric phase,Takeoff,False,False,Watt,W,1.0,0,Positive
+48,6553624,BODYMASS_RELATIVE_MEAN_CONCENTRIC_POWER,Concentric Mean Power / BM,The average power (force x velocity) in the concentric phase divided by body mass,Takeoff,False,False,WattPerKilo,W/kg,1.0,1,Positive
+49,6553625,BODYMASS_RELATIVE_MEAN_ECCENTRIC_POWER,Eccentric Mean Power / BM,The average power (force x velocity) in the eccentric phase divided by body mass,Takeoff,False,False,WattPerKilo,W/kg,1.0,2,Positive
+50,6553626,MEAN_TAKEOFF_VELOCITY,Concentric Mean Velocity,The average velocity during the concentric phase,Takeoff,False,False,MeterPerSecond,m/s,1.0,2,Positive
+51,6553627,PEAK_LANDING_ACCELERATION,Peak Landing Acceleration,Peak acceleration during landing,Landing,False,False,MeterPerSecondPerSecond,m/s²,1.0,2,None
+52,6553628,PEAK_LANDING_FORCE,Peak Landing Force,Peak force during landing,Landing,True,False,Newton,N,1.0,0,None
+53,6553629,PEAK_LANDING_POWER,Peak Landing Power,Peak power (force x velocity) during landing,Landing,False,False,Watt,W,1.0,0,None
+54,6553630,PEAK_LANDING_VELOCITY,Peak Landing Velocity,Peak velocity during landing,Landing,False,False,MeterPerSecond,m/s,1.0,2,None
+55,6553631,PEAK_TAKEOFF_ACCELERATION,Peak Takeoff Acceleration,Peak acceleration during takeoff,Takeoff,False,False,MeterPerSecondPerSecond,m/s²,1.0,3,Positive
+56,6553632,PEAK_TAKEOFF_FORCE,Takeoff Peak Force,Peak force over the entire takeoff phase,Takeoff,True,False,Newton,N,1.0,0,Positive
+57,6553633,PEAK_TAKEOFF_POWER,Peak Power,The maximum power (force x velocity) value in the concentric phase or from start of movement if there is no concentric phase,Takeoff,False,False,Watt,W,1.0,0,Positive
+58,6553634,PEAK_TAKEOFF_VELOCITY,Concentric Peak Velocity,The highest vertical velocity value just prior to take-off,Takeoff,False,False,MeterPerSecond,m/s,1.0,2,Positive
+59,6553635,RSI,RSI (JH (Flight Time)/Contact Time),Modified RSI using jump height (determined using flight time) and divided by time spent on the ground,Takeoff,False,False,RSIModified,m/s,0.01,2,Positive
+60,6553636,REACTIVE_STRENGTH_INDEX,RSI (Flight Time/Contact Time),Reactive strength index - flight time / contact time,Takeoff,False,False,NoUnit,,1.0,2,Positive
+61,655365,START_OF_MOVEMENT,Start of Movement,Absolute time from the start of recording to start of movement,Takeoff,True,False,Second,s,1.0,3,None
+62,655366,START_OF_MOVEMENT_THRESHOLD,Start of Movement Detection Threshold,Threshold used for start of movement detection,Takeoff,False,False,Newton,N,1.0,2,None
+63,655367,START_OF_INTEGRATION,Start of Integration,"Start time point for impulse, velocity and displacement integration",Takeoff,False,False,Second,s,1.0,3,None
+64,655379,SOM_STDEV_PERIOD_START,Start of Movement StdDev Period Start,"Start of period from which Start of Movement threshold is determined for ""standard deviation"" method",Takeoff,False,False,Second,s,1.0,2,None
+65,655380,SOM_STDEV_PERIOD_END,Start of Movement StdDev Period End,"End of period from which Start of Movement threshold is determined for ""standard deviation"" method",Takeoff,False,False,Second,s,1.0,2,None
+66,6553637,CONCENTRIC_RFD,Concentric RFD,Rate of force development over the concentric phase,Takeoff,True,False,NewtonPerSecond,N/s,1.0,0,Positive
+67,6553638,CONCENTRIC_RFD_100,Concentric RFD - 100ms,Rate of force development during the first 100ms of the concentric phase,Takeoff,True,False,NewtonPerSecond,N/s,1.0,0,Positive
+68,6553639,CONCENTRIC_RFD_200,Concentric RFD - 200ms,Rate of force development during the first 200ms of the concentric phase,Takeoff,True,False,NewtonPerSecond,N/s,1.0,0,Positive
+69,6553640,CONCENTRIC_RFD_50,Concentric RFD - 50ms,Rate of force development during the first 50ms of the concentric phase,Takeoff,True,False,NewtonPerSecond,N/s,1.0,0,Positive
+70,6553641,CONCENTRIC_RFD_MAX,Concentric Maximum RFD,Maximum rate of force development within a 50ms window over the concentric phase,Takeoff,True,False,NewtonPerSecond,N/s,1.0,0,Positive
+71,6553642,TIME_TO_PEAK_FORCE,Concentric Time to Peak Force,Time between start of the concentric phase to peak force,Takeoff,True,False,Millisecond,ms,1000.0,0,Negative
+72,6553643,CONTRACTION_TIME,Contraction Time,Time on the ground between start of movement and takeoff,Takeoff,False,False,Millisecond,ms,1000.0,0,Negative
+73,6553644,ECCENTRIC_TIME,Eccentric Duration,Duration of the eccentric phase,Takeoff,False,False,Millisecond,ms,1000.0,0,None
+74,6553645,START_TO_PEAK_FORCE_TIME,Movement Start to Peak Force,Time between start of movement and peak force,Takeoff,False,False,Second,s,1.0,3,Negative
+75,6553646,START_TO_PEAK_POWER_TIME,Movement Start to Peak Power,Time between start of movement and peak power,Takeoff,False,False,Second,s,1.0,3,Negative
+76,6553647,WEIGHT_RELATIVE_PEAK_LANDING_FORCE,Landing Net Peak Force / BM,Landing net (above body-weight) peak force relative to body mass,Landing,False,False,NewtonPerKilo,N/kg,1.0,2,None
+77,6553648,WEIGHT_RELATIVE_PEAK_TAKEOFF_FORCE,Peak Net Takeoff Force / BM,Peak net (above body-weight) takeoff force relative to body mass,Takeoff,False,False,NewtonPerKilo,N/kg,1.0,1,Positive
+78,6553649,RELATIVE_CONCENTRIC_RFD,Concentric RFD / BM,Rate of force development over the concentric phase to peak force relative to body mass,Takeoff,False,False,NewtonPerSecondPerKilo,N/s/kg,1.0,1,Positive
+79,6553650,PEAK_DROP_FORCE,Peak Drop Landing Force,Peak force during the drop landing,Takeoff,True,False,Newton,N,1.0,0,None
+80,6553651,CONTACT_VELOCITY,Vertical Velocity at Contact,The initial negative vertical velocity at the instant of contact determined from the drop height or effective drop height,Takeoff,False,False,MeterPerSecond,m/s,1.0,2,None
+81,6553652,DROP_HEIGHT,Drop Height,The height from which the athlete drops. An accurate measure of this is required to calculate the negative velocity at contact. This is likely to be a large source of error if the athlete effectively lowers him/herself prior to both feet leaving the box. You can either enter a fixed box height or allow the software to determine the effective drop height from our algorithms (recommended).,Takeoff,False,False,Centimeter,cm,1.0,1,None
+82,6553653,EFFECTIVE_DROP,Effective Drop,The predicted drop-height based on drop-landing velocity,Takeoff,False,False,Centimeter,cm,1.0,1,None
+83,6553654,DROP_LANDING,Drop Landing,Absolute time from the start of the recording to the drop from the box,Takeoff,False,False,Second,s,1.0,3,None
+84,6553655,TAKEOFF_VELOCITY,Vertical Velocity at Takeoff,The vertical velocity at the instant of take-off,Takeoff,False,False,MeterPerSecond,m/s,1.0,2,Positive
+85,6553656,TIME_TO_STABILISATION,Time to Stabilisation,The time between landing and stabilising,Takeoff,True,False,Second,s,1.0,2,Negative
+86,13107201,BASELINE_FORCE,Baseline Force,Baseline force at start of movement,Performance,True,False,Newton,N,1.0,0,None
+87,13107202,START_TO_PEAK_FORCE,Start Time to Peak Force,Time between start of movement and peak force,Performance,True,False,Second,s,1.0,3,Negative
+88,13107203,PEAK_VERTICAL_FORCE,Peak Vertical Force,Peak Vertical Force,Performance,True,False,Newton,N,1.0,0,Positive
+89,13107204,FORCE_AT_50MS,Force at 50ms,Force at 50ms after start of movement,Performance,True,False,Newton,N,1.0,0,Positive
+90,13107205,FORCE_AT_100MS,Force at 100ms,Force at 100ms after start of movement,Performance,True,False,Newton,N,1.0,0,Positive
+91,13107206,FORCE_AT_150MS,Force at 150ms,Force at 150ms after start of movement,Performance,True,False,Newton,N,1.0,0,Positive
+92,13107207,FORCE_AT_200MS,Force at 200ms,Force at 200ms after start of movement,Performance,True,False,Newton,N,1.0,0,Positive
+93,13107208,RFD_AT_30MS,RFD - 30ms,Rate of force development over 30ms from start of movement,Performance,True,False,NewtonPerSecond,N/s,1.0,0,Positive
+94,13107209,RFD_AT_50MS,RFD - 50ms,Rate of force development over 50ms from start of movement,Performance,True,False,NewtonPerSecond,N/s,1.0,0,Positive
+95,13107210,RFD_AT_75MS,RFD - 75ms,Rate of force development over 75ms from start of movement,Performance,True,False,NewtonPerSecond,N/s,1.0,0,Positive
+96,13107211,RFD_AT_100MS,RFD - 100ms,Rate of force development over 100ms from start of movement,Performance,True,False,NewtonPerSecond,N/s,1.0,0,Positive
+97,13107212,RFD_AT_150MS,RFD - 150ms,Rate of force development over 150ms from start of movement,Performance,True,False,NewtonPerSecond,N/s,1.0,0,Positive
+98,13107213,RFD_AT_200MS,RFD - 200ms,Rate of force development over 200ms from start of movement,Performance,True,False,NewtonPerSecond,N/s,1.0,0,Positive
+99,13107234,RFD_AT_250MS,RFD - 250ms,Rate of force development over 250ms from start of movement,Performance,True,False,NewtonPerSecond,N/s,1.0,0,Positive
+100,13107214,RFD_50_100MS,RFD - 50-100ms,Rate of force development from 50ms to 100ms after start of movement,Performance,True,False,NewtonPerSecond,N/s,1.0,0,Positive
+101,13107215,RFD_100_150MS,RFD - 100-150ms,Rate of force development from 100ms to 150ms after start of movement,Performance,True,False,NewtonPerSecond,N/s,1.0,0,Positive
+102,13107235,RFD_100_200MS,RFD - 100-200ms,Rate of force development from 100ms to 200ms after start of movement,Performance,True,False,NewtonPerSecond,N/s,1.0,0,Positive
+103,13107216,RFD_150_200MS,RFD - 150-200ms,Rate of force development from 150ms to 200ms after start of movement,Performance,True,False,NewtonPerSecond,N/s,1.0,0,Positive
+104,13107217,NET_PEAK_VERTICAL_FORCE,Net Peak Vertical Force,Net peak vertical force w.r.t baseline after start of movement,Performance,True,False,Newton,N,1.0,0,Positive
+105,13107218,NET_FORCE_AT_50MS,Net Force at 50ms,Net vertical force w.r.t baseline at 50ms after start of movement,Performance,True,False,Newton,N,1.0,0,Positive
+106,13107219,NET_FORCE_AT_100MS,Net Force at 100ms,Net vertical force w.r.t baseline at 100ms after start of movement,Performance,True,False,Newton,N,1.0,0,Positive
+107,13107220,NET_FORCE_AT_150MS,Net Force at 150ms,Net vertical force w.r.t baseline at 150ms after start of movement,Performance,True,False,Newton,N,1.0,0,Positive
+108,13107221,NET_FORCE_AT_200MS,Net Force at 200ms,Net vertical force w.r.t baseline at 200ms after start of movement,Performance,True,False,Newton,N,1.0,0,Positive
+109,13107222,START_TO_80PC_PEAK_FORCE,Start Time to 80% Net Peak Force,Time from start of movement to 80% of net peak vertical force,Performance,True,False,Second,s,1.0,3,Negative
+110,13107223,ISO_BM_REL_FORCE_PEAK,Peak Vertical Force / BM,Peak vertical force relative to body mass,Performance,False,False,NewtonPerKilo,N/kg,1.0,2,Positive
+111,13107224,ISO_BM_REL_FORCE_50,Force at 50ms / BM,Force at 50ms after start of movement relative to body mass,Performance,False,False,NewtonPerKilo,N/kg,1.0,2,Positive
+112,13107225,ISO_BM_REL_FORCE_100,Force at 100ms / BM,Force at 100ms relative to body mass,Performance,False,False,NewtonPerKilo,N/kg,1.0,2,Positive
+113,13107226,ISO_BM_REL_FORCE_150,Force at 150ms / BM,Force at 150ms relative to body mass,Performance,False,False,NewtonPerKilo,N/kg,1.0,2,Positive
+114,13107227,ISO_BM_REL_FORCE_200,Force at 200ms / BM,Force at 200ms relative to body mass,Performance,False,False,NewtonPerKilo,N/kg,1.0,2,Positive
+115,13107228,ISO_ABS_IMPULSE_50,Absolute Impulse - 50ms,Absolute impulse over the first 50ms from start of movement,Performance,True,False,NewtonSecond,N s,1.0,1,Positive
+116,13107229,ISO_ABS_IMPULSE_75,Absolute Impulse - 75ms,Absolute impulse over the first 75ms from start of movement,Performance,True,False,NewtonSecond,N s,1.0,1,Positive
+117,13107230,ISO_ABS_IMPULSE_100,Absolute Impulse - 100ms,Absolute impulse over the first 100ms from start of movement,Performance,True,False,NewtonSecond,N s,1.0,1,Positive
+118,13107231,ISO_ABS_IMPULSE_150,Absolute Impulse - 150ms,Absolute impulse over the first 150ms from start of movement,Performance,True,False,NewtonSecond,N s,1.0,1,Positive
+119,13107232,ISO_ABS_IMPULSE_200,Absolute Impulse - 200ms,Absolute impulse over the first 200ms from start of movement,Performance,True,False,NewtonSecond,N s,1.0,1,Positive
+120,13107233,ISO_BW_REL_FORCE_PEAK,Peak Vertical Force / BW,Peak vertical force relative to weight of body (in Newtons),Performance,False,False,NoUnit,,1.0,2,Positive
+121,13107236,ISO_NET_IMPULSE_50,Impulse (Net of BW) - 50ms,Impulse above bodyweight over the first 50ms from start of movement,Performance,False,False,NewtonSecond,N s,1.0,2,Positive
+122,13107237,ISO_NET_IMPULSE_75,Impulse (Net of BW) - 75ms,Impulse above bodyweight over the first 75ms from start of movement,Performance,False,False,NewtonSecond,N s,1.0,2,Positive
+123,13107238,ISO_NET_IMPULSE_100,Impulse (Net of BW) - 100ms,Impulse above bodyweight over the first 100ms from start of movement,Performance,False,False,NewtonSecond,N s,1.0,2,Positive
+124,13107239,ISO_NET_IMPULSE_150,Impulse (Net of BW) - 150ms,Impulse above bodyweight over the first 150ms from start of movement,Performance,False,False,NewtonSecond,N s,1.0,2,Positive
+125,13107240,ISO_NET_IMPULSE_200,Impulse (Net of BW) - 200ms,Impulse above bodyweight over the first 200ms from start of movement,Performance,False,False,NewtonSecond,N s,1.0,2,Positive
+126,13107241,BW_NET_FORCE_AT_50MS,Force (Net of BW) at 50ms,Net vertical force w.r.t. bodyweight at 50ms after start of movement,Performance,False,False,Newton,N,1.0,0,Positive
+127,13107242,BW_NET_FORCE_AT_100MS,Force (Net of BW) at 100ms,Net vertical force w.r.t. bodyweight at 100ms after start of movement,Performance,False,False,Newton,N,1.0,0,Positive
+128,13107243,BW_NET_FORCE_AT_150MS,Force (Net of BW) at 150ms,Net vertical force w.r.t. bodyweight at 150ms after start of movement,Performance,False,False,Newton,N,1.0,0,Positive
+129,13107244,BW_NET_FORCE_AT_200MS,Force (Net of BW) at 200ms,Net vertical force w.r.t. bodyweight at 200ms after start of movement,Performance,False,False,Newton,N,1.0,0,Positive
+130,13107245,BW_NET_FORCE_PEAK,Peak Vertical Force (Net of BW),Net peak vertical force w.r.t. bodyweight,Performance,False,False,Newton,N,1.0,0,Positive
+131,6553657,CONCENTRIC_DURATION,Concentric Duration,Length of the concentric phase,Takeoff,False,False,Millisecond,ms,1000.0,0,None
+132,6553658,CONCENTRIC_ECCENTRIC_DURATION_RATIO,Contraction Time:Eccentric Duration,Ratio of total contraction time to eccentric duration as %,Takeoff,False,False,Percent,%,1.0,1,None
+133,6553659,ECCENTRIC_CONCENTRIC_DURATION_RATIO,Eccentric:Concentric Duration,Ratio of eccentric to concentric duration as %,Takeoff,False,False,Percent,%,1.0,1,None
+134,6553660,FLIGHT_CONTRACTION_TIME_RATIO,Flight Time:Contraction Time,Ratio of flight time to contraction time,Takeoff,False,False,NoUnit,,1.0,2,Positive
+135,6553661,FLIGHT_ECCENTRIC_TIME_RATIO,FlightTime:Eccentric Duration,Ratio of flight time to eccentric duration,Takeoff,False,False,NoUnit,,1.0,2,Positive
+136,6553662,BEGIN_BRAKING_PHASE,Start of Braking Phase,Absolute time from the start of recording to the start of braking phase (minimum force during eccentric phase),Takeoff,False,False,Second,s,1.0,3,None
+137,6553663,MIN_ECCENTRIC_FORCE,Minimum Eccentric Force,Minimum force during the eccentric phase,Takeoff,False,False,Newton,N,1.0,1,None
+138,6553664,BRAKING_PHASE_DURATION,Braking Phase Duration,The time period from minimum force to the start of the concentric phase,Takeoff,False,False,Millisecond,ms,1000.0,0,None
+139,6553665,BEGIN_ECC_DECEL_PHASE,Start of Eccentric Deceleration Phase,Absolute time from the start of recording to the start of eccentric deceleration phase (end of eccentric acceleration phase),Takeoff,False,False,Second,s,1.0,3,None
+140,6553666,TIME_TO_BRAKING_PHASE,Time to Braking Phase,Time period from the start of the movement to minimum force eccentric (braking) phase,Takeoff,False,False,Second,s,1.0,3,None
+141,6553667,ECCENTRIC_ACCEL_PHASE_DURATION,Eccentric Acceleration Phase Duration,The time period from start of movement and to maximum negative velocity,Takeoff,False,False,Second,s,1.0,3,None
+142,6553668,ECCENTRIC_DECEL_PHASE_DURATION,Eccentric Deceleration Phase Duration,The time period from maximum negative velocity to zero velocity (start of concentric phase),Takeoff,False,False,Second,s,1.0,3,None
+143,6553669,BEAKING_CONTRACTION_DURATION_RATIO,Braking Phase Duration:Contraction Time,Braking phase duration to contraction time ratio,Takeoff,False,False,Percent,%,1.0,1,None
+144,6553670,BEAKING_CONCENTRIC_DURATION_RATIO,Braking Phase Duration:Concentric Duration,Braking phase duration to concentric phase duration ratio,Takeoff,False,False,Percent,%,1.0,1,None
+145,6553671,MEAN_ECCENTRIC_BRAKING_FORCE,Eccentric Mean Braking Force,Mean force during the eccentric braking phase (from minimum force to the end of the eccentric phase),Takeoff,False,False,Newton,N,1.0,1,Positive
+146,6553672,MEAN_ECCENTRIC_DECELERATION_FORCE,Eccentric Mean Deceleration Force,Mean force from during the eccentric deceleration phase.,Takeoff,False,False,Newton,N,1.0,1,Positive
+147,6553673,FORCE_AT_PEAK_POWER,Force at Peak Power,Force at point of peak power,Takeoff,True,False,Newton,N,1.0,0,Positive
+148,6553674,CONCENTRIC_IMPULSE_50MS,Concentric Impulse-50ms,Total net impulse over first 50ms of the concentric phase,Takeoff,True,False,NewtonSecond,N s,1.0,1,Positive
+149,6553675,CONCENTRIC_IMPULSE_100MS,Concentric Impulse-100ms,Total net impulse over first 100ms of the concentric phase,Takeoff,True,False,NewtonSecond,N s,1.0,1,Positive
+150,6553676,CONCENTRIC_IMPULSE_P1,P1 Concentric Impulse,Net impulse during 1st 50% (time-wise) of concentric phase,Takeoff,True,False,NewtonSecond,N s,1.0,1,Positive
+151,6553677,CONCENTRIC_IMPULSE_P2,P2 Concentric Impulse,Net impulse during 2nd 50% (time-wise) of concentric phase,Takeoff,True,False,NewtonSecond,N s,1.0,1,Positive
+152,6553678,ECCENTRIC_BRAKING_RFD,Eccentric Braking RFD,Eccentric RFD calculated from the initiation of the active (braking) phase to the end of the eccentric phase,Takeoff,True,False,NewtonPerSecond,N/s,1.0,0,Positive
+153,6553679,RELATIVE_ECCENTRIC_BRAKING_RFD,Eccentric Braking RFD / BM,Eccentric RFD calculated from the initiation of the active (braking) phase to the end of the eccentric phase realtive to body-weight,Takeoff,False,False,NewtonPerSecondPerKilo,N/s/kg,1.0,0,Positive
+154,6553680,ECCENTRIC_BRAKING_RFD_100MS,Eccentric Braking RFD-100ms,Eccentric RFD calculated over first 100ms of the braking phase,Takeoff,True,False,NewtonPerSecond,N/s,1.0,0,Positive
+155,6553681,RELATIVE_ECCENTRIC_BRAKING_RFD_100MS,Eccentric Braking RFD-100ms / BM,Eccentric RFD calculated over first 100ms of the braking phase relative to body mass,Takeoff,False,False,NewtonPerSecondPerKilo,N/s/kg,1.0,0,Positive
+156,6553682,ECCENTRIC_DECEL_RFD,Eccentric Deceleration RFD,Rate of force development calculated over the eccentric deceleration phase,Takeoff,True,False,NewtonPerSecond,N/s,1.0,0,Positive
+157,6553683,RELATIVE_ECCENTRIC_DECEL_RFD,Eccentric Deceleration RFD / BM,Rate of force development calculated over the eccentric deceleration phase relative to body mass,Takeoff,False,False,NewtonPerSecondPerKilo,N/s/kg,1.0,0,Positive
+158,6553684,RELATIVE_PEAK_TAKEOFF_FORCE,Takeoff Peak Force / BM,Peak force over the entire takeoff phase relative to body mass,Takeoff,False,False,NewtonPerKilo,N/kg,1.0,1,Positive
+159,6553685,PEAK_CONCENTRIC_FORCE,Concentric Peak Force,Peak force over the concentric phase,Takeoff,True,False,Newton,N,1.0,0,Positive
+160,6553686,RELATIVE_PEAK_CONCENTRIC_FORCE,Concentric Peak Force / BM,Peak force over the concentric phase relative to body mass,Takeoff,False,False,NewtonPerKilo,N/kg,1.0,1,Positive
+161,6553687,PEAK_ECCENTRIC_FORCE,Eccentric Peak Force,Peak force over the eccentric phase,Takeoff,True,False,Newton,N,1.0,0,Positive
+162,6553688,RELATIVE_PEAK_ECCENTRIC_FORCE,Eccentric Peak Force / BM,Peak force over the eccentric phase relative to body mass,Takeoff,False,False,NewtonPerKilo,N/kg,1.0,1,Positive
+163,6553689,RELATIVE_PEAK_LANDING_FORCE,Peak Landing Force / BM,Peak force on landing relative to body mass,Landing,False,False,NewtonPerKilo,N/kg,1.0,0,None
+164,6553690,MEAN_ECC_CON_POWER_TIME,Mean Eccentric+Concentric Power:Time,"Power during eccentric (converted to absolute values) + concentric phases, divided by the total contraction time",Takeoff,False,False,WattPerSecond,W/s,1.0,1,None
+165,6553691,LOWER_LIMB_STIFFNESS,Lower-Limb Stiffness,Change in vertical force divided by displacement of CoM during the eccentric phase,Takeoff,False,False,NewtonPerMeter,N/m,1.0,2,None
+166,6553692,CONCENTRIC_RPD,Concentric RPD,Rate of power development from start of concentric phase to peak power,Takeoff,False,False,WattPerSecond,W/s,1.0,1,Positive
+167,6553693,RELATIVE_CONCENTRIC_RPD,Concentric RPD / BM,Rate of power development from start of concentric phase to peak power relative to body mass,Takeoff,False,False,WattPerSecondPerKilo,W/s/kg,1.0,1,Positive
+168,6553694,CONCENTRIC_RPD_50MS,Concentric RPD - 50ms,Rate of power development for 50ms from start of the concentric phase,Takeoff,False,False,WattPerSecond,W/s,1.0,1,Positive
+169,6553695,RELATIVE_CONCENTRIC_RPD_50MS,Concentric RPD-50ms / BM,Rate of power development for 50ms from start of the concentric phase to peak power relative to body mass,Takeoff,False,False,WattPerSecondPerKilo,W/s/kg,1.0,1,Positive
+170,6553696,CONCENTRIC_RPD_100MS,Concentric RPD - 100ms,Rate of power development for 100ms from start of the concentric phase,Takeoff,False,False,WattPerSecond,W/s,1.0,1,Positive
+171,6553697,RELATIVE_CONCENTRIC_RPD_100MS,Concentric RPD-100ms / BM,Rate of power development for 100ms from start of the concentric phase to peak power relative to body mass,Takeoff,False,False,WattPerSecondPerKilo,W/s/kg,1.0,1,Positive
+172,6553698,RSI_MODIFIED,RSI-modified,Jump height (flight time) / Contraction time,Takeoff,False,False,RSIModified,m/s,0.01,2,Positive
+173,6553699,TOTAL_WORK,Total Work,"Integrating the power-time curve from the SoM through the concentric phase, until the power output reaches zero",Takeoff,False,False,Joule,J,1.0,0,Positive
+174,6553700,VELOCITY_AT_PEAK_POWER,Velocity at Peak Power,Vertical velocity at the point of peak power during takeoff,Takeoff,False,False,MeterPerSecond,m/s,1.0,2,Positive
+175,6553701,ECCENTRIC_PEAK_VELOCITY,Eccentric Peak Velocity,Maximum negative velocity during the eccentric phase (ie. velocity at the start of the eccentric deceleration phase),Takeoff,False,False,MeterPerSecond,m/s,1.0,2,None
+176,6553702,ECCENTRIC_PEAK_POWER,Eccentric Peak Power,Peak power during the eccentric phase,Takeoff,False,False,Watt,W,1.0,0,Positive
+177,6553703,ECCENTRIC_BRAKING_IMPULSE,Eccentric Braking Impulse,Net impulse from the initiation of the active (braking) phase to the end of the eccentric phase,Takeoff,True,False,NewtonSecond,N s,1.0,1,None
+178,6553704,ECCENTRIC_DECEL_IMPULSE,Eccentric Deceleration Impulse,Net impulse from the start of eccentric deceleration to the end of the eccentric phase,Takeoff,True,False,NewtonSecond,N s,1.0,1,None
+179,6553705,PEAK_IMPACT_FORCE,Peak Impact Force,Force value in the first spike following contact after dropping from the box,Landing,True,False,Newton,N,1.0,0,None
+180,6553706,CONTACT_TROUGH,Contact Trough,The minimum force value between the initial impact peak and the drive-off peak,Landing,False,False,Newton,N,1.0,0,None
+181,6553707,PEAK_DRIVEOFF_FORCE,Peak Drive-Off Force,Peak force during drive-off part of contact phase,Takeoff,True,False,Newton,N,1.0,0,Positive
+182,6553708,PASSIVE_STIFFNESS,Passive Stiffness,"Peak passive (impact) force / (change in displacement of CM from contact to the minimum value, the lowest point in the pink line during contact phase)",Landing,True,False,NewtonPerMeter,N/m,1.0,2,None
+183,6553709,ACTIVE_STIFFNESS,Active Stiffness,Peak active force (in concentric phase) divided by the change in displacement of CM from contact to the minimum value (the lowest point during contact phase),Takeoff,True,False,NewtonPerMeter,N/m,1.0,2,None
+184,6553710,PASSIVE_STIFFNESS_INDEX,Passive Stiffness Index,The passive stiffness expressed relative to the drop height and body weight,Landing,False,False,NoUnit,,1.0,2,None
+185,6553711,ACTIVE_STIFFNESS_INDEX,Active Stiffness Index,The Active Stiffness expressed relative to the drop height and body weight,Takeoff,False,False,NoUnit,,1.0,2,None
+186,13172737,FIRST_TAKEOFF,First Takeoff,Absolute time of the first takeoff from starting platform,Takeoff,False,False,Second,s,1.0,2,None
+187,13172738,FIRST_LANDING,First Landing,Absolute time of the first landing on second platform,Landing,False,False,Second,s,1.0,2,None
+188,13172739,SECOND_TAKEOFF,Second Takeoff,Absolute time of the second takeoff from second platform,Takeoff,False,False,Second,s,1.0,2,None
+189,13172740,SECOND_LANDING,Second Landing,Absolute time of the second landing on to starting platform,Landing,False,False,Second,s,1.0,2,None
+190,13172741,BEGIN_FIRST_CONCENTRIC_PHASE,Start of First Concentric Phase,Absolute time of the start of concentric phase prior to first takeoff,Takeoff,False,False,Second,s,1.0,2,None
+191,13172742,BEGIN_SECOND_CONCENTRIC_PHASE,Start of Second Concentric Phase,Absolute time of the start of concentric phase prior to second takeoff,Takeoff,False,False,Second,s,1.0,2,None
+192,13172743,PEAK_FIRST_LANDING_FORCE,Peak First Landing Force,Peak force during first landing,Landing,False,False,Newton,N,1.0,0,None
+193,13172744,PEAK_SECOND_TAKEOFF_FORCE,Peak Takeoff Force,Peak force during second takeoff,Takeoff,False,False,Newton,N,1.0,0,Positive
+194,6553712,CONCENTRIC_IMPULSE,Concentric Impulse,Area under the Fz curve from transition point at zero velocity (max negative displacement) (start of concentric phase) to take-off - net impulse,Takeoff,True,False,NewtonSecond,N s,1.0,1,Positive
+195,6553713,FORCE_AT_ZERO_VELOCITY,Force at Zero Velocity,The combined (total) force at the instant velocity is zero prior to takeoff,Takeoff,True,False,Newton,N,1.0,0,Positive
+196,6553714,POSITIVE_IMPULSE,Positive Impulse,Area above BW in takeoff and landing phases,Takeoff,True,False,NewtonSecond,N s,1.0,1,Positive
+197,6553715,ECCENTRIC_IMPULSE,Eccentric Impulse,Area under the Fz curve from contact to the trainsition point at zero velocity (max negative displacement) - net impulse,Takeoff,True,False,NewtonSecond,N s,1.0,1,Positive
+198,6553716,ECCENTRIC_UNLOADING_IMPULSE,Eccentric Unloading Impulse,Net impulse from start of movement to start of the deceleration phase,Takeoff,True,False,NewtonSecond,N s,1.0,1,Positive
+199,6553717,POSITIVE_TAKEOFF_IMPULSE,Positive Takeoff Impulse,Area above BW in the takeoff phase,Takeoff,True,False,NewtonSecond,N s,1.0,1,Positive
+200,6553718,CMJ_STIFFNESS,CMJ Stiffness,Peak force during takeoff / displacement at start of concentric phase (min displacement),Takeoff,True,False,NewtonPerMeter,N/m,1.0,0,None
+201,6553719,DROP_LANDING_RFD,Drop Landing RFD,Rate of force development from the drop (first) landing to the point of peak force during the landing,Takeoff,True,False,NewtonPerSecond,N/s,1.0,0,None
+202,6553720,BODYMASS_RELATIVE_MEAN_TAKEOFF_FORCE,Concentric Mean Force / BM,The average force in the concentric phase relative to body mass,Takeoff,False,False,NewtonPerKilo,N/kg,1.0,1,Positive
+203,6553722,BODYMASS_RELATIVE_ECCENTRIC_PEAK_POWER,Eccentric Peak Power / BM,Eccentric Peak Power divided by Body Mass,Takeoff,False,False,WattPerKilo,W/kg,1.0,1,Positive
+204,6553723,ECC_DECEL_CON_IMPULSE_RATIO,Eccentric Deceleration Impulse:Concentric Impulse,Ratio of Eccentric Deceleration Impulse to Concentric Impulse,Takeoff,True,False,NoUnit,,1.0,2,None
+205,6553724,ECC_CON_PEAK_POWER_RATIO,Eccentric Peak Power:Concentric Peak Power,Ratio of Eccentric Peak Power to Concentric Peak Power,Takeoff,False,False,NoUnit,,1.0,2,None
+206,6553725,CON_P2_CON_P1_IMPULSE_RATIO,P2 Concentric Impulse:P1 Concentric Impulse,Ratio of P2 Concentric Impulse to P1 Concentric Impulse,Takeoff,True,False,NoUnit,,1.0,2,None
+207,6553726,CON_100MS_CON_IMPULSE_RATIO,Concentric Impulse-100ms:Concentric Impulse,Ratio of Concentric Impulse-100ms to Concentric Impulse,Takeoff,True,False,NoUnit,,1.0,2,None
+208,6553727,LANDING_IMPULSE,Landing Impulse,Absolute Impulse from Landing to Peak Landing Force,Landing,True,False,NewtonSecond,N s,1.0,1,None
+209,6553728,LANDING_RFD_50,Landing RFD 50ms,Rate of force development over the first 50ms from landing,Landing,False,False,NewtonPerSecond,N/s,1.0,0,None
+210,6553729,LANDING_TIME_TO_STABILISATION,Time to Stabilisation,Time from landing until force stabilises,Landing,True,False,Second,s,1.0,2,Negative
+211,6553730,BODYMASS_RELATIVE_ECC_DECEL_IMPULSE,Eccentric Deceleration Impulse / BM,Net impulse from the start of eccentric deceleration to the end of the eccentric phase relative to body mass,Takeoff,False,False,NewtonSecondPerKilo,N s/kg,1.0,2,Positive
+212,6553731,DISPLACEMENT_AT_TAKEOFF,Displacement at Takeoff,Displacement of the centre of mass when takeoff occurs,Takeoff,False,False,Centimeter,cm,1.0,2,None
+213,6553732,BM_REL_FORCE_AT_ZERO_VELOCITY,Force at Zero Velocity / BM,The combined force at the instant velocity is zero divided by body mass,Takeoff,False,False,NewtonPerKilo,N/kg,1.0,2,Positive
+214,6553733,RSI_MODIFIED_IMP_MOM,RSI-modified (Imp-Mom),Jump height (Imp-Mom) / Contraction time,Takeoff,False,False,RSIModified,m/s,0.01,2,Positive
+215,6553734,BM_REL_ABS_CON_IMPULSE,Concentric Impulse (Abs) / BM,Absolute concentric impulse (area under the Fz curve from the transition point at zero velocity) divided by body mass,Takeoff,False,False,NewtonSecondPerKilo,N s/kg,1.0,3,Positive
+216,6553735,COEFFICIENT_OF_RESTITUTION,Coefficient of Restitution,Ratio of the velocity when striking the platform to the velocity leaving the platform,Takeoff,False,False,NoUnit,,1.0,3,None
+217,7340033,CMRJ_FIRST_TAKEOFF,First Takeoff,Absolute time of the first (CMJ) takeoff,Takeoff,False,False,Second,s,1.0,2,None
+218,7340034,CMRJ_FIRST_LANDING,First Landing,Absolute time of the first (CMJ/drop) landing,Rebound,False,False,Second,s,1.0,2,None
+219,7340035,CMRJ_SECOND_TAKEOFF,Second Takeoff,Absolute time of the rebound takeoff,Rebound,False,False,Second,s,1.0,2,None
+220,7340036,CMRJ_SECOND_LANDING,Second Landing,Absolute time of the rebound landing,Landing,False,False,Second,s,1.0,2,None
+221,7340037,CMRJ_TAKEOFF_BEGIN_CONCENTRIC_PHASE,Start of Takeoff Concentric Phase,Absolute time from the start of recording to the start of the concentric phase before first takeoff,Takeoff,False,False,Second,s,1.0,3,None
+222,7340038,CMRJ_TAKEOFF_COUNTERMOVEMENT_DEPTH,Takeoff Countermovement Depth,The amount of displacement the CM goes through from contact (zero position) to the lowest value. Note if the hips and knees are flexed at contact this is still the reference zero position.,Takeoff,False,False,Centimeter,cm,1.0,1,None
+223,7340039,CMRJ_TAKEOFF_PEAK_FORCE,First Takeoff Peak Force,Peak force over the entire takeoff phase,Takeoff,True,False,Newton,N,1.0,0,Positive
+224,7340040,CMRJ_TAKEOFF_BM_REL_PEAK_FORCE,First Takeoff Peak Force / BM,Peak force over the entire takeoff phase relative to body mass,Takeoff,False,False,NewtonPerKilo,N/kg,1.0,1,Positive
+225,7340041,CMRJ_TAKEOFF_CONCENTRIC_DURATION,Takeoff Concentric Duration,Length of the concentric phase,Takeoff,False,False,Millisecond,ms,1000.0,0,None
+226,7340042,CMRJ_TAKEOFF_CONCENTRIC_IMPULSE,Takeoff Concentric Impulse,Area under the Fz curve from transition point at zero velocity (max negative displacement) (start of concentric phase) to take-off - net impulse,Takeoff,True,False,NewtonSecond,N s,1.0,1,Positive
+227,7340043,CMRJ_TAKEOFF_CONCENTRIC_MEAN_FORCE,Takeoff Concentric Mean Force,The average force in the concentric phase,Takeoff,True,False,Newton,N,1.0,0,Positive
+228,7340044,CMRJ_TAKEOFF_BM_REL_CONCENTRIC_MEAN_FORCE,Takeoff Concentric Mean Force / BM,The average force in the concentric phase relative to body mass,Takeoff,False,False,NewtonPerKilo,N/kg,1.0,1,Positive
+229,7340045,CMRJ_TAKEOFF_CONCENTRIC_PEAK_FORCE,Takeoff Concentric Peak Force,Peak force over the concentric phase,Takeoff,True,False,Newton,N,1.0,0,Positive
+230,7340046,CMRJ_TAKEOFF_BM_REL_CONCENTRIC_PEAK_FORCE,Takeoff Concentric Peak Force / BM,Peak force over the concentric phase relative to body mass,Takeoff,False,False,NewtonPerKilo,N/kg,1.0,1,Positive
+231,7340047,CMRJ_TAKEOFF_CONCENTRIC_PEAK_VELOCITY,Takeoff Concentric Peak Velocity,The highest vertical velocity value just prior to take-off,Takeoff,False,False,MeterPerSecond,m/s,1.0,2,Positive
+232,7340048,CMRJ_TAKEOFF_CONTRACTION_TIME,Takeoff Contraction Time,Time on the ground between start of movement and takeoff,Takeoff,False,False,Millisecond,ms,1000.0,0,Negative
+233,7340049,CMRJ_TAKEOFF_BEGIN_BRAKING_PHASE,Start of Takeoff Braking Phase,Absolute time from the start of recording to the start of braking phase before first takeoff (minimum force during eccentric phase),Takeoff,False,False,Second,s,1.0,3,None
+234,7340050,CMRJ_TAKEOFF_BEGIN_ECC_DECEL_PHASE,Start of Takeoff Eccentric Deceleration Phase,Absolute time from the start of recording to the start of eccentric deceleration phase (end of eccentric acceleration phase) before first takeoff,Takeoff,False,False,Second,s,1.0,3,None
+235,7340051,CMRJ_TAKEOFF_ECC_BRAKING_IMPULSE,Takeoff Eccentric Braking Impulse,Net impulse from the initiation of the active (braking) phase to the end of the eccentric phase,Takeoff,True,False,NewtonSecond,N s,1.0,1,None
+236,7340052,CMRJ_TAKEOFF_BM_REL_ECC_BRAKING_IMPULSE,Takeoff Eccentric Braking Impulse / BM,Net impulse from the initiation of the active (braking) phase to the end of the eccentric phase relative to body mass,Takeoff,False,False,NewtonSecondPerKilo,N s/kg,1.0,2,Positive
+237,7340053,CMRJ_TAKEOFF_ECC_DECEL_IMPULSE,Takeoff Eccentric Deceleration Impulse,Net impulse from the start of eccentric deceleration to the end of the eccentric phase,Takeoff,True,False,NewtonSecond,N s,1.0,1,None
+238,7340054,CMRJ_TAKEOFF_BM_REL_ECC_DECEL_IMPULSE,Takeoff Eccentric Deceleration Impulse / BM,Net impulse from the start of eccentric deceleration to the end of the eccentric phase relative to body mass,Takeoff,False,False,NewtonSecondPerKilo,N s/kg,1.0,2,Positive
+239,7340055,CMRJ_TAKEOFF_ECC_DECEL_RFD,Takeoff Eccentric Deceleration RFD,Rate of force development calculated over the eccentric deceleration phase,Takeoff,True,False,NewtonPerSecond,N/s,1.0,0,Positive
+240,7340056,CMRJ_TAKEOFF_BM_REL_ECC_DECEL_RFD,Takeoff Eccentric Deceleration RFD / BM,Rate of force development calculated over the eccentric deceleration phase relative to body mass,Takeoff,False,False,NewtonPerSecondPerKilo,N/s/kg,1.0,0,Positive
+241,7340057,CMRJ_TAKEOFF_ECC_DURATION,Takeoff Eccentric Duration,Duration of the eccentric phase,Takeoff,False,False,Millisecond,ms,1000.0,0,None
+242,7340058,CMRJ_TAKEOFF_ECC_PEAK_FORCE,Takeoff Eccentric Peak Force,Peak force over the eccentric phase,Takeoff,True,False,Newton,N,1.0,0,Positive
+243,7340059,CMRJ_TAKEOFF_BM_REL_ECC_PEAK_FORCE,Takeoff Eccentric Peak Force / BM,Peak force over the eccentric phase relative to body mass,Takeoff,False,False,NewtonPerKilo,N/kg,1.0,1,Positive
+244,7340060,CMRJ_TAKEOFF_ECC_PEAK_POWER,Takeoff Eccentric Peak Power,Peak power during the eccentric phase,Takeoff,False,False,Watt,W,1.0,0,Positive
+245,7340061,CMRJ_TAKEOFF_BM_REL_ECC_PEAK_POWER,Takeoff Eccentric Peak Power / BM,Eccentric Peak Power relative to body mass,Takeoff,False,False,WattPerKilo,W/kg,1.0,1,Positive
+246,7340062,CMRJ_TAKEOFF_ECC_PEAK_VELOCITY,Takeoff Eccentric Peak Velocity,Maximum negative velocity during the eccentric phase (ie. velocity at the start of the eccentric deceleration phase),Takeoff,False,False,MeterPerSecond,m/s,1.0,2,None
+247,7340063,CMRJ_TAKEOFF_ECC_UNLOADING_IMPULSE,Takeoff Eccentric Unloading Impulse,Net impulse from start of movement to start of the deceleration phase,Takeoff,True,False,NewtonSecond,N s,1.0,1,Positive
+248,7340064,CMRJ_TAKEOFF_FLIGHT_TIME,First Flight Time,The time interval between take-off and landing,Takeoff,False,False,Millisecond,ms,1000.0,0,Positive
+249,7340065,CMRJ_TAKEOFF_JUMP_HEIGHT,First Jump Height (Flight Time),Jump height calculated from flight time,Takeoff,False,False,Centimeter,cm,1.0,1,Positive
+250,7340066,CMRJ_TAKEOFF_JUMP_HEIGHT_INCHES,First Jump Height (Flight Time) in Inches,"Jump height calculated from flight time, in inches",Takeoff,False,False,Inch,in,1.0,1,Positive
+251,7340067,CMRJ_TAKEOFF_JUMP_HEIGHT_IMP_MOM,First Jump Height (Imp-Mom),"Jump height determined from the Kinetic energy relationship after establishing the velocity at the instant of take-off (derived by determining the change in velocity from the impulse measurment throughout the contact phase, utilises the trapezium/simpsons rule)",Takeoff,False,False,Centimeter,cm,1.0,1,Positive
+252,7340068,CMRJ_TAKEOFF_JUMP_HEIGHT_IMP_MOM_INCHES,First Jump Height (Imp-Mom) in Inches,"Jump height determined from the Kinetic energy relationship after establishing the velocity at the instant of take-off (derived by determining the change in velocity from the impulse measurment throughout the contact phase, utilises the trapezium/simpsons rule)",Takeoff,False,False,Inch,in,1.0,1,Positive
+253,7340069,CMRJ_TAKEOFF_FLIGHT_CONTRACTION_TIME_RATIO,First Flight Time:Contraction Time,Ratio of flight time to contraction time,Takeoff,False,False,NoUnit,,1.0,2,Positive
+254,7340070,CMRJ_TAKEOFF_FORCE_AT_ZERO_VELOCITY,Takeoff Force at Zero Velocity,The combined (total) force at the instant velocity is zero prior to takeoff,Takeoff,True,False,Newton,N,1.0,0,Positive
+255,7340071,CMRJ_TAKEOFF_BM_REL_FORCE_AT_ZERO_VELOCITY,Takeoff Force at Zero Velocity / BM,The combined force at the instant velocity is zero relative to body mass,Takeoff,False,False,NewtonPerKilo,N/kg,1.0,2,Positive
+256,7340072,CMRJ_TAKEOFF_CONCENTRIC_IMPULSE_P1,Takeoff P1 Concentric Impulse,Net impulse during 1st 50% (time-wise) of concentric phase,Takeoff,True,False,NewtonSecond,N s,1.0,1,Positive
+257,7340073,CMRJ_TAKEOFF_CONCENTRIC_IMPULSE_P2,Takeoff P2 Concentric Impulse,Net impulse during 2nd 50% (time-wise) of concentric phase,Takeoff,True,False,NewtonSecond,N s,1.0,1,Positive
+258,7340074,CMRJ_TAKEOFF_CON_P2_CON_P1_IMPULSE_RATIO,Takeoff P2 Concentric Impulse:P1 Concentric Impulse,Ratio of P2 Concentric Impulse to P1 Concentric Impulse,Takeoff,True,False,NoUnit,,1.0,2,None
+259,7340075,CMRJ_TAKEOFF_BM_REL_PEAK_NET_FORCE,First Peak Net Takeoff Force / BM,Peak net (above body-weight) takeoff force relative to body mass,Takeoff,False,False,NewtonPerKilo,N/kg,1.0,1,Positive
+260,7340076,CMRJ_TAKEOFF_CONCENTRIC_PEAK_POWER,Takeoff Concentric Peak Power,The maximum power (force x velocity) value in the concentric phase or from start of movement if there is no concentric phase,Takeoff,False,False,Watt,W,1.0,0,Positive
+261,7340077,CMRJ_TAKEOFF_BM_REL_CONCENTRIC_PEAK_POWER,Takeoff Concentric Peak Power / BM,Maximum power relative to body mass over the concentric phase within a rep,Takeoff,False,False,WattPerKilo,W/kg,1.0,1,Positive
+262,7340078,CMRJ_TAKEOFF_POSITIVE_IMPULSE,Positive Takeoff Impulse,Area above BW in the takeoff phase,Takeoff,True,False,NewtonSecond,N s,1.0,1,Positive
+263,7340079,CMRJ_TAKEOFF_RSI_MODIFIED,Takeoff RSI-modified,Jump height (flight time) / Contraction time,Takeoff,False,False,RSIModified,m/s,0.01,2,Positive
+264,7340080,CMRJ_TAKEOFF_RSI_MODIFIED_IMP_MOM,Takeoff RSI-modified (Imp-Mom),Jump height (Imp-Mom) / Contraction time,Takeoff,False,False,RSIModified,m/s,0.01,2,Positive
+265,7340112,CMRJ_REBOUND_BEGIN_CONCENTRIC_PHASE,Start of Rebound Concentric Phase,Absolute time from the start of recording to the start of the concentric phase during rebound,Rebound,False,False,Second,s,1.0,3,None
+266,7340121,CMRJ_REBOUND_COUNTERMOVEMENT_DEPTH,Rebound Countermovement Depth,The amount of displacement the CM goes through from contact (zero position) to the lowest value. Note if the hips and knees are flexed at contact this is still the reference zero position.,Rebound,False,False,Centimeter,cm,1.0,1,None
+267,7340113,CMRJ_REBOUND_ACTIVE_STIFFNESS,Rebound Active Stiffness,Peak active force (in concentric phase) divided by the change in displacement of CM from contact to the minimum value (the lowest point during contact phase),Rebound,True,False,NewtonPerMeter,N/m,1.0,0,None
+268,7340114,CMRJ_REBOUND_ACTIVE_STIFFNESS_INDEX,Rebound Active Stiffness Index,The Active Stiffness expressed relative to the drop height and body weight,Rebound,False,False,NoUnit,,1.0,2,None
+269,7340115,CMRJ_REBOUND_CONCENTRIC_IMPULSE,Rebound Concentric Impulse,Area under the Fz curve from transition point at zero velocity (max negative displacement) (start of concentric phase) to take-off - net impulse,Rebound,True,False,NewtonSecond,N s,1.0,1,Positive
+270,7340116,CMRJ_REBOUND_BM_REL_ABS_CON_IMPULSE,Rebound Concentric Impulse (Abs) / BM,Absolute concentric impulse (area under the Fz curve from the transition point at zero velocity) divided by body mass,Rebound,False,False,NewtonSecondPerKilo,N s/kg,1.0,3,Positive
+271,7340117,CMRJ_REBOUND_CONCENTRIC_MEAN_FORCE,Rebound Concentric Mean Force,The average force in the concentric phase,Rebound,True,False,Newton,N,1.0,0,Positive
+272,7340118,CMRJ_REBOUND_BM_REL_CON_MEAN_FORCE,Rebound Concentric Mean Force / BM,The average force in the concentric phase relative to body mass,Rebound,False,False,NewtonPerKilo,N/kg,1.0,1,Positive
+273,7340119,CMRJ_REBOUND_CONCENTRIC_PEAK_VELOCITY,Rebound Concentric Peak Velocity,The highest vertical velocity value just prior to take-off,Rebound,False,False,MeterPerSecond,m/s,1.0,2,Positive
+274,7340120,CMRJ_REBOUND_CONTACT_TIME,Rebound Contact Time,Time in contact with the plate during rebound,Rebound,False,False,Millisecond,ms,1000.0,0,None
+275,7340122,CMRJ_REBOUND_DROP_HEIGHT,Drop Height,The calculated drop-height based on change in displacement during the jump,Rebound,False,False,Centimeter,cm,1.0,1,None
+276,7340123,CMRJ_REBOUND_DROP_LANDING_RFD,Drop Landing RFD,Rate of force development from the drop (rebound) landing to the point of peak force during the landing,Rebound,True,False,NewtonPerSecond,N/s,1.0,0,None
+277,7340124,CMRJ_REBOUND_ECC_DURATION,Rebound Eccentric Duration,Duration of the eccentric phase,Rebound,False,False,Millisecond,ms,1000.0,0,None
+278,7340125,CMRJ_REBOUND_ECC_IMPULSE,Rebound Eccentric Impulse,Area under the Fz curve from contact to the trainsition point at zero velocity (max negative displacement) - net impulse,Rebound,True,False,NewtonSecond,N s,1.0,1,Positive
+279,7340126,CMRJ_REBOUND_FLIGHT_TIME,Rebound Flight Time,The time interval between take-off and landing,Rebound,False,False,Millisecond,ms,1000.0,0,Positive
+280,7340127,CMRJ_REBOUND_JUMP_HEIGHT,Rebound Jump Height (Flight Time),Jump height calculated from flight time,Rebound,False,False,Centimeter,cm,1.0,1,Positive
+281,7340128,CMRJ_REBOUND_JUMP_HEIGHT_INCHES,Rebound Jump Height (Flight Time) in Inches,"Jump height calculated from flight time, in inches",Rebound,False,False,Inch,in,1.0,1,Positive
+282,7340129,CMRJ_REBOUND_JUMP_HEIGHT_IMP_MOM,Rebound Jump Height (Imp-Mom),"Jump height determined from the Kinetic energy relationship after establishing the velocity at the instant of take-off (derived by determining the change in velocity from the impulse measurment throughout the contact phase, utilises the trapezium/simpsons rule)",Rebound,False,False,Centimeter,cm,1.0,1,Positive
+283,7340130,CMRJ_REBOUND_JUMP_HEIGHT_IMP_MOM_INCHES,Rebound Jump Height (Imp-Mom) in Inches,"Jump height determined from the Kinetic energy relationship after establishing the velocity at the instant of take-off (derived by determining the change in velocity from the impulse measurment throughout the contact phase, utilises the trapezium/simpsons rule)",Rebound,False,False,Inch,in,1.0,1,Positive
+284,7340131,CMRJ_REBOUND_CONTACT_TROUGH,Rebound Contact Trough,The minimum force value between the initial rebound impact peak and the drive-off peak,Rebound,False,False,Newton,N,1.0,0,None
+285,7340132,CMRJ_REBOUND_PEAK_IMPACT_FORCE,Rebound Peak Impact Force,Force value in the first spike following contact after drop landing,Rebound,True,False,Newton,N,1.0,0,None
+286,7340133,CMRJ_REBOUND_PEAK_DRIVEOFF_FORCE,Rebound Peak Drive-Off Force,Peak force during drive-off part of contact phase,Rebound,True,False,Newton,N,1.0,0,Positive
+287,7340134,CMRJ_REBOUND_FORCE_AT_ZERO_VELOCITY,Rebound Force at Zero Velocity,The combined (total) force at the instant velocity is zero prior to takeoff,Rebound,True,False,Newton,N,1.0,0,Positive
+288,7340135,CMRJ_REBOUND_BM_REL_FORCE_AT_ZERO_VELOCITY,Rebound Force at Zero Velocity / BM,The combined force at the instant velocity is zero relative to body mass,Rebound,False,False,NewtonPerKilo,N/kg,1.0,2,Positive
+289,7340136,CMRJ_REBOUND_PASSIVE_STIFFNESS,Rebound Passive Stiffness,"Peak passive (impact) force / (change in displacement of CM from contact to the minimum value, the lowest point in the pink line during contact phase)",Rebound,True,False,NewtonPerMeter,N/m,1.0,0,None
+290,7340137,CMRJ_REBOUND_PASSIVE_STIFFNESS_INDEX,Rebound Passive Stiffness Index,The passive stiffness expressed relative to the drop height and body weight,Rebound,False,False,NoUnit,,1.0,2,None
+291,7340138,CMRJ_REBOUND_PEAK_DROP_LANDING_FORCE,Peak Drop Landing Force,Peak force during the drop landing,Rebound,True,False,Newton,N,1.0,0,None
+292,7340139,CMRJ_REBOUND_PEAK_POWER,Rebound Peak Power,The maximum power (force x velocity) value in the concentric phase or from start of movement if there is no concentric phase,Rebound,False,False,Watt,W,1.0,0,None
+293,7340140,CMRJ_REBOUND_BM_REL_PEAK_POWER,Rebound Peak Power / BM,Maximum power relative to body mass over the concentric phase within a rep,Rebound,False,False,WattPerKilo,W/kg,1.0,1,Positive
+294,7340141,CMRJ_REBOUND_RSI,Rebound RSI (Flight Time / Contact Time),Reactive strength index - flight time / contact time,Rebound,False,False,NoUnit,,1.0,2,Positive
+295,7340142,CMRJ_REBOUND_RSI_MODIFIED,Rebound RSI (JH(Flight Time) / Contact Time),Rebound RSI using jump height (determined using flight time) and divided by time spent on the ground,Rebound,False,False,RSIModified,m/s,0.01,2,Positive
+296,7340176,CMRJ_LANDING_BM_REL_PEAK_NET_FORCE,Landing Net Peak Force / BM,Landing net (above body-weight) peak force relative to body mass,Landing,False,False,NewtonPerKilo,N/kg,1.0,1,None
+297,7340177,CMRJ_LANDING_RFD,Landing RFD,Rate of force development from landing to the end of the rep,Landing,True,False,NewtonPerSecond,N/s,1.0,0,None
+298,7340181,CMRJ_LANDING_PEAK_FORCE,Peak Landing Force,Peak force during landing,Landing,True,False,Newton,N,1.0,0,None
+299,7405569,PUSHUP_UPPER_BODY_MASS,Upper Bodyweight,Upper body weight calculated from the steady period at the beginning of each rep,General,True,False,Kilo,kg,1.0,1,None
+300,7405570,PUSHUP_UPPER_BODY_MASS_START,Upper Bodyweight Start,Start of averaging period to automatically determine upper body weigh,General,False,False,Second,s,1.0,2,None
+301,7405571,PUSHUP_UPPER_BODY_MASS_END,Upper Bodyweight End,End of averaging period to automatically determine upper body weight,General,False,False,Second,s,1.0,2,None
+302,7405572,PUSHUP_HEIGHT,Push Up Height (Flight Time),Push up height calculated from flight time,Takeoff,False,False,Centimeter,cm,1.0,1,Positive
+303,7405573,PUSHUP_HEIGHT_INCHES,Push Up Height (Flight Time) in Inches,"Push up height calculated from flight time, in inches",Takeoff,False,False,Inch,in,1.0,1,Positive
+304,7405574,PUSHUP_DEPTH,Push Up Depth,Absolute value of the maximum negative displacement within a rep,Takeoff,False,False,Centimeter,cm,1.0,1,None
+305,13238273,GEN_TRIAL_DURATION,Duration of Trial,Time from start to end of trial,General,False,False,Second,s,1.0,1,None
+306,13238274,GEN_MIN_FORCE,Minimum Force,Minimum force over entire trial period,Performance,True,False,Newton,N,1.0,1,None
+307,13238275,GEN_TIME_TO_MIN_FORCE,Time to Minimum Force,Time from start of test to minimum force,Performance,True,False,Second,s,1.0,2,None
+308,13238276,GEN_PEAK_FORCE,Peak Force,Maximum force over entire trial period,Performance,True,False,Newton,N,1.0,1,None
+309,13238277,GEN_TIME_TO_PEAK_FORCE,Time to Peak Force,Time from start of test to peak force,Performance,True,False,Second,s,1.0,2,None
+310,13238278,GEN_AVERAGE_FORCE,Overall Average Force,Average force over entire trial period,Performance,True,False,Newton,N,1.0,1,None
+311,13238279,GEN_ABSOLUTE_IMPULSE,Impulse,Total absolute impulse over entire trial period,Performance,True,False,NewtonSecond,N s,1.0,1,None
+312,13238280,GEN_CONTACT_TIME,Total Contact Time,Total contact time over entire trial period,Performance,True,False,Second,s,1.0,3,None
+313,655368,REPEAT_COUNT,Number of Hops/Reps,Number of complete hops/repeats performed in the trial,General,False,False,NoUnit,,1.0,0,None
+314,655369,REPEAT_START,Hop/Rep Start,Absolute time of start of hop/rep within trial,General,False,True,Second,s,1.0,3,None
+315,655370,REPEAT_END,Hop/Rep End,Absolute time of end of hop/rep within trial,General,False,True,Second,s,1.0,3,None
+316,655371,REPEAT_NUMBER_ORDER,Hop/Rep Order,"Number of hop/rep in descending order, best first",General,False,True,NoUnit,,1.0,0,None
+317,655372,REPEAT_FATIGUE_WINDOW,Fatigue Hops/Reps,Number of hops/repeats from start and end of trial used to calculate fatigue,Fatigue,False,False,NoUnit,,1.0,0,None
+318,655373,REPEAT_END_OF_INTEGRATION,Hop/Rep Integration End,"End time point for per-rep impulse, velocity and displacement integration",General,False,True,Second,s,1.0,2,None
+319,655374,REPEAT_EFFECTIVE_SYSTEM_MASS,Hop/Rep Effective Mass,Effective per-rep system mass used for per-rep integration,General,False,True,Kilo,kg,1.0,1,None
+320,655375,REPEAT_TOP_N,Top N,Top N,None,False,False,NoUnit,,1.0,0,None
+321,655377,REPEAT_DURATION,Hop/Rep Duration,"Duration of single hop/rep from start to end, within trial",General,False,True,Second,s,1.0,3,None
+322,13434881,REPEAT_PEAK_FORCE,Peak Force,Peak total force within a hop/rep,Performance,True,True,Newton,N,1.0,1,Positive
+323,13434882,REPEAT_MIN_FORCE,Minimum Force,Minimum total force within repeat/hop,Performance,True,True,Newton,N,1.0,1,None
+324,13434883,REPEAT_BEGIN_CONCENTRIC_PHASE,Start of Concentric Phase,"Absolute starting time of concentric phase within a rep (velocity = 0, minimum displacement)",Performance,False,True,Second,s,1.0,3,None
+325,13434884,REPEAT_MIN_DISPLACEMENT,Maximum Negative Displacement,Maximum negative height/displacement within a rep (start of concentric phase),Performance,False,True,Centimeter,cm,1.0,1,None
+326,13434885,REPEAT_PEAK_ECCENTRIC_FORCE,Eccentric Peak Force,Peak force over the eccentric phase within a rep,Performance,True,True,Newton,N,1.0,1,Positive
+327,13434886,REPEAT_PEAK_CONCENTRIC_FORCE,Concentric Peak Force,Peak force over the concentric phase within a rep,Performance,True,True,Newton,N,1.0,0,Positive
+328,13434887,REPEAT_PEAK_CONCENTRIC_POWER,Concentric Peak Power,Maximum power over the concentric phase within a rep,Performance,False,True,Watt,W,1.0,0,Positive
+329,13434888,REPEAT_MEAN_ECCENTRIC_FORCE,Eccentric Mean Force,Average force over the eccentric phase within a rep,Performance,True,True,Newton,N,1.0,1,Positive
+330,13434889,REPEAT_MEAN_CONCENTRIC_FORCE,Concentric Mean Force,Average force over the concentric phase within a rep,Performance,True,True,Newton,N,1.0,1,Positive
+331,13434890,REPEAT_PEAK_ECCENTRIC_VELOCITY,Eccentric Peak Velocity,Maximum negative velocity during the eccentric phase within a rep,Performance,False,True,MeterPerSecond,m/s,1.0,3,None
+332,13434891,REPEAT_PEAK_CONCENTRIC_VELOCITY,Concentric Peak Velocity,Maximum velocity during the concentric phase within a rep,Performance,False,True,MeterPerSecond,m/s,1.0,3,None
+333,13434892,REPEAT_MEAN_ECCENTRIC_VELOCITY,Eccentric Mean Velocity,Average velocity over the eccentric phase within a rep,Performance,False,True,MeterPerSecond,m/s,1.0,3,None
+334,13434893,REPEAT_MEAN_CONCENTRIC_VELOCITY,Concentric Mean Velocity,Average velocity over the concentric phase within a rep,Performance,False,True,MeterPerSecond,m/s,1.0,3,None
+335,13434894,REPEAT_PEAK_ECCENTRIC_POWER,Eccentric Peak Power,Maximum power over the eccentric phase within a rep,Performance,False,True,Watt,W,1.0,1,Positive
+336,13434895,REPEAT_BM_REL_PEAK_ECCENTRIC_POWER,Eccentric Peak Power / BM,Maximum power relative to body mass over the eccentric phase within a rep,Performance,False,True,WattPerKilo,W/kg,1.0,2,Positive
+337,13434896,REPEAT_BM_REL_PEAK_CONCENTRIC_POWER,Concentric Peak Power / BM,Maximum power relative to body mass over the concentric phase within a rep,Performance,False,True,WattPerKilo,W/kg,1.0,2,Positive
+338,13434897,REPEAT_MEAN_ECCENTRIC_POWER,Eccentric Mean Power,The average power (force x velocity) in the eccentric phase,Performance,False,True,Watt,W,1.0,1,Positive
+339,13434898,REPEAT_BM_REL_MEAN_ECCENTRIC_POWER,Eccentric Mean Power / BM,Average power relative to body mass over the eccentric phase within a rep,Performance,False,True,WattPerKilo,W/kg,1.0,2,Positive
+340,13434899,REPEAT_MEAN_CONCENTRIC_POWER,Concentric Mean Power,Average power over the concentric phase within a rep,Performance,False,True,Watt,W,1.0,1,Positive
+341,13434900,REPEAT_BM_REL_MEAN_CONCENTRIC_POWER,Concentric Mean Power / BM,Average power relative to body mass over the concentric phase within a rep,Performance,False,True,WattPerKilo,W/kg,1.0,2,Positive
+342,13434901,REPEAT_ECCENTRIC_DECEL_IMPULSE,Eccentric Deceleration Impulse,Net impulse from the start of eccentric deceleration to the end of the eccentric phase within a rep,Performance,True,True,NewtonSecond,N s,1.0,1,Positive
+343,13434902,REPEAT_ECCENTRIC_DECEL_RFD,Eccentric Deceleration RFD,Rate of force development calculated over the eccentric deceleration phase within a rep,Performance,True,True,NewtonPerSecond,N/s,1.0,1,Positive
+344,13434903,REPEAT_BM_REL_ECCENTRIC_DECEL_RFD,Eccentric Deceleration RFD / BM,Rate of force development calculated over the ecentric deceleration phase relative to body mass within a rep,Performance,False,True,NewtonPerSecondPerKilo,N/s/kg,1.0,2,Positive
+345,13434904,REPEAT_END_ECCENTRIC_PHASE,End of Eccentric Phase,"Absolute time of the end of eccentric phase within a rep (velocity = 0, minimum displacement)",Performance,False,True,Second,s,1.0,3,None
+346,13434905,REPEAT_HOLD_PHASE_DURATION,Hold Phase Duration,Duration of hold/isometric phase between end of eccentric and start of concentric phase within a rep,Performance,False,True,Second,s,1.0,3,None
+347,13434906,REPEAT_SQUAT_DEPTH,Squat Depth,Absolute value of the maximum negative displacement within a rep,Performance,False,True,Centimeter,cm,1.0,1,Positive
+348,13434907,REPEAT_PUSHUP_DEPTH,Push Up Depth,Absolute value of the maximum negative displacement within a rep,Performance,False,True,Centimeter,cm,1.0,1,Positive
+349,13303809,HOP_REPEAT_TAKEOFF,Hop Takeoff,Time of takeoff within a single hop,General,False,True,Second,s,1.0,3,None
+350,13303810,HOP_BEST_LANDING,Best Hop Start/Landing,Best hop landing time point within trial (ie. start of best hop),BestHop,False,False,Second,s,1.0,2,None
+351,13303811,HOP_BEST_AVERAGE_FORCE,Best Average Force,Average force when in contact with platform during the best hop,BestHop,True,False,Newton,N,1.0,1,None
+352,13303812,HOP_BEST_LANDING_RFD,Best Landing RFD,RFD of best hop during hop landing,BestHop,True,False,NewtonPerSecond,N/s,1.0,0,None
+353,13303813,HOP_BEST_TIME_TO_PEAK_FORCE,Best Time to Peak Force,Time from landing to peak force of the best hop,BestHop,True,False,Millisecond,ms,1000.0,0,None
+354,13303814,HOP_BEST_CONTACT_TIME,Best Contact Time,Duration of contact with platform for the best n hop,BestHop,False,False,Millisecond,ms,1000.0,0,Negative
+355,13303815,HOP_BEST_FLIGHT_TIME,Best Flight Time,Flight time during of the best hop,BestHop,False,False,Millisecond,ms,1000.0,0,Positive
+356,13303816,HOP_BEST_JUMP_HEIGHT,Best Jump Height (Flight Time),Jump height calculated from flight time of the best hop,BestHop,False,False,Centimeter,cm,1.0,1,Positive
+357,13303817,HOP_BEST_IMPULSE,Best Impulse,Total absolute impulse of the best hop,BestHop,True,False,NewtonSecond,N s,1.0,0,Positive
+358,13303818,HOP_BEST_PEAK_FORCE,Best Peak Force,Peak hop force of the best hop,BestHop,True,False,Newton,N,1.0,0,Positive
+359,13303819,HOP_BEST_RSI,Best RSI (Flight/Contact Time),Reactive Strength Index of the best hop,BestHop,False,False,NoUnit,,1.0,2,Positive
+360,13303820,HOP_BEST_RSI_JH,Best RSI (Jump Height/Contact Time),Reactive Strength Index based on Jump Height of the best hop,BestHop,False,False,RSIModified,m/s,0.01,2,Positive
+361,13303821,HOP_BEST_STIFFNESS,Best Active Stiffness,Stiffness during best hop takeoff,BestHop,True,False,NewtonPerMeter,N/m,1.0,1,None
+362,13303855,HOP_BEST_PEAK_POWER,Best Peak Power,Peak power of the best hop,BestHop,False,False,Watt,W,1.0,1,Positive
+363,13303859,HOP_BEST_AVERAGE_POWER,Best Average Power,Average power when in contact with platform during the best hop,BestHop,False,False,Watt,W,1.0,1,Positive
+364,13303822,HOP_MEAN_AVERAGE_FORCE,Mean Average Force,Mean of best n hops' average force when in contact with platform during a hop,BestNHops,True,False,Newton,N,1.0,1,None
+365,13303823,HOP_MEAN_LANDING_RFD,Mean Landing RFD,Mean RFD of best n hops during hop landing,BestNHops,True,False,NewtonPerSecond,N/s,1.0,0,None
+366,13303824,HOP_MEAN_TIME_TO_PEAK_FORCE,Mean Time to Peak Force,Mean time from landing to peak force of the best n hops,BestNHops,True,False,Millisecond,ms,1000.0,0,None
+367,13303825,HOP_MEAN_CONTACT_TIME,Mean Contact Time,Mean duration of contact with platform of the best n hops,BestNHops,False,False,Millisecond,ms,1000.0,0,Negative
+368,13303826,HOP_MEAN_FLIGHT_TIME,Mean Flight Time,Mean flight time during a hop over the best n hops,BestNHops,False,False,Millisecond,ms,1000.0,0,Positive
+369,13303827,HOP_MEAN_JUMP_HEIGHT,Mean Jump Height (Flight Time),Mean jump height for a hop based on flight time of the best n hops,BestNHops,False,False,Centimeter,cm,1.0,1,Positive
+370,13303828,HOP_MEAN_IMPULSE,Mean Impulse,Mean total absolute impulse for a hop over the best n hops,BestNHops,True,False,NewtonSecond,N s,1.0,0,Positive
+371,13303829,HOP_MEAN_PEAK_FORCE,Mean Peak Force,Mean peak hop force of the best n hops,BestNHops,True,False,Newton,N,1.0,0,Positive
+372,13303830,HOP_MEAN_RSI,Mean RSI (Flight/Contact Time),Mean RSI of the best n hops,BestNHops,False,False,NoUnit,,1.0,2,Positive
+373,13303831,HOP_MEAN_RSI_JH,Mean RSI (Jump Height/Contact Time),Mean RSI based on Jump Height of the best n hops,BestNHops,False,False,RSIModified,m/s,0.01,2,Positive
+374,13303832,HOP_MEAN_STIFFNESS,Mean Active Stiffness,Mean stiffness during takeoff over the best n hops,BestNHops,True,False,NewtonPerMeter,N/m,1.0,1,None
+375,13303856,HOP_MEAN_PEAK_POWER,Mean Peak Power,Mean peak power of the best n hops,BestNHops,False,False,Watt,W,1.0,1,Positive
+376,13303860,HOP_MEAN_AVERAGE_POWER,Mean Average Power,Mean best n hops' average power,BestNHops,False,False,Watt,W,1.0,1,Positive
+377,13303833,HOP_FATIGUE_AVERAGE_FORCE,Average Force Fatigue,Fatigue of average force when in contact with platform during a hop,Fatigue,True,False,Percent,%,1.0,1,None
+378,13303834,HOP_FATIGUE_LANDING_RFD,Landing RFD Fatigue,Fatigue of RFD during hop landing,Fatigue,True,False,Percent,%,1.0,1,None
+379,13303835,HOP_FATIGUE_TIME_TO_PEAK_FORCE,Time to Peak Force Fatigue,Fatigue of time from landing to peak force,Fatigue,True,False,Percent,%,1.0,1,None
+380,13303836,HOP_FATIGUE_CONTACT_TIME,Contact Time Fatigue,Fatigue of duration of contact with platform,Fatigue,False,False,Percent,%,1.0,1,None
+381,13303837,HOP_FATIGUE_FLIGHT_TIME,Flight Time Fatigue,Fatigue of flight time during a hop,Fatigue,False,False,Percent,%,1.0,1,None
+382,13303838,HOP_FATIGUE_JUMP_HEIGHT,Jump Height (Flight Time) Fatigue,Fatigue of jump height for a hop based on flight time,Fatigue,False,False,Percent,%,1.0,1,None
+383,13303839,HOP_FATIGUE_IMPULSE,Impulse Fatigue,Fatigue of total absolute impulse for a hop,Fatigue,True,False,Percent,%,1.0,1,None
+384,13303840,HOP_FATIGUE_PEAK_FORCE,Peak Force Fatigue,Fatigue of peak hop force,Fatigue,True,False,Percent,%,1.0,1,None
+385,13303841,HOP_FATIGUE_RSI,RSI (Flight/Contact Time) Fatigue,Fatigue of RSI,Fatigue,False,False,Percent,%,1.0,1,None
+386,13303842,HOP_FATIGUE_RSI_JH,RSI (Jump Height/Contact Time) Fatigue,Fatigue of RSI based on Jump Height,Fatigue,False,False,Percent,%,1.0,1,None
+387,13303843,HOP_FATIGUE_STIFFNESS,Stiffness Fatigue,Fatigue of stiffness during hop takeoff,Fatigue,True,False,Percent,%,1.0,1,None
+388,13303857,HOP_FATIGUE_PEAK_POWER,Peak Power Fatigue,Fatigue of peak power,Fatigue,False,False,Watt,W,1.0,1,None
+389,13303861,HOP_FATIGUE_AVERAGE_POWER,Average Power Fatigue,Fatigue of average power,Fatigue,False,False,Watt,W,1.0,1,None
+390,13303844,HOP_AVERAGE_FORCE,Average Force,Average force when in contact with platform during a single hop,Takeoff,True,True,Newton,N,1.0,1,None
+391,13303845,HOP_LANDING_RFD,Landing RFD,RFD during a single hop landing,Landing,True,True,NewtonPerSecond,N/s,1.0,0,None
+392,13303846,HOP_TIME_TO_PEAK_FORCE,Time to Peak Force,Time from landing to peak force for a single hop,Takeoff,True,True,Millisecond,ms,1000.0,0,None
+393,13303847,HOP_CONTACT_TIME,Contact Time,Duration of contact with platform during a single hop,Takeoff,False,True,Millisecond,ms,1000.0,0,Negative
+394,13303848,HOP_FLIGHT_TIME,Flight Time,Flight time for a single hop,Takeoff,False,True,Millisecond,ms,1000.0,0,Positive
+395,13303849,HOP_JUMP_HEIGHT,Jump Height (Flight Time),Jump height for a single hop based on flight time,Takeoff,False,True,Centimeter,cm,1.0,1,Positive
+396,13303850,HOP_IMPULSE,Impulse,Total absolute impulse for a single hop,Takeoff,True,True,NewtonSecond,N s,1.0,0,Positive
+397,13303851,HOP_PEAK_FORCE,Peak Force,Peak force during a single hop,Takeoff,True,True,Newton,N,1.0,0,Positive
+398,13303852,HOP_RSI,RSI (Flight/Contact Time),RSI for a single hop calculated from flight and contact time,Takeoff,False,True,NoUnit,,1.0,2,Positive
+399,13303853,HOP_RSI_JH,RSI (Jump Height/Contact Time),RSI for a single hop calculated from jump height and contact time,Takeoff,False,True,RSIModified,m/s,0.01,2,Positive
+400,13303854,HOP_STIFFNESS,Active Stiffness,Stiffness during takeoff for a single hop,Takeoff,True,True,NewtonPerMeter,N/m,1.0,0,None
+401,13303858,HOP_PEAK_POWER,Peak Power,Peak power for a single hop,Takeoff,False,True,Watt,W,1.0,1,Positive
+402,13303862,HOP_AVERAGE_POWER,Average Power,Average power when in contact with platform for a single hop,Takeoff,False,True,Watt,W,1.0,1,Positive
+403,13500417,BAL_COP_TOTAL_EXCURSION,Total Excursion,Total distance travelled by the CoP,Balance,True,False,Millimeter,mm,1000.0,0,Negative
+404,13500418,BAL_COP_MEAN_VELOCITY,Mean Velocity,Average speed of the CoP,Balance,True,False,MillimeterPerSecond,mm/s,1000.0,1,Negative
+405,13500419,BAL_COP_MEAN_VELOCITY_MEDLAT,Mean Velocity - Medial-Lateral,Average speed of the CoP in the medial-lateral direction,Balance,True,False,MillimeterPerSecond,mm/s,1000.0,1,Negative
+406,13500420,BAL_COP_MEAN_VELOCITY_ANTPOST,Mean Velocity - Anterior-Posterior,Average speed of the CoP in the anterior-posterior direction,Balance,True,False,MillimeterPerSecond,mm/s,1000.0,1,Negative
+407,13500421,BAL_COP_ELLIPSE_AREA,Area of CoP Ellipse,Area of the smallest possible ellipse that includes 95% of the sampled CoP points,Balance,True,False,MillimeterSquared,mm²,1000000.0,0,Negative
+408,13500422,BAL_COP_RANGE_MEDLAT,CoP Range - Medial-Lateral,Distance between the furthest CoP points in the medial-lateral direction,Balance,True,False,Millimeter,mm,1000.0,0,Negative
+409,13500423,BAL_COP_RANGE_ANTPOST,CoP Range - Anterior-Posterior,Distance between the furthest CoP points in the anterior-posterior direction,Balance,True,False,Millimeter,mm,1000.0,0,Negative
+410,13500424,BAL_BALANCE_DURATION,Balance Time,Length of time the subject was able to balance for,Balance,False,False,Second,s,1.0,1,None
+411,13500425,BAL_UNBALANCED_COUNT,Unbalanced Count,Number of times the subject was unbalanced during the trial,Balance,False,False,NoUnit,,1.0,0,None
+412,13500426,BAL_MEAN_FORCE,Mean Force,Mean force,Balance,True,False,Newton,N,1.0,0,None
+413,13631489,STS_START_OF_MOVEMENT,Start of Movement,Time at which exercise movement started,Functional,False,False,Second,s,1.0,3,None
+414,13631490,STS_END_OF_MOVEMENT,End of Movement,Time at which exercise movement ended,Functional,False,False,Second,s,1.0,3,None
+415,13631491,STS_STABILISED,Stabilised,Time at which force stabilised when standing,Functional,False,False,Second,s,1.0,3,None
+416,13697025,STS_TIME_TO_STAND,Time to Stand,Time between start of standing and stabilised in standing position,Functional,False,False,Second,s,1.0,3,Negative
+417,13697028,STS_TIME_TO_PEAK_STANDING_FORCE,Time to Peak Standing Force,Time between Start of Movement and Peak Standing Force,Functional,False,False,Second,s,1.0,3,None
+418,13697026,STS_PEAK_STANDING_FORCE,Peak Standing Force,Peak vertical force during Sit-to-Stand phase,Functional,True,False,Newton,N,1.0,0,Positive
+419,13697027,STS_BM_REL_PEAK_STANDING_FORCE,Peak Standing Force / BM,Peak vertical force relative to body mass during Sit-to-Stand phase,Functional,False,False,NewtonPerKilo,N/kg,1.0,1,Positive
+420,13697029,STS_MEAN_STANDING_FORCE,Mean Standing Force,Mean vertical force over Sit-to-Stand phase,Functional,True,False,Newton,N,1.0,0,Positive
+421,13697030,STS_BM_REL_MEAN_STANDING_FORCE,Mean Standing Force / BM,Mean vertical force relative to body mass over Sit-to-Stand phase,Functional,False,False,NewtonPerKilo,N/kg,1.0,1,Positive
+422,13697031,STS_PEAK_STANDING_RFD_10MS,Peak Standing RFD - 10ms,Maximum rate of force development over a 10ms window during Sit-to-Stand phase,Functional,True,False,NewtonPerSecond,N/s,1.0,0,Positive
+423,13697032,STS_BM_REL_PEAK_STANDING_RFD_10MS,Peak Standing RFD / BM - 10ms,Maximum rate of force development relative to body mass over a 10ms window during Sit-to-Stand phase,Functional,False,False,NewtonPerSecondPerKilo,N/s/kg,1.0,0,Positive
+424,13697033,STS_PEAK_STANDING_RFD_100MS,Peak Standing RFD - 100ms,Maximum rate of force development over a 100ms window during Sit-to-Stand phase,Functional,True,False,NewtonPerSecond,N/s,1.0,0,Positive
+425,13697034,STS_BM_REL_PEAK_STANDING_RFD_100MS,Peak Standing RFD / BM - 100ms,Maximum rate of force development relative to body mass over a 100ms window during Sit-to-Stand phase,Functional,False,False,NewtonPerSecondPerKilo,N/s/kg,1.0,0,Positive
+426,13697056,STS_START_OF_STAND_TO_SIT,Start of Sit,Time when Stand-to-Sit phase starts,Functional,False,False,Second,s,1.0,3,None
+427,13697057,STS_TIME_TO_SIT,Time to Sit,Time between start of sitting and end of movement,Functional,False,False,Second,s,1.0,3,Negative
+428,13697058,STS_PEAK_SITTING_FORCE,Peak Sitting Force,Peak vertical force during Stand-to-Sit phase,Functional,True,False,Newton,N,1.0,0,Positive
+429,13697059,STS_BM_REL_PEAK_SITTING_FORCE,Peak Sitting Force / BM,Peak vertical force relative to body mass during Stand-to-Sit phase,Functional,False,False,NewtonPerKilo,N/kg,1.0,1,Positive
+430,13697060,STS_MEAN_SITTING_FORCE,Mean Sitting Force,Mean vertical force over Stand-to-Sit phase,Functional,True,False,Newton,N,1.0,0,Positive
+431,13697061,STS_BM_REL_MEAN_SITTING_FORCE,Mean Sitting Force / BM,Mean vertical force relative to body mass over Stand-to-Sit phase,Functional,False,False,NewtonPerKilo,N/kg,1.0,1,Positive

@@ -1,0 +1,498 @@
+,resultId,value,time,limb,repeat,definition_id,result_key,description,name,unit,repeatable,asymmetry
+0,655364,85.21100114460963,52.548,Trial,0,655364,CORRECTED_BODY_MASS,Standing weight calculated from impulse to ensure an end-of-jump velocity of 0 m/s,Corrected Standing Weight,Kilo,False,False
+1,655365,52.548000000018256,52.548,Trial,0,655365,START_OF_MOVEMENT,Absolute time from the start of recording to start of movement,Start of Movement,Second,False,True
+2,655366,31.356302014872426,52.548,Trial,0,655366,START_OF_MOVEMENT_THRESHOLD,Threshold used for start of movement detection,Start of Movement Detection Threshold,Newton,False,False
+3,655368,11.0,53.0,Trial,0,655368,REPEAT_COUNT,Number of complete hops/repeats performed in the trial,Number of Hops/Reps,No Unit,False,False
+4,655369,53.31000000001919,53.31,Trial,0,655369,REPEAT_START,Absolute time of start of hop/rep within trial,Hop/Rep Start,Second,True,False
+5,655369,53.84200000001984,53.842,Trial,1,655369,REPEAT_START,Absolute time of start of hop/rep within trial,Hop/Rep Start,Second,True,False
+6,655369,54.446000000020575,54.446,Trial,2,655369,REPEAT_START,Absolute time of start of hop/rep within trial,Hop/Rep Start,Second,True,False
+7,655369,55.07000000002134,55.07,Trial,3,655369,REPEAT_START,Absolute time of start of hop/rep within trial,Hop/Rep Start,Second,True,False
+8,655369,55.714000000022125,55.714,Trial,4,655369,REPEAT_START,Absolute time of start of hop/rep within trial,Hop/Rep Start,Second,True,False
+9,655369,56.36400000002292,56.364,Trial,5,655369,REPEAT_START,Absolute time of start of hop/rep within trial,Hop/Rep Start,Second,True,False
+10,655369,56.97800000002367,56.978,Trial,6,655369,REPEAT_START,Absolute time of start of hop/rep within trial,Hop/Rep Start,Second,True,False
+11,655369,58.81400000002591,58.814,Trial,7,655369,REPEAT_START,Absolute time of start of hop/rep within trial,Hop/Rep Start,Second,True,False
+12,655369,59.47400000002672,59.474,Trial,8,655369,REPEAT_START,Absolute time of start of hop/rep within trial,Hop/Rep Start,Second,True,False
+13,655369,60.08200000002746,60.082,Trial,9,655369,REPEAT_START,Absolute time of start of hop/rep within trial,Hop/Rep Start,Second,True,False
+14,655369,60.754000000028284,60.754,Trial,10,655369,REPEAT_START,Absolute time of start of hop/rep within trial,Hop/Rep Start,Second,True,False
+15,655370,53.84200000001984,53.842,Trial,0,655370,REPEAT_END,Absolute time of end of hop/rep within trial,Hop/Rep End,Second,True,False
+16,655370,54.446000000020575,54.446,Trial,1,655370,REPEAT_END,Absolute time of end of hop/rep within trial,Hop/Rep End,Second,True,False
+17,655370,55.07000000002134,55.07,Trial,2,655370,REPEAT_END,Absolute time of end of hop/rep within trial,Hop/Rep End,Second,True,False
+18,655370,55.714000000022125,55.714,Trial,3,655370,REPEAT_END,Absolute time of end of hop/rep within trial,Hop/Rep End,Second,True,False
+19,655370,56.36400000002292,56.364,Trial,4,655370,REPEAT_END,Absolute time of end of hop/rep within trial,Hop/Rep End,Second,True,False
+20,655370,56.97800000002367,56.978,Trial,5,655370,REPEAT_END,Absolute time of end of hop/rep within trial,Hop/Rep End,Second,True,False
+21,655370,58.81400000002591,58.814,Trial,6,655370,REPEAT_END,Absolute time of end of hop/rep within trial,Hop/Rep End,Second,True,False
+22,655370,59.47400000002672,59.474,Trial,7,655370,REPEAT_END,Absolute time of end of hop/rep within trial,Hop/Rep End,Second,True,False
+23,655370,60.08200000002746,60.082,Trial,8,655370,REPEAT_END,Absolute time of end of hop/rep within trial,Hop/Rep End,Second,True,False
+24,655370,60.754000000028284,60.754,Trial,9,655370,REPEAT_END,Absolute time of end of hop/rep within trial,Hop/Rep End,Second,True,False
+25,655370,61.40400000002908,61.404,Trial,10,655370,REPEAT_END,Absolute time of end of hop/rep within trial,Hop/Rep End,Second,True,False
+26,655371,4.0,55.07,Trial,0,655371,REPEAT_NUMBER_ORDER,"Number of hop/rep in descending order, best first",Hop/Rep Order,No Unit,True,False
+27,655371,3.0,54.446,Trial,1,655371,REPEAT_NUMBER_ORDER,"Number of hop/rep in descending order, best first",Hop/Rep Order,No Unit,True,False
+28,655371,10.0,60.082,Trial,2,655371,REPEAT_NUMBER_ORDER,"Number of hop/rep in descending order, best first",Hop/Rep Order,No Unit,True,False
+29,655371,5.0,55.714,Trial,3,655371,REPEAT_NUMBER_ORDER,"Number of hop/rep in descending order, best first",Hop/Rep Order,No Unit,True,False
+30,655371,8.0,58.814,Trial,4,655371,REPEAT_NUMBER_ORDER,"Number of hop/rep in descending order, best first",Hop/Rep Order,No Unit,True,False
+31,655371,11.0,60.754,Trial,5,655371,REPEAT_NUMBER_ORDER,"Number of hop/rep in descending order, best first",Hop/Rep Order,No Unit,True,False
+32,655371,9.0,59.474,Trial,6,655371,REPEAT_NUMBER_ORDER,"Number of hop/rep in descending order, best first",Hop/Rep Order,No Unit,True,False
+33,655371,2.0,53.842,Trial,7,655371,REPEAT_NUMBER_ORDER,"Number of hop/rep in descending order, best first",Hop/Rep Order,No Unit,True,False
+34,655371,6.0,56.364,Trial,8,655371,REPEAT_NUMBER_ORDER,"Number of hop/rep in descending order, best first",Hop/Rep Order,No Unit,True,False
+35,655371,1.0,53.31,Trial,9,655371,REPEAT_NUMBER_ORDER,"Number of hop/rep in descending order, best first",Hop/Rep Order,No Unit,True,False
+36,655371,7.0,56.978,Trial,10,655371,REPEAT_NUMBER_ORDER,"Number of hop/rep in descending order, best first",Hop/Rep Order,No Unit,True,False
+37,655372,3.0,53.0,Trial,0,655372,REPEAT_FATIGUE_WINDOW,Number of hops/repeats from start and end of trial used to calculate fatigue,Fatigue Hops/Reps,No Unit,False,False
+38,655377,0.5320000000006502,53.842,Trial,0,655377,REPEAT_DURATION,"Duration of single hop/rep from start to end, within trial",Hop/Rep Duration,Second,True,False
+39,655377,0.6040000000007382,54.446,Trial,1,655377,REPEAT_DURATION,"Duration of single hop/rep from start to end, within trial",Hop/Rep Duration,Second,True,False
+40,655377,0.6240000000007626,55.07,Trial,2,655377,REPEAT_DURATION,"Duration of single hop/rep from start to end, within trial",Hop/Rep Duration,Second,True,False
+41,655377,0.644000000000787,55.714,Trial,3,655377,REPEAT_DURATION,"Duration of single hop/rep from start to end, within trial",Hop/Rep Duration,Second,True,False
+42,655377,0.6500000000007944,56.364,Trial,4,655377,REPEAT_DURATION,"Duration of single hop/rep from start to end, within trial",Hop/Rep Duration,Second,True,False
+43,655377,0.6140000000007504,56.978,Trial,5,655377,REPEAT_DURATION,"Duration of single hop/rep from start to end, within trial",Hop/Rep Duration,Second,True,False
+44,655377,1.8360000000022438,58.814,Trial,6,655377,REPEAT_DURATION,"Duration of single hop/rep from start to end, within trial",Hop/Rep Duration,Second,True,False
+45,655377,0.6600000000008066,59.474,Trial,7,655377,REPEAT_DURATION,"Duration of single hop/rep from start to end, within trial",Hop/Rep Duration,Second,True,False
+46,655377,0.6080000000007431,60.082,Trial,8,655377,REPEAT_DURATION,"Duration of single hop/rep from start to end, within trial",Hop/Rep Duration,Second,True,False
+47,655377,0.6720000000008213,60.754,Trial,9,655377,REPEAT_DURATION,"Duration of single hop/rep from start to end, within trial",Hop/Rep Duration,Second,True,False
+48,655377,0.6500000000007944,61.404,Trial,10,655377,REPEAT_DURATION,"Duration of single hop/rep from start to end, within trial",Hop/Rep Duration,Second,True,False
+49,655386,90.3,0.0,Trial,0,655386,BODY_WEIGHT,Mass of the profile in kilograms,Bodyweight in Kilograms,Kilo,False,False
+50,655387,90.3,0.0,Trial,0,655387,BODY_WEIGHT_LBS,Mass of the profile in pounds,Bodyweight in Pounds,Pound,False,False
+51,13303809,53.49400000001941,53.494,Trial,0,13303809,HOP_REPEAT_TAKEOFF,Time of takeoff within a single hop,Hop Takeoff,Second,True,False
+52,13303809,54.02400000002006,54.024,Trial,1,13303809,HOP_REPEAT_TAKEOFF,Time of takeoff within a single hop,Hop Takeoff,Second,True,False
+53,13303809,54.62200000002079,54.622,Trial,2,13303809,HOP_REPEAT_TAKEOFF,Time of takeoff within a single hop,Hop Takeoff,Second,True,False
+54,13303809,55.25000000002156,55.25,Trial,3,13303809,HOP_REPEAT_TAKEOFF,Time of takeoff within a single hop,Hop Takeoff,Second,True,False
+55,13303809,55.90000000002235,55.9,Trial,4,13303809,HOP_REPEAT_TAKEOFF,Time of takeoff within a single hop,Hop Takeoff,Second,True,False
+56,13303809,56.55200000002315,56.552,Trial,5,13303809,HOP_REPEAT_TAKEOFF,Time of takeoff within a single hop,Hop Takeoff,Second,True,False
+57,13303809,58.382000000025386,58.382,Trial,6,13303809,HOP_REPEAT_TAKEOFF,Time of takeoff within a single hop,Hop Takeoff,Second,True,False
+58,13303809,59.004000000026146,59.004,Trial,7,13303809,HOP_REPEAT_TAKEOFF,Time of takeoff within a single hop,Hop Takeoff,Second,True,False
+59,13303809,59.65200000002694,59.652,Trial,8,13303809,HOP_REPEAT_TAKEOFF,Time of takeoff within a single hop,Hop Takeoff,Second,True,False
+60,13303809,60.2740000000277,60.274,Trial,9,13303809,HOP_REPEAT_TAKEOFF,Time of takeoff within a single hop,Hop Takeoff,Second,True,False
+61,13303809,60.942000000028514,60.942,Trial,10,13303809,HOP_REPEAT_TAKEOFF,Time of takeoff within a single hop,Hop Takeoff,Second,True,False
+62,13303810,55.07000000002134,55.07,Trial,0,13303810,HOP_BEST_LANDING,Best hop landing time point within trial (ie. start of best hop),Best Hop Start/Landing,Second,False,False
+63,13303811,3115.056700455585,55.25,Trial,0,13303811,HOP_BEST_AVERAGE_FORCE,Average force when in contact with platform during the best hop,Best Average Force,Newton,False,True
+64,13303811,1590.6073787708103,55.25,Left,0,13303811,HOP_BEST_AVERAGE_FORCE,Average force when in contact with platform during the best hop,Best Average Force,Newton,False,True
+65,13303811,1524.4493216847786,55.25,Right,0,13303811,HOP_BEST_AVERAGE_FORCE,Average force when in contact with platform during the best hop,Best Average Force,Newton,False,True
+66,13303811,-4.159295245892631,55.25,Asym,0,13303811,HOP_BEST_AVERAGE_FORCE,Average force when in contact with platform during the best hop,Best Average Force,Newton,False,True
+67,13303812,71749.99999991231,55.158,Trial,0,13303812,HOP_BEST_LANDING_RFD,RFD of best hop during hop landing,Best Landing RFD,Newton Per Second,False,True
+68,13303812,38613.636363589176,55.158,Left,0,13303812,HOP_BEST_LANDING_RFD,RFD of best hop during hop landing,Best Landing RFD,Newton Per Second,False,True
+69,13303812,33136.36363632314,55.154,Right,0,13303812,HOP_BEST_LANDING_RFD,RFD of best hop during hop landing,Best Landing RFD,Newton Per Second,False,True
+70,13303812,-14.18481459682166,55.158,Asym,0,13303812,HOP_BEST_LANDING_RFD,RFD of best hop during hop landing,Best Landing RFD,Newton Per Second,False,True
+71,13303813,0.088,55.158,Trial,0,13303813,HOP_BEST_TIME_TO_PEAK_FORCE,Time from landing to peak force of the best hop,Best Time to Peak Force,Millisecond,False,True
+72,13303813,0.088,55.158,Left,0,13303813,HOP_BEST_TIME_TO_PEAK_FORCE,Time from landing to peak force of the best hop,Best Time to Peak Force,Millisecond,False,True
+73,13303813,0.084,55.154,Right,0,13303813,HOP_BEST_TIME_TO_PEAK_FORCE,Time from landing to peak force of the best hop,Best Time to Peak Force,Millisecond,False,True
+74,13303813,-4.545454545454533,55.158,Asym,0,13303813,HOP_BEST_TIME_TO_PEAK_FORCE,Time from landing to peak force of the best hop,Best Time to Peak Force,Millisecond,False,True
+75,13303814,0.18,55.25,Trial,0,13303814,HOP_BEST_CONTACT_TIME,Duration of contact with platform for the best n hop,Best Contact Time,Millisecond,False,False
+76,13303815,0.464,55.714,Trial,0,13303815,HOP_BEST_FLIGHT_TIME,Flight time during of the best hop,Best Flight Time,Millisecond,False,False
+77,13303816,26.391656479999998,55.714,Trial,0,13303816,HOP_BEST_JUMP_HEIGHT,Jump height calculated from flight time of the best hop,Best Jump Height (Flight Time),Centimeter,False,False
+78,13303817,566.927337950831,55.07,Trial,0,13303817,HOP_BEST_IMPULSE,Total absolute impulse of the best hop,Best Impulse,Newton Second,False,True
+79,13303817,289.4791523549243,55.07,Left,0,13303817,HOP_BEST_IMPULSE,Total absolute impulse of the best hop,Best Impulse,Newton Second,False,True
+80,13303817,277.4481855959069,55.07,Right,0,13303817,HOP_BEST_IMPULSE,Total absolute impulse of the best hop,Best Impulse,Newton Second,False,True
+81,13303817,-4.1560736450777105,55.07,Asym,0,13303817,HOP_BEST_IMPULSE,Total absolute impulse of the best hop,Best Impulse,Newton Second,False,True
+82,13303818,6312.990766389658,55.158,Trial,0,13303818,HOP_BEST_PEAK_FORCE,Peak hop force of the best hop,Best Peak Force,Newton,False,True
+83,13303818,3397.695290858726,55.158,Left,0,13303818,HOP_BEST_PEAK_FORCE,Peak hop force of the best hop,Best Peak Force,Newton,False,True
+84,13303818,2918.2954755309324,55.154,Right,0,13303818,HOP_BEST_PEAK_FORCE,Peak hop force of the best hop,Best Peak Force,Newton,False,True
+85,13303818,-14.109558812339262,55.158,Asym,0,13303818,HOP_BEST_PEAK_FORCE,Peak hop force of the best hop,Best Peak Force,Newton,False,True
+86,13303819,2.577777777777778,55.25,Trial,0,13303819,HOP_BEST_RSI,Reactive Strength Index of the best hop,Best RSI (Flight/Contact Time),No Unit,False,False
+87,13303820,146.62031377777777,55.25,Trial,0,13303820,HOP_BEST_RSI_JH,Reactive Strength Index based on Jump Height of the best hop,Best RSI (Jump Height/Contact Time),RSIModified,False,False
+88,13303821,160565.66759336504,55.158,Trial,0,13303821,HOP_BEST_STIFFNESS,Stiffness during best hop takeoff,Best Active Stiffness,Newton Per Meter,False,True
+89,13303821,86417.55276438664,55.158,Left,0,13303821,HOP_BEST_STIFFNESS,Stiffness during best hop takeoff,Best Active Stiffness,Newton Per Meter,False,True
+90,13303821,74148.1148289784,55.154,Right,0,13303821,HOP_BEST_STIFFNESS,Stiffness during best hop takeoff,Best Active Stiffness,Newton Per Meter,False,True
+91,13303821,-14.197853957818355,55.158,Asym,0,13303821,HOP_BEST_STIFFNESS,Stiffness during best hop takeoff,Best Active Stiffness,Newton Per Meter,False,True
+92,13303822,3022.467466247169,55.25,Trial,0,13303822,HOP_MEAN_AVERAGE_FORCE,Mean of best n hops' average force when in contact with platform during a hop,Mean Average Force,Newton,False,True
+93,13303822,1553.5445878973828,55.25,Left,0,13303822,HOP_MEAN_AVERAGE_FORCE,Mean of best n hops' average force when in contact with platform during a hop,Mean Average Force,Newton,False,True
+94,13303822,1468.922878349789,55.25,Right,0,13303822,HOP_MEAN_AVERAGE_FORCE,Mean of best n hops' average force when in contact with platform during a hop,Mean Average Force,Newton,False,True
+95,13303822,-5.447008744185679,55.25,Asym,0,13303822,HOP_MEAN_AVERAGE_FORCE,Mean of best n hops' average force when in contact with platform during a hop,Mean Average Force,Newton,False,True
+96,13303823,67420.11970263504,55.158,Trial,0,13303823,HOP_MEAN_LANDING_RFD,Mean RFD of best n hops during hop landing,Mean Landing RFD,Newton Per Second,False,True
+97,13303823,35265.07844397151,55.158,Left,0,13303823,HOP_MEAN_LANDING_RFD,Mean RFD of best n hops during hop landing,Mean Landing RFD,Newton Per Second,False,True
+98,13303823,32155.041258663514,55.154,Right,0,13303823,HOP_MEAN_LANDING_RFD,Mean RFD of best n hops during hop landing,Mean Landing RFD,Newton Per Second,False,True
+99,13303823,-8.819028122251785,55.158,Asym,0,13303823,HOP_MEAN_LANDING_RFD,Mean RFD of best n hops during hop landing,Mean Landing RFD,Newton Per Second,False,True
+100,13303824,0.0892,55.158,Trial,0,13303824,HOP_MEAN_TIME_TO_PEAK_FORCE,Mean time from landing to peak force of the best n hops,Mean Time to Peak Force,Millisecond,False,True
+101,13303824,0.09079999999999999,55.158,Left,0,13303824,HOP_MEAN_TIME_TO_PEAK_FORCE,Mean time from landing to peak force of the best n hops,Mean Time to Peak Force,Millisecond,False,True
+102,13303824,0.086,55.154,Right,0,13303824,HOP_MEAN_TIME_TO_PEAK_FORCE,Mean time from landing to peak force of the best n hops,Mean Time to Peak Force,Millisecond,False,True
+103,13303824,-5.2863436123348,55.158,Asym,0,13303824,HOP_MEAN_TIME_TO_PEAK_FORCE,Mean time from landing to peak force of the best n hops,Mean Time to Peak Force,Millisecond,False,True
+104,13303825,0.1848,55.25,Trial,0,13303825,HOP_MEAN_CONTACT_TIME,Mean duration of contact with platform of the best n hops,Mean Contact Time,Millisecond,False,False
+105,13303826,0.4652,55.714,Trial,0,13303826,HOP_MEAN_FLIGHT_TIME,Mean flight time during a hop over the best n hops,Mean Flight Time,Millisecond,False,False
+106,13303827,26.5416001585,55.714,Trial,0,13303827,HOP_MEAN_JUMP_HEIGHT,Mean jump height for a hop based on flight time of the best n hops,Mean Jump Height (Flight Time),Centimeter,False,False
+107,13303828,564.3694936294985,60.082,Trial,0,13303828,HOP_MEAN_IMPULSE,Mean total absolute impulse for a hop over the best n hops,Mean Impulse,Newton Second,False,True
+108,13303828,289.9528897510469,60.082,Left,0,13303828,HOP_MEAN_IMPULSE,Mean total absolute impulse for a hop over the best n hops,Mean Impulse,Newton Second,False,True
+109,13303828,274.4166038784516,60.082,Right,0,13303828,HOP_MEAN_IMPULSE,Mean total absolute impulse for a hop over the best n hops,Mean Impulse,Newton Second,False,True
+110,13303828,-5.35821039270714,60.082,Asym,0,13303828,HOP_MEAN_IMPULSE,Mean total absolute impulse for a hop over the best n hops,Mean Impulse,Newton Second,False,True
+111,13303829,6005.390766389659,55.158,Trial,0,13303829,HOP_MEAN_PEAK_FORCE,Mean peak hop force of the best n hops,Mean Peak Force,Newton,False,True
+112,13303829,3143.095290858726,55.158,Left,0,13303829,HOP_MEAN_PEAK_FORCE,Mean peak hop force of the best n hops,Mean Peak Force,Newton,False,True
+113,13303829,2862.2954755309324,55.154,Right,0,13303829,HOP_MEAN_PEAK_FORCE,Mean peak hop force of the best n hops,Mean Peak Force,Newton,False,True
+114,13303829,-8.933862620852203,55.158,Asym,0,13303829,HOP_MEAN_PEAK_FORCE,Mean peak hop force of the best n hops,Mean Peak Force,Newton,False,True
+115,13303830,2.5183080379345233,55.25,Trial,0,13303830,HOP_MEAN_RSI,Mean RSI of the best n hops,Mean RSI (Flight/Contact Time),No Unit,False,False
+116,13303831,143.58380807344153,55.25,Trial,0,13303831,HOP_MEAN_RSI_JH,Mean RSI based on Jump Height of the best n hops,Mean RSI (Jump Height/Contact Time),RSIModified,False,False
+117,13303832,112936.31182338193,55.158,Trial,0,13303832,HOP_MEAN_STIFFNESS,Mean stiffness during takeoff over the best n hops,Mean Active Stiffness,Newton Per Meter,False,True
+118,13303832,60054.25505256616,55.158,Left,0,13303832,HOP_MEAN_STIFFNESS,Mean stiffness during takeoff over the best n hops,Mean Active Stiffness,Newton Per Meter,False,True
+119,13303832,52882.05677081576,55.154,Right,0,13303832,HOP_MEAN_STIFFNESS,Mean stiffness during takeoff over the best n hops,Mean Active Stiffness,Newton Per Meter,False,True
+120,13303832,-11.942864457268666,55.158,Asym,0,13303832,HOP_MEAN_STIFFNESS,Mean stiffness during takeoff over the best n hops,Mean Active Stiffness,Newton Per Meter,False,True
+121,13303833,9.90106888792225,55.25,Trial,0,13303833,HOP_FATIGUE_AVERAGE_FORCE,Fatigue of average force when in contact with platform during a hop,Average Force Fatigue,Percent,False,True
+122,13303833,9.574199694932394,55.25,Left,0,13303833,HOP_FATIGUE_AVERAGE_FORCE,Fatigue of average force when in contact with platform during a hop,Average Force Fatigue,Percent,False,True
+123,13303833,10.2373834679984,55.25,Right,0,13303833,HOP_FATIGUE_AVERAGE_FORCE,Fatigue of average force when in contact with platform during a hop,Average Force Fatigue,Percent,False,True
+124,13303833,6.478059312119044,55.25,Asym,0,13303833,HOP_FATIGUE_AVERAGE_FORCE,Fatigue of average force when in contact with platform during a hop,Average Force Fatigue,Percent,False,True
+125,13303834,4.248172782498983,55.158,Trial,0,13303834,HOP_FATIGUE_LANDING_RFD,Fatigue of RFD during hop landing,Landing RFD Fatigue,Percent,False,True
+126,13303834,7.956534687237628,55.158,Left,0,13303834,HOP_FATIGUE_LANDING_RFD,Fatigue of RFD during hop landing,Landing RFD Fatigue,Percent,False,True
+127,13303834,0.48631489787746335,55.154,Right,0,13303834,HOP_FATIGUE_LANDING_RFD,Fatigue of RFD during hop landing,Landing RFD Fatigue,Percent,False,True
+128,13303834,-93.88785549244801,55.158,Asym,0,13303834,HOP_FATIGUE_LANDING_RFD,Fatigue of RFD during hop landing,Landing RFD Fatigue,Percent,False,True
+129,13303835,1.5037593984962472,55.158,Trial,0,13303835,HOP_FATIGUE_TIME_TO_PEAK_FORCE,Fatigue of time from landing to peak force,Time to Peak Force Fatigue,Percent,False,True
+130,13303835,-0.7352941176470543,55.158,Left,0,13303835,HOP_FATIGUE_TIME_TO_PEAK_FORCE,Fatigue of time from landing to peak force,Time to Peak Force Fatigue,Percent,False,True
+131,13303835,-0.7692307692307645,55.154,Right,0,13303835,HOP_FATIGUE_TIME_TO_PEAK_FORCE,Fatigue of time from landing to peak force,Time to Peak Force Fatigue,Percent,False,True
+132,13303835,4.615384615384612,55.158,Asym,0,13303835,HOP_FATIGUE_TIME_TO_PEAK_FORCE,Fatigue of time from landing to peak force,Time to Peak Force Fatigue,Percent,False,True
+133,13303836,2.952029520295216,55.25,Trial,0,13303836,HOP_FATIGUE_CONTACT_TIME,Fatigue of duration of contact with platform,Contact Time Fatigue,Percent,False,False
+134,13303837,12.643678160919544,55.714,Trial,0,13303837,HOP_FATIGUE_FLIGHT_TIME,Fatigue of flight time during a hop,Flight Time Fatigue,Percent,False,False
+135,13303838,25.775967609003526,55.714,Trial,0,13303838,HOP_FATIGUE_JUMP_HEIGHT,Fatigue of jump height for a hop based on flight time,Jump Height (Flight Time) Fatigue,Percent,False,False
+136,13303839,13.237768085297818,0.0,Trial,0,13303839,HOP_FATIGUE_IMPULSE,Fatigue of total absolute impulse for a hop,Impulse Fatigue,Percent,False,True
+137,13303839,12.871832287403466,0.0,Left,0,13303839,HOP_FATIGUE_IMPULSE,Fatigue of total absolute impulse for a hop,Impulse Fatigue,Percent,False,True
+138,13303839,13.61391668538461,0.0,Right,0,13303839,HOP_FATIGUE_IMPULSE,Fatigue of total absolute impulse for a hop,Impulse Fatigue,Percent,False,True
+139,13303839,5.450925072707529,0.0,Asym,0,13303839,HOP_FATIGUE_IMPULSE,Fatigue of total absolute impulse for a hop,Impulse Fatigue,Percent,False,True
+140,13303840,5.400684866247816,55.158,Trial,0,13303840,HOP_FATIGUE_PEAK_FORCE,Fatigue of peak hop force,Peak Force Fatigue,Percent,False,True
+141,13303840,8.895981331317714,55.158,Left,0,13303840,HOP_FATIGUE_PEAK_FORCE,Fatigue of peak hop force,Peak Force Fatigue,Percent,False,True
+142,13303840,1.8491739680034078,55.154,Right,0,13303840,HOP_FATIGUE_PEAK_FORCE,Fatigue of peak hop force,Peak Force Fatigue,Percent,False,True
+143,13303840,-79.21337850054256,55.158,Asym,0,13303840,HOP_FATIGUE_PEAK_FORCE,Fatigue of peak hop force,Peak Force Fatigue,Percent,False,True
+144,13303841,9.144288369742405,55.25,Trial,0,13303841,HOP_FATIGUE_RSI,Fatigue of RSI,RSI (Flight/Contact Time) Fatigue,Percent,False,False
+145,13303842,21.50085974927998,55.25,Trial,0,13303842,HOP_FATIGUE_RSI_JH,Fatigue of RSI based on Jump Height,RSI (Jump Height/Contact Time) Fatigue,Percent,False,False
+146,13303843,-71.30073782396084,55.158,Trial,0,13303843,HOP_FATIGUE_STIFFNESS,Fatigue of stiffness during hop takeoff,Stiffness Fatigue,Percent,False,True
+147,13303843,-70.551804984203,55.158,Left,0,13303843,HOP_FATIGUE_STIFFNESS,Fatigue of stiffness during hop takeoff,Stiffness Fatigue,Percent,False,True
+148,13303843,-72.06524263651968,55.154,Right,0,13303843,HOP_FATIGUE_STIFFNESS,Fatigue of stiffness during hop takeoff,Stiffness Fatigue,Percent,False,True
+149,13303843,2.145143774359211,55.158,Asym,0,13303843,HOP_FATIGUE_STIFFNESS,Fatigue of stiffness during hop takeoff,Stiffness Fatigue,Percent,False,True
+150,13303844,2408.0552825186846,53.494,Trial,0,13303844,HOP_AVERAGE_FORCE,Average force when in contact with platform during a single hop,Average Force,Newton,True,True
+151,13303844,2768.0885924766085,54.024,Trial,1,13303844,HOP_AVERAGE_FORCE,Average force when in contact with platform during a single hop,Average Force,Newton,True,True
+152,13303844,3028.0469461649327,54.622,Trial,2,13303844,HOP_AVERAGE_FORCE,Average force when in contact with platform during a single hop,Average Force,Newton,True,True
+153,13303844,3115.056700455585,55.25,Trial,3,13303844,HOP_AVERAGE_FORCE,Average force when in contact with platform during a single hop,Average Force,Newton,True,True
+154,13303844,3022.660979155609,55.9,Trial,4,13303844,HOP_AVERAGE_FORCE,Average force when in contact with platform during a single hop,Average Force,Newton,True,True
+155,13303844,2793.759187442283,56.552,Trial,5,13303844,HOP_AVERAGE_FORCE,Average force when in contact with platform during a single hop,Average Force,Newton,True,True
+156,13303844,850.55122158168,58.382,Trial,6,13303844,HOP_AVERAGE_FORCE,Average force when in contact with platform during a single hop,Average Force,Newton,True,True
+157,13303844,2965.3345163896515,59.004,Trial,7,13303844,HOP_AVERAGE_FORCE,Average force when in contact with platform during a single hop,Average Force,Newton,True,True
+158,13303844,3079.390766389651,59.652,Trial,8,13303844,HOP_AVERAGE_FORCE,Average force when in contact with platform during a single hop,Average Force,Newton,True,True
+159,13303844,2981.2381890700635,60.274,Trial,9,13303844,HOP_AVERAGE_FORCE,Average force when in contact with platform during a single hop,Average Force,Newton,True,True
+160,13303844,2955.864450600178,60.942,Trial,10,13303844,HOP_AVERAGE_FORCE,Average force when in contact with platform during a single hop,Average Force,Newton,True,True
+161,13303844,1201.4909897834573,53.494,Left,0,13303844,HOP_AVERAGE_FORCE,Average force when in contact with platform during a single hop,Average Force,Newton,True,True
+162,13303844,1376.771377815248,54.024,Left,1,13303844,HOP_AVERAGE_FORCE,Average force when in contact with platform during a single hop,Average Force,Newton,True,True
+163,13303844,1582.257088611532,54.622,Left,2,13303844,HOP_AVERAGE_FORCE,Average force when in contact with platform during a single hop,Average Force,Newton,True,True
+164,13303844,1590.6073787708103,55.25,Left,3,13303844,HOP_AVERAGE_FORCE,Average force when in contact with platform during a single hop,Average Force,Newton,True,True
+165,13303844,1628.769758943828,55.9,Left,4,13303844,HOP_AVERAGE_FORCE,Average force when in contact with platform during a single hop,Average Force,Newton,True,True
+166,13303844,1533.5689750692488,56.552,Left,5,13303844,HOP_AVERAGE_FORCE,Average force when in contact with platform during a single hop,Average Force,Newton,True,True
+167,13303844,413.57722542486573,58.382,Left,6,13303844,HOP_AVERAGE_FORCE,Average force when in contact with platform during a single hop,Average Force,Newton,True,True
+168,13303844,1471.414040858723,59.004,Left,7,13303844,HOP_AVERAGE_FORCE,Average force when in contact with platform during a single hop,Average Force,Newton,True,True
+169,13303844,1614.117513080944,59.652,Left,8,13303844,HOP_AVERAGE_FORCE,Average force when in contact with platform during a single hop,Average Force,Newton,True,True
+170,13303844,1494.6746723020212,60.274,Left,9,13303844,HOP_AVERAGE_FORCE,Average force when in contact with platform during a single hop,Average Force,Newton,True,True
+171,13303844,1450.0637119113546,60.942,Left,10,13303844,HOP_AVERAGE_FORCE,Average force when in contact with platform during a single hop,Average Force,Newton,True,True
+172,13303844,1206.5642927352337,53.494,Right,0,13303844,HOP_AVERAGE_FORCE,Average force when in contact with platform during a single hop,Average Force,Newton,True,True
+173,13303844,1391.3172146613674,54.024,Right,1,13303844,HOP_AVERAGE_FORCE,Average force when in contact with platform during a single hop,Average Force,Newton,True,True
+174,13303844,1445.7898575534045,54.622,Right,2,13303844,HOP_AVERAGE_FORCE,Average force when in contact with platform during a single hop,Average Force,Newton,True,True
+175,13303844,1524.4493216847786,55.25,Right,3,13303844,HOP_AVERAGE_FORCE,Average force when in contact with platform during a single hop,Average Force,Newton,True,True
+176,13303844,1393.8912202117838,55.9,Right,4,13303844,HOP_AVERAGE_FORCE,Average force when in contact with platform during a single hop,Average Force,Newton,True,True
+177,13303844,1260.190212373038,56.552,Right,5,13303844,HOP_AVERAGE_FORCE,Average force when in contact with platform during a single hop,Average Force,Newton,True,True
+178,13303844,436.97399615682025,58.382,Right,6,13303844,HOP_AVERAGE_FORCE,Average force when in contact with platform during a single hop,Average Force,Newton,True,True
+179,13303844,1493.9204755309327,59.004,Right,7,13303844,HOP_AVERAGE_FORCE,Average force when in contact with platform during a single hop,Average Force,Newton,True,True
+180,13303844,1465.2732533087103,59.652,Right,8,13303844,HOP_AVERAGE_FORCE,Average force when in contact with platform during a single hop,Average Force,Newton,True,True
+181,13303844,1486.563516768046,60.274,Right,9,13303844,HOP_AVERAGE_FORCE,Average force when in contact with platform during a single hop,Average Force,Newton,True,True
+182,13303844,1505.8007386888273,60.942,Right,10,13303844,HOP_AVERAGE_FORCE,Average force when in contact with platform during a single hop,Average Force,Newton,True,True
+183,13303844,0.42047514436843336,53.494,Asym,0,13303844,HOP_AVERAGE_FORCE,Average force when in contact with platform during a single hop,Average Force,Newton,True,True
+184,13303844,1.045472354746925,54.024,Asym,1,13303844,HOP_AVERAGE_FORCE,Average force when in contact with platform during a single hop,Average Force,Newton,True,True
+185,13303844,-8.624845610764853,54.622,Asym,2,13303844,HOP_AVERAGE_FORCE,Average force when in contact with platform during a single hop,Average Force,Newton,True,True
+186,13303844,-4.159295245892631,55.25,Asym,3,13303844,HOP_AVERAGE_FORCE,Average force when in contact with platform during a single hop,Average Force,Newton,True,True
+187,13303844,-14.420610245388563,55.9,Asym,4,13303844,HOP_AVERAGE_FORCE,Average force when in contact with platform during a single hop,Average Force,Newton,True,True
+188,13303844,-17.826310204525768,56.552,Asym,5,13303844,HOP_AVERAGE_FORCE,Average force when in contact with platform during a single hop,Average Force,Newton,True,True
+189,13303844,5.354270720392694,58.382,Asym,6,13303844,HOP_AVERAGE_FORCE,Average force when in contact with platform during a single hop,Average Force,Newton,True,True
+190,13303844,1.5065349890335376,59.004,Asym,7,13303844,HOP_AVERAGE_FORCE,Average force when in contact with platform during a single hop,Average Force,Newton,True,True
+191,13303844,-9.221401698822255,59.652,Asym,8,13303844,HOP_AVERAGE_FORCE,Average force when in contact with platform during a single hop,Average Force,Newton,True,True
+192,13303844,-0.5426703003860313,60.274,Asym,9,13303844,HOP_AVERAGE_FORCE,Average force when in contact with platform during a single hop,Average Force,Newton,True,True
+193,13303844,3.701487543830374,60.942,Asym,10,13303844,HOP_AVERAGE_FORCE,Average force when in contact with platform during a single hop,Average Force,Newton,True,True
+194,13303845,53555.5555554901,53.4,Trial,0,13303845,HOP_LANDING_RFD,RFD during a single hop landing,Landing RFD,Newton Per Second,True,True
+195,13303845,63170.454545377346,53.93,Trial,1,13303845,HOP_LANDING_RFD,RFD during a single hop landing,Landing RFD,Newton Per Second,True,True
+196,13303845,70272.7272726414,54.534,Trial,2,13303845,HOP_LANDING_RFD,RFD during a single hop landing,Landing RFD,Newton Per Second,True,True
+197,13303845,71749.99999991231,55.158,Trial,3,13303845,HOP_LANDING_RFD,RFD during a single hop landing,Landing RFD,Newton Per Second,True,True
+198,13303845,69155.55555547104,55.804,Trial,4,13303845,HOP_LANDING_RFD,RFD during a single hop landing,Landing RFD,Newton Per Second,True,True
+199,13303845,79333.33333323638,56.43,Trial,5,13303845,HOP_LANDING_RFD,RFD during a single hop landing,Landing RFD,Newton Per Second,True,True
+200,13303845,4739.663093409215,58.284,Trial,6,13303845,HOP_LANDING_RFD,RFD during a single hop landing,Landing RFD,Newton Per Second,True,True
+201,13303845,65837.20930224512,58.9,Trial,7,13303845,HOP_LANDING_RFD,RFD during a single hop landing,Landing RFD,Newton Per Second,True,True
+202,13303845,74238.0952380045,59.558,Trial,8,13303845,HOP_LANDING_RFD,RFD during a single hop landing,Landing RFD,Newton Per Second,True,True
+203,13303845,60085.106382905295,60.176,Trial,9,13303845,HOP_LANDING_RFD,RFD during a single hop landing,Landing RFD,Newton Per Second,True,True
+204,13303845,60619.56521731722,60.846,Trial,10,13303845,HOP_LANDING_RFD,RFD during a single hop landing,Landing RFD,Newton Per Second,True,True
+205,13303845,26066.66666663481,53.402,Left,0,13303845,HOP_LANDING_RFD,RFD during a single hop landing,Landing RFD,Newton Per Second,True,True
+206,13303845,31647.727272688597,53.934,Left,1,13303845,HOP_LANDING_RFD,RFD during a single hop landing,Landing RFD,Newton Per Second,True,True
+207,13303845,36454.545454500905,54.534,Left,2,13303845,HOP_LANDING_RFD,RFD during a single hop landing,Landing RFD,Newton Per Second,True,True
+208,13303845,38613.636363589176,55.158,Left,3,13303845,HOP_LANDING_RFD,RFD during a single hop landing,Landing RFD,Newton Per Second,True,True
+209,13303845,37044.444444399174,55.806,Left,4,13303845,HOP_LANDING_RFD,RFD during a single hop landing,Landing RFD,Newton Per Second,True,True
+210,13303845,45696.969696913846,56.434,Left,5,13303845,HOP_LANDING_RFD,RFD during a single hop landing,Landing RFD,Newton Per Second,True,True
+211,13303845,2626.339969368919,58.282,Left,6,13303845,HOP_LANDING_RFD,RFD during a single hop landing,Landing RFD,Newton Per Second,True,True
+212,13303845,32499.99999996028,58.906,Left,7,13303845,HOP_LANDING_RFD,RFD during a single hop landing,Landing RFD,Newton Per Second,True,True
+213,13303845,40535.71428566475,59.558,Left,8,13303845,HOP_LANDING_RFD,RFD during a single hop landing,Landing RFD,Newton Per Second,True,True
+214,13303845,31712.76595740805,60.176,Left,9,13303845,HOP_LANDING_RFD,RFD during a single hop landing,Landing RFD,Newton Per Second,True,True
+215,13303845,29413.04347822492,60.846,Left,10,13303845,HOP_LANDING_RFD,RFD during a single hop landing,Landing RFD,Newton Per Second,True,True
+216,13303845,27488.888888855294,53.4,Right,0,13303845,HOP_LANDING_RFD,RFD during a single hop landing,Landing RFD,Newton Per Second,True,True
+217,13303845,31522.72727268875,53.926,Right,1,13303845,HOP_LANDING_RFD,RFD during a single hop landing,Landing RFD,Newton Per Second,True,True
+218,13303845,33818.18181814049,54.532,Right,2,13303845,HOP_LANDING_RFD,RFD during a single hop landing,Landing RFD,Newton Per Second,True,True
+219,13303845,33136.36363632314,55.154,Right,3,13303845,HOP_LANDING_RFD,RFD during a single hop landing,Landing RFD,Newton Per Second,True,True
+220,13303845,32111.111111071867,55.802,Right,4,13303845,HOP_LANDING_RFD,RFD during a single hop landing,Landing RFD,Newton Per Second,True,True
+221,13303845,33636.36363632253,56.42,Right,5,13303845,HOP_LANDING_RFD,RFD during a single hop landing,Landing RFD,Newton Per Second,True,True
+222,13303845,2113.323124040296,58.288,Right,6,13303845,HOP_LANDING_RFD,RFD during a single hop landing,Landing RFD,Newton Per Second,True,True
+223,13303845,33337.20930228484,58.9,Right,7,13303845,HOP_LANDING_RFD,RFD during a single hop landing,Landing RFD,Newton Per Second,True,True
+224,13303845,33702.380952339765,59.556,Right,8,13303845,HOP_LANDING_RFD,RFD during a single hop landing,Landing RFD,Newton Per Second,True,True
+225,13303845,28372.34042549724,60.168,Right,9,13303845,HOP_LANDING_RFD,RFD during a single hop landing,Landing RFD,Newton Per Second,True,True
+226,13303845,31206.521739092295,60.844,Right,10,13303845,HOP_LANDING_RFD,RFD during a single hop landing,Landing RFD,Newton Per Second,True,True
+227,13303845,5.173807599029909,53.4,Asym,0,13303845,HOP_LANDING_RFD,RFD during a single hop landing,Landing RFD,Newton Per Second,True,True
+228,13303845,-0.3949730700179532,53.93,Asym,1,13303845,HOP_LANDING_RFD,RFD during a single hop landing,Landing RFD,Newton Per Second,True,True
+229,13303845,-7.231920199501252,54.534,Asym,2,13303845,HOP_LANDING_RFD,RFD during a single hop landing,Landing RFD,Newton Per Second,True,True
+230,13303845,-14.18481459682166,55.158,Asym,3,13303845,HOP_LANDING_RFD,RFD during a single hop landing,Landing RFD,Newton Per Second,True,True
+231,13303845,-13.317336532693469,55.804,Asym,4,13303845,HOP_LANDING_RFD,RFD during a single hop landing,Landing RFD,Newton Per Second,True,True
+232,13303845,-26.392572944297072,56.43,Asym,5,13303845,HOP_LANDING_RFD,RFD during a single hop landing,Landing RFD,Newton Per Second,True,True
+233,13303845,-19.53352769679301,58.284,Asym,6,13303845,HOP_LANDING_RFD,RFD during a single hop landing,Landing RFD,Newton Per Second,True,True
+234,13303845,2.5113358911754546,58.9,Asym,7,13303845,HOP_LANDING_RFD,RFD during a single hop landing,Landing RFD,Newton Per Second,True,True
+235,13303845,-16.857562408223203,59.558,Asym,8,13303845,HOP_LANDING_RFD,RFD during a single hop landing,Landing RFD,Newton Per Second,True,True
+236,13303845,-10.53337806105333,60.176,Asym,9,13303845,HOP_LANDING_RFD,RFD during a single hop landing,Landing RFD,Newton Per Second,True,True
+237,13303845,5.7471264367816115,60.846,Asym,10,13303845,HOP_LANDING_RFD,RFD during a single hop landing,Landing RFD,Newton Per Second,True,True
+238,13303846,0.09,53.4,Trial,0,13303846,HOP_TIME_TO_PEAK_FORCE,Time from landing to peak force for a single hop,Time to Peak Force,Millisecond,True,True
+239,13303846,0.088,53.93,Trial,1,13303846,HOP_TIME_TO_PEAK_FORCE,Time from landing to peak force for a single hop,Time to Peak Force,Millisecond,True,True
+240,13303846,0.088,54.534,Trial,2,13303846,HOP_TIME_TO_PEAK_FORCE,Time from landing to peak force for a single hop,Time to Peak Force,Millisecond,True,True
+241,13303846,0.088,55.158,Trial,3,13303846,HOP_TIME_TO_PEAK_FORCE,Time from landing to peak force for a single hop,Time to Peak Force,Millisecond,True,True
+242,13303846,0.09,55.804,Trial,4,13303846,HOP_TIME_TO_PEAK_FORCE,Time from landing to peak force for a single hop,Time to Peak Force,Millisecond,True,True
+243,13303846,0.066,56.43,Trial,5,13303846,HOP_TIME_TO_PEAK_FORCE,Time from landing to peak force for a single hop,Time to Peak Force,Millisecond,True,True
+244,13303846,1.306,58.284,Trial,6,13303846,HOP_TIME_TO_PEAK_FORCE,Time from landing to peak force for a single hop,Time to Peak Force,Millisecond,True,True
+245,13303846,0.08600000000000001,58.9,Trial,7,13303846,HOP_TIME_TO_PEAK_FORCE,Time from landing to peak force for a single hop,Time to Peak Force,Millisecond,True,True
+246,13303846,0.084,59.558,Trial,8,13303846,HOP_TIME_TO_PEAK_FORCE,Time from landing to peak force for a single hop,Time to Peak Force,Millisecond,True,True
+247,13303846,0.094,60.176,Trial,9,13303846,HOP_TIME_TO_PEAK_FORCE,Time from landing to peak force for a single hop,Time to Peak Force,Millisecond,True,True
+248,13303846,0.092,60.846,Trial,10,13303846,HOP_TIME_TO_PEAK_FORCE,Time from landing to peak force for a single hop,Time to Peak Force,Millisecond,True,True
+249,13303846,0.092,53.402,Left,0,13303846,HOP_TIME_TO_PEAK_FORCE,Time from landing to peak force for a single hop,Time to Peak Force,Millisecond,True,True
+250,13303846,0.092,53.934,Left,1,13303846,HOP_TIME_TO_PEAK_FORCE,Time from landing to peak force for a single hop,Time to Peak Force,Millisecond,True,True
+251,13303846,0.088,54.534,Left,2,13303846,HOP_TIME_TO_PEAK_FORCE,Time from landing to peak force for a single hop,Time to Peak Force,Millisecond,True,True
+252,13303846,0.088,55.158,Left,3,13303846,HOP_TIME_TO_PEAK_FORCE,Time from landing to peak force for a single hop,Time to Peak Force,Millisecond,True,True
+253,13303846,0.092,55.806,Left,4,13303846,HOP_TIME_TO_PEAK_FORCE,Time from landing to peak force for a single hop,Time to Peak Force,Millisecond,True,True
+254,13303846,0.07,56.434,Left,5,13303846,HOP_TIME_TO_PEAK_FORCE,Time from landing to peak force for a single hop,Time to Peak Force,Millisecond,True,True
+255,13303846,1.304,58.282,Left,6,13303846,HOP_TIME_TO_PEAK_FORCE,Time from landing to peak force for a single hop,Time to Peak Force,Millisecond,True,True
+256,13303846,0.092,58.906,Left,7,13303846,HOP_TIME_TO_PEAK_FORCE,Time from landing to peak force for a single hop,Time to Peak Force,Millisecond,True,True
+257,13303846,0.084,59.558,Left,8,13303846,HOP_TIME_TO_PEAK_FORCE,Time from landing to peak force for a single hop,Time to Peak Force,Millisecond,True,True
+258,13303846,0.094,60.176,Left,9,13303846,HOP_TIME_TO_PEAK_FORCE,Time from landing to peak force for a single hop,Time to Peak Force,Millisecond,True,True
+259,13303846,0.092,60.846,Left,10,13303846,HOP_TIME_TO_PEAK_FORCE,Time from landing to peak force for a single hop,Time to Peak Force,Millisecond,True,True
+260,13303846,0.09,53.4,Right,0,13303846,HOP_TIME_TO_PEAK_FORCE,Time from landing to peak force for a single hop,Time to Peak Force,Millisecond,True,True
+261,13303846,0.084,53.926,Right,1,13303846,HOP_TIME_TO_PEAK_FORCE,Time from landing to peak force for a single hop,Time to Peak Force,Millisecond,True,True
+262,13303846,0.08600000000000001,54.532,Right,2,13303846,HOP_TIME_TO_PEAK_FORCE,Time from landing to peak force for a single hop,Time to Peak Force,Millisecond,True,True
+263,13303846,0.084,55.154,Right,3,13303846,HOP_TIME_TO_PEAK_FORCE,Time from landing to peak force for a single hop,Time to Peak Force,Millisecond,True,True
+264,13303846,0.088,55.802,Right,4,13303846,HOP_TIME_TO_PEAK_FORCE,Time from landing to peak force for a single hop,Time to Peak Force,Millisecond,True,True
+265,13303846,0.056,56.42,Right,5,13303846,HOP_TIME_TO_PEAK_FORCE,Time from landing to peak force for a single hop,Time to Peak Force,Millisecond,True,True
+266,13303846,1.31,58.288,Right,6,13303846,HOP_TIME_TO_PEAK_FORCE,Time from landing to peak force for a single hop,Time to Peak Force,Millisecond,True,True
+267,13303846,0.08600000000000001,58.9,Right,7,13303846,HOP_TIME_TO_PEAK_FORCE,Time from landing to peak force for a single hop,Time to Peak Force,Millisecond,True,True
+268,13303846,0.082,59.556,Right,8,13303846,HOP_TIME_TO_PEAK_FORCE,Time from landing to peak force for a single hop,Time to Peak Force,Millisecond,True,True
+269,13303846,0.08600000000000001,60.168,Right,9,13303846,HOP_TIME_TO_PEAK_FORCE,Time from landing to peak force for a single hop,Time to Peak Force,Millisecond,True,True
+270,13303846,0.09,60.844,Right,10,13303846,HOP_TIME_TO_PEAK_FORCE,Time from landing to peak force for a single hop,Time to Peak Force,Millisecond,True,True
+271,13303846,-2.173913043478263,53.4,Asym,0,13303846,HOP_TIME_TO_PEAK_FORCE,Time from landing to peak force for a single hop,Time to Peak Force,Millisecond,True,True
+272,13303846,-8.695652173913036,53.93,Asym,1,13303846,HOP_TIME_TO_PEAK_FORCE,Time from landing to peak force for a single hop,Time to Peak Force,Millisecond,True,True
+273,13303846,-2.272727272727259,54.534,Asym,2,13303846,HOP_TIME_TO_PEAK_FORCE,Time from landing to peak force for a single hop,Time to Peak Force,Millisecond,True,True
+274,13303846,-4.545454545454533,55.158,Asym,3,13303846,HOP_TIME_TO_PEAK_FORCE,Time from landing to peak force for a single hop,Time to Peak Force,Millisecond,True,True
+275,13303846,-4.347826086956526,55.804,Asym,4,13303846,HOP_TIME_TO_PEAK_FORCE,Time from landing to peak force for a single hop,Time to Peak Force,Millisecond,True,True
+276,13303846,-20.000000000000007,56.43,Asym,5,13303846,HOP_TIME_TO_PEAK_FORCE,Time from landing to peak force for a single hop,Time to Peak Force,Millisecond,True,True
+277,13303846,0.4580152671755729,58.284,Asym,6,13303846,HOP_TIME_TO_PEAK_FORCE,Time from landing to peak force for a single hop,Time to Peak Force,Millisecond,True,True
+278,13303846,-6.521739130434774,58.9,Asym,7,13303846,HOP_TIME_TO_PEAK_FORCE,Time from landing to peak force for a single hop,Time to Peak Force,Millisecond,True,True
+279,13303846,-2.3809523809523827,59.558,Asym,8,13303846,HOP_TIME_TO_PEAK_FORCE,Time from landing to peak force for a single hop,Time to Peak Force,Millisecond,True,True
+280,13303846,-8.510638297872333,60.176,Asym,9,13303846,HOP_TIME_TO_PEAK_FORCE,Time from landing to peak force for a single hop,Time to Peak Force,Millisecond,True,True
+281,13303846,-2.173913043478263,60.846,Asym,10,13303846,HOP_TIME_TO_PEAK_FORCE,Time from landing to peak force for a single hop,Time to Peak Force,Millisecond,True,True
+282,13303847,0.184,53.494,Trial,0,13303847,HOP_CONTACT_TIME,Duration of contact with platform during a single hop,Contact Time,Millisecond,True,False
+283,13303847,0.182,54.024,Trial,1,13303847,HOP_CONTACT_TIME,Duration of contact with platform during a single hop,Contact Time,Millisecond,True,False
+284,13303847,0.176,54.622,Trial,2,13303847,HOP_CONTACT_TIME,Duration of contact with platform during a single hop,Contact Time,Millisecond,True,False
+285,13303847,0.18,55.25,Trial,3,13303847,HOP_CONTACT_TIME,Duration of contact with platform during a single hop,Contact Time,Millisecond,True,False
+286,13303847,0.186,55.9,Trial,4,13303847,HOP_CONTACT_TIME,Duration of contact with platform during a single hop,Contact Time,Millisecond,True,False
+287,13303847,0.188,56.552,Trial,5,13303847,HOP_CONTACT_TIME,Duration of contact with platform during a single hop,Contact Time,Millisecond,True,False
+288,13303847,1.4040000000000001,58.382,Trial,6,13303847,HOP_CONTACT_TIME,Duration of contact with platform during a single hop,Contact Time,Millisecond,True,False
+289,13303847,0.19,59.004,Trial,7,13303847,HOP_CONTACT_TIME,Duration of contact with platform during a single hop,Contact Time,Millisecond,True,False
+290,13303847,0.178,59.652,Trial,8,13303847,HOP_CONTACT_TIME,Duration of contact with platform during a single hop,Contact Time,Millisecond,True,False
+291,13303847,0.192,60.274,Trial,9,13303847,HOP_CONTACT_TIME,Duration of contact with platform during a single hop,Contact Time,Millisecond,True,False
+292,13303847,0.188,60.942,Trial,10,13303847,HOP_CONTACT_TIME,Duration of contact with platform during a single hop,Contact Time,Millisecond,True,False
+293,13303848,0.34800000000000003,53.842,Trial,0,13303848,HOP_FLIGHT_TIME,Flight time for a single hop,Flight Time,Millisecond,True,False
+294,13303848,0.422,54.446,Trial,1,13303848,HOP_FLIGHT_TIME,Flight time for a single hop,Flight Time,Millisecond,True,False
+295,13303848,0.448,55.07,Trial,2,13303848,HOP_FLIGHT_TIME,Flight time for a single hop,Flight Time,Millisecond,True,False
+296,13303848,0.464,55.714,Trial,3,13303848,HOP_FLIGHT_TIME,Flight time for a single hop,Flight Time,Millisecond,True,False
+297,13303848,0.464,56.364,Trial,4,13303848,HOP_FLIGHT_TIME,Flight time for a single hop,Flight Time,Millisecond,True,False
+298,13303848,0.426,56.978,Trial,5,13303848,HOP_FLIGHT_TIME,Flight time for a single hop,Flight Time,Millisecond,True,False
+299,13303848,0.432,58.814,Trial,6,13303848,HOP_FLIGHT_TIME,Flight time for a single hop,Flight Time,Millisecond,True,False
+300,13303848,0.47000000000000003,59.474,Trial,7,13303848,HOP_FLIGHT_TIME,Flight time for a single hop,Flight Time,Millisecond,True,False
+301,13303848,0.43,60.082,Trial,8,13303848,HOP_FLIGHT_TIME,Flight time for a single hop,Flight Time,Millisecond,True,False
+302,13303848,0.48,60.754,Trial,9,13303848,HOP_FLIGHT_TIME,Flight time for a single hop,Flight Time,Millisecond,True,False
+303,13303848,0.462,61.404,Trial,10,13303848,HOP_FLIGHT_TIME,Flight time for a single hop,Flight Time,Millisecond,True,False
+304,13303849,14.845306770000002,53.842,Trial,0,13303849,HOP_JUMP_HEIGHT,Jump height for a single hop based on flight time,Jump Height (Flight Time),Centimeter,True,False
+305,13303849,21.830093232499998,54.446,Trial,1,13303849,HOP_JUMP_HEIGHT,Jump height for a single hop based on flight time,Jump Height (Flight Time),Centimeter,True,False
+306,13303849,24.60292352,55.07,Trial,2,13303849,HOP_JUMP_HEIGHT,Jump height for a single hop based on flight time,Jump Height (Flight Time),Centimeter,True,False
+307,13303849,26.391656479999998,55.714,Trial,3,13303849,HOP_JUMP_HEIGHT,Jump height for a single hop based on flight time,Jump Height (Flight Time),Centimeter,True,False
+308,13303849,26.391656479999998,56.364,Trial,4,13303849,HOP_JUMP_HEIGHT,Jump height for a single hop based on flight time,Jump Height (Flight Time),Centimeter,True,False
+309,13303849,22.245895192499997,56.978,Trial,5,13303849,HOP_JUMP_HEIGHT,Jump height for a single hop based on flight time,Jump Height (Flight Time),Centimeter,True,False
+310,13303849,22.876953119999996,58.814,Trial,6,13303849,HOP_JUMP_HEIGHT,Jump height for a single hop based on flight time,Jump Height (Flight Time),Centimeter,True,False
+311,13303849,27.078612312500006,59.474,Trial,7,13303849,HOP_JUMP_HEIGHT,Jump height for a single hop based on flight time,Jump Height (Flight Time),Centimeter,True,False
+312,13303849,22.665619812499997,60.082,Trial,8,13303849,HOP_JUMP_HEIGHT,Jump height for a single hop based on flight time,Jump Height (Flight Time),Centimeter,True,False
+313,13303849,28.243152,60.754,Trial,9,13303849,HOP_JUMP_HEIGHT,Jump height for a single hop based on flight time,Jump Height (Flight Time),Centimeter,True,False
+314,13303849,26.164632532500004,61.404,Trial,10,13303849,HOP_JUMP_HEIGHT,Jump height for a single hop based on flight time,Jump Height (Flight Time),Centimeter,True,False
+315,13303850,447.8733010162442,53.31,Trial,0,13303850,HOP_IMPULSE,Total absolute impulse for a single hop,Impulse,Newton Second,True,True
+316,13303850,509.31031948354035,53.842,Trial,1,13303850,HOP_IMPULSE,Total absolute impulse for a single hop,Impulse,Newton Second,True,True
+317,13303850,538.9813748852388,54.446,Trial,2,13303850,HOP_IMPULSE,Total absolute impulse for a single hop,Impulse,Newton Second,True,True
+318,13303850,566.927337950831,55.07,Trial,3,13303850,HOP_IMPULSE,Total absolute impulse for a single hop,Impulse,Newton Second,True,True
+319,13303850,568.2522825491709,55.714,Trial,4,13303850,HOP_IMPULSE,Total absolute impulse for a single hop,Impulse,Newton Second,True,True
+320,13303850,530.8042640819048,56.364,Trial,5,13303850,HOP_IMPULSE,Total absolute impulse for a single hop,Impulse,Newton Second,True,True
+321,13303850,1195.8580360125425,56.978,Trial,6,13303850,HOP_IMPULSE,Total absolute impulse for a single hop,Impulse,Newton Second,True,True
+322,13303850,569.3382456147308,58.814,Trial,7,13303850,HOP_IMPULSE,Total absolute impulse for a single hop,Impulse,Newton Second,True,True
+323,13303850,554.2713564180365,59.474,Trial,8,13303850,HOP_IMPULSE,Total absolute impulse for a single hop,Impulse,Newton Second,True,True
+324,13303850,578.3482271475212,60.082,Trial,9,13303850,HOP_IMPULSE,Total absolute impulse for a single hop,Impulse,Newton Second,True,True
+325,13303850,561.6042640819418,60.754,Trial,10,13303850,HOP_IMPULSE,Total absolute impulse for a single hop,Impulse,Newton Second,True,True
+326,13303850,223.44893351827858,53.31,Left,0,13303850,HOP_IMPULSE,Total absolute impulse for a single hop,Impulse,Newton Second,True,True
+327,13303850,253.30654293659762,53.842,Left,1,13303850,HOP_IMPULSE,Total absolute impulse for a single hop,Impulse,Newton Second,True,True
+328,13303850,281.6223711914799,54.446,Left,2,13303850,HOP_IMPULSE,Total absolute impulse for a single hop,Impulse,Newton Second,True,True
+329,13303850,289.4791523549243,55.07,Left,3,13303850,HOP_IMPULSE,Total absolute impulse for a single hop,Impulse,Newton Second,True,True
+330,13303850,306.2033241000974,55.714,Left,4,13303850,HOP_IMPULSE,Total absolute impulse for a single hop,Impulse,Newton Second,True,True
+331,13303850,291.3437146817965,56.364,Left,5,13303850,HOP_IMPULSE,Total absolute impulse for a single hop,Impulse,Newton Second,True,True
+332,13303850,581.4801883663617,56.978,Left,6,13303850,HOP_IMPULSE,Total absolute impulse for a single hop,Impulse,Newton Second,True,True
+333,13303850,282.4971052635031,58.814,Left,7,13303850,HOP_IMPULSE,Total absolute impulse for a single hop,Impulse,Newton Second,True,True
+334,13303850,290.52176177320814,59.474,Left,8,13303850,HOP_IMPULSE,Total absolute impulse for a single hop,Impulse,Newton Second,True,True
+335,13303850,289.96249584522974,60.082,Left,9,13303850,HOP_IMPULSE,Total absolute impulse for a single hop,Impulse,Newton Second,True,True
+336,13303850,275.51071468177724,60.754,Left,10,13303850,HOP_IMPULSE,Total absolute impulse for a single hop,Impulse,Newton Second,True,True
+337,13303850,224.4243674979657,53.31,Right,0,13303850,HOP_IMPULSE,Total absolute impulse for a single hop,Impulse,Newton Second,True,True
+338,13303850,256.00377654694256,53.842,Right,1,13303850,HOP_IMPULSE,Total absolute impulse for a single hop,Impulse,Newton Second,True,True
+339,13303850,257.35900369375867,54.446,Right,2,13303850,HOP_IMPULSE,Total absolute impulse for a single hop,Impulse,Newton Second,True,True
+340,13303850,277.4481855959069,55.07,Right,3,13303850,HOP_IMPULSE,Total absolute impulse for a single hop,Impulse,Newton Second,True,True
+341,13303850,262.0489584490737,55.714,Right,4,13303850,HOP_IMPULSE,Total absolute impulse for a single hop,Impulse,Newton Second,True,True
+342,13303850,239.4605494001079,56.364,Right,5,13303850,HOP_IMPULSE,Total absolute impulse for a single hop,Impulse,Newton Second,True,True
+343,13303850,614.3778476461791,56.978,Right,6,13303850,HOP_IMPULSE,Total absolute impulse for a single hop,Impulse,Newton Second,True,True
+344,13303850,286.8411403512275,58.814,Right,7,13303850,HOP_IMPULSE,Total absolute impulse for a single hop,Impulse,Newton Second,True,True
+345,13303850,263.74959464482833,59.474,Right,8,13303850,HOP_IMPULSE,Total absolute impulse for a single hop,Impulse,Newton Second,True,True
+346,13303850,288.38573130229133,60.082,Right,9,13303850,HOP_IMPULSE,Total absolute impulse for a single hop,Impulse,Newton Second,True,True
+347,13303850,286.0935494001649,60.754,Right,10,13303850,HOP_IMPULSE,Total absolute impulse for a single hop,Impulse,Newton Second,True,True
+348,13303850,0.43463817702236224,53.31,Asym,0,13303850,HOP_IMPULSE,Total absolute impulse for a single hop,Impulse,Newton Second,True,True
+349,13303850,1.053591336317789,53.842,Asym,1,13303850,HOP_IMPULSE,Total absolute impulse for a single hop,Impulse,Newton Second,True,True
+350,13303850,-8.615568214651576,54.446,Asym,2,13303850,HOP_IMPULSE,Total absolute impulse for a single hop,Impulse,Newton Second,True,True
+351,13303850,-4.1560736450777105,55.07,Asym,3,13303850,HOP_IMPULSE,Total absolute impulse for a single hop,Impulse,Newton Second,True,True
+352,13303850,-14.419949809751145,55.714,Asym,4,13303850,HOP_IMPULSE,Total absolute impulse for a single hop,Impulse,Newton Second,True,True
+353,13303850,-17.80823222438658,56.364,Asym,5,13303850,HOP_IMPULSE,Total absolute impulse for a single hop,Impulse,Newton Second,True,True
+354,13303850,5.35462979432865,56.978,Asym,6,13303850,HOP_IMPULSE,Total absolute impulse for a single hop,Impulse,Newton Second,True,True
+355,13303850,1.5144393452087428,58.814,Asym,7,13303850,HOP_IMPULSE,Total absolute impulse for a single hop,Impulse,Newton Second,True,True
+356,13303850,-9.215201974879642,59.474,Asym,8,13303850,HOP_IMPULSE,Total absolute impulse for a single hop,Impulse,Newton Second,True,True
+357,13303850,-0.5437822358171518,60.082,Asym,9,13303850,HOP_IMPULSE,Total absolute impulse for a single hop,Impulse,Newton Second,True,True
+358,13303850,3.699081905403328,60.754,Asym,10,13303850,HOP_IMPULSE,Total absolute impulse for a single hop,Impulse,Newton Second,True,True
+359,13303851,4831.990766389658,53.4,Trial,0,13303851,HOP_PEAK_FORCE,Peak force during a single hop,Peak Force,Newton,True,True
+360,13303851,5557.990766389658,53.93,Trial,1,13303851,HOP_PEAK_FORCE,Peak force during a single hop,Peak Force,Newton,True,True
+361,13303851,6181.990766389658,54.534,Trial,2,13303851,HOP_PEAK_FORCE,Peak force during a single hop,Peak Force,Newton,True,True
+362,13303851,6312.990766389658,55.158,Trial,3,13303851,HOP_PEAK_FORCE,Peak force during a single hop,Peak Force,Newton,True,True
+363,13303851,6220.990766389658,55.804,Trial,4,13303851,HOP_PEAK_FORCE,Peak force during a single hop,Peak Force,Newton,True,True
+364,13303851,5243.990766389658,56.43,Trial,5,13303851,HOP_PEAK_FORCE,Peak force during a single hop,Peak Force,Newton,True,True
+365,13303851,6198.990766389658,58.284,Trial,6,13303851,HOP_PEAK_FORCE,Peak force during a single hop,Peak Force,Newton,True,True
+366,13303851,5659.990766389658,58.9,Trial,7,13303851,HOP_PEAK_FORCE,Peak force during a single hop,Peak Force,Newton,True,True
+367,13303851,6236.990766389658,59.558,Trial,8,13303851,HOP_PEAK_FORCE,Peak force during a single hop,Peak Force,Newton,True,True
+368,13303851,5650.990766389658,60.176,Trial,9,13303851,HOP_PEAK_FORCE,Peak force during a single hop,Peak Force,Newton,True,True
+369,13303851,5578.990766389658,60.846,Trial,10,13303851,HOP_PEAK_FORCE,Peak force during a single hop,Peak Force,Newton,True,True
+370,13303851,2359.695290858726,53.402,Left,0,13303851,HOP_PEAK_FORCE,Peak force during a single hop,Peak Force,Newton,True,True
+371,13303851,2795.695290858726,53.934,Left,1,13303851,HOP_PEAK_FORCE,Peak force during a single hop,Peak Force,Newton,True,True
+372,13303851,3208.695290858726,54.534,Left,2,13303851,HOP_PEAK_FORCE,Peak force during a single hop,Peak Force,Newton,True,True
+373,13303851,3397.695290858726,55.158,Left,3,13303851,HOP_PEAK_FORCE,Peak force during a single hop,Peak Force,Newton,True,True
+374,13303851,3333.695290858726,55.806,Left,4,13303851,HOP_PEAK_FORCE,Peak force during a single hop,Peak Force,Newton,True,True
+375,13303851,3145.695290858726,56.434,Left,5,13303851,HOP_PEAK_FORCE,Peak force during a single hop,Peak Force,Newton,True,True
+376,13303851,3457.695290858726,58.282,Left,6,13303851,HOP_PEAK_FORCE,Peak force during a single hop,Peak Force,Newton,True,True
+377,13303851,2803.695290858726,58.906,Left,7,13303851,HOP_PEAK_FORCE,Peak force during a single hop,Peak Force,Newton,True,True
+378,13303851,3406.695290858726,59.558,Left,8,13303851,HOP_PEAK_FORCE,Peak force during a single hop,Peak Force,Newton,True,True
+379,13303851,2981.695290858726,60.176,Left,9,13303851,HOP_PEAK_FORCE,Peak force during a single hop,Peak Force,Newton,True,True
+380,13303851,2706.695290858726,60.846,Left,10,13303851,HOP_PEAK_FORCE,Peak force during a single hop,Peak Force,Newton,True,True
+381,13303851,2473.2954755309324,53.4,Right,0,13303851,HOP_PEAK_FORCE,Peak force during a single hop,Peak Force,Newton,True,True
+382,13303851,2782.2954755309324,53.926,Right,1,13303851,HOP_PEAK_FORCE,Peak force during a single hop,Peak Force,Newton,True,True
+383,13303851,2975.2954755309324,54.532,Right,2,13303851,HOP_PEAK_FORCE,Peak force during a single hop,Peak Force,Newton,True,True
+384,13303851,2918.2954755309324,55.154,Right,3,13303851,HOP_PEAK_FORCE,Peak force during a single hop,Peak Force,Newton,True,True
+385,13303851,2889.2954755309324,55.802,Right,4,13303851,HOP_PEAK_FORCE,Peak force during a single hop,Peak Force,Newton,True,True
+386,13303851,2598.2954755309324,56.42,Right,5,13303851,HOP_PEAK_FORCE,Peak force during a single hop,Peak Force,Newton,True,True
+387,13303851,2785.2954755309324,58.288,Right,6,13303851,HOP_PEAK_FORCE,Peak force during a single hop,Peak Force,Newton,True,True
+388,13303851,2865.2954755309324,58.9,Right,7,13303851,HOP_PEAK_FORCE,Peak force during a single hop,Peak Force,Newton,True,True
+389,13303851,2830.2954755309324,59.556,Right,8,13303851,HOP_PEAK_FORCE,Peak force during a single hop,Peak Force,Newton,True,True
+390,13303851,2683.2954755309324,60.168,Right,9,13303851,HOP_PEAK_FORCE,Peak force during a single hop,Peak Force,Newton,True,True
+391,13303851,2878.2954755309324,60.844,Right,10,13303851,HOP_PEAK_FORCE,Peak force during a single hop,Peak Force,Newton,True,True
+392,13303851,4.5930696835896825,53.4,Asym,0,13303851,HOP_PEAK_FORCE,Peak force during a single hop,Peak Force,Newton,True,True
+393,13303851,-0.47930170972522507,53.93,Asym,1,13303851,HOP_PEAK_FORCE,Peak force during a single hop,Peak Force,Newton,True,True
+394,13303851,-7.273978803556942,54.534,Asym,2,13303851,HOP_PEAK_FORCE,Peak force during a single hop,Peak Force,Newton,True,True
+395,13303851,-14.109558812339262,55.158,Asym,3,13303851,HOP_PEAK_FORCE,Peak force during a single hop,Peak Force,Newton,True,True
+396,13303851,-13.33054693229988,55.804,Asym,4,13303851,HOP_PEAK_FORCE,Peak force during a single hop,Peak Force,Newton,True,True
+397,13303851,-17.401552430030875,56.43,Asym,5,13303851,HOP_PEAK_FORCE,Peak force during a single hop,Peak Force,Newton,True,True
+398,13303851,-19.446473988192338,58.284,Asym,6,13303851,HOP_PEAK_FORCE,Peak force during a single hop,Peak Force,Newton,True,True
+399,13303851,2.149871983474659,58.9,Asym,7,13303851,HOP_PEAK_FORCE,Peak force during a single hop,Peak Force,Newton,True,True
+400,13303851,-16.919617579959738,59.558,Asym,8,13303851,HOP_PEAK_FORCE,Peak force during a single hop,Peak Force,Newton,True,True
+401,13303851,-10.007723332515797,60.176,Asym,9,13303851,HOP_PEAK_FORCE,Peak force during a single hop,Peak Force,Newton,True,True
+402,13303851,5.96186826998896,60.846,Asym,10,13303851,HOP_PEAK_FORCE,Peak force during a single hop,Peak Force,Newton,True,True
+403,13303852,1.8913043478260871,53.494,Trial,0,13303852,HOP_RSI,RSI for a single hop calculated from flight and contact time,RSI (Flight/Contact Time),No Unit,True,False
+404,13303852,2.318681318681319,54.024,Trial,1,13303852,HOP_RSI,RSI for a single hop calculated from flight and contact time,RSI (Flight/Contact Time),No Unit,True,False
+405,13303852,2.545454545454546,54.622,Trial,2,13303852,HOP_RSI,RSI for a single hop calculated from flight and contact time,RSI (Flight/Contact Time),No Unit,True,False
+406,13303852,2.577777777777778,55.25,Trial,3,13303852,HOP_RSI,RSI for a single hop calculated from flight and contact time,RSI (Flight/Contact Time),No Unit,True,False
+407,13303852,2.4946236559139785,55.9,Trial,4,13303852,HOP_RSI,RSI for a single hop calculated from flight and contact time,RSI (Flight/Contact Time),No Unit,True,False
+408,13303852,2.2659574468085104,56.552,Trial,5,13303852,HOP_RSI,RSI for a single hop calculated from flight and contact time,RSI (Flight/Contact Time),No Unit,True,False
+409,13303852,0.30769230769230765,58.382,Trial,6,13303852,HOP_RSI,RSI for a single hop calculated from flight and contact time,RSI (Flight/Contact Time),No Unit,True,False
+410,13303852,2.473684210526316,59.004,Trial,7,13303852,HOP_RSI,RSI for a single hop calculated from flight and contact time,RSI (Flight/Contact Time),No Unit,True,False
+411,13303852,2.4157303370786516,59.652,Trial,8,13303852,HOP_RSI,RSI for a single hop calculated from flight and contact time,RSI (Flight/Contact Time),No Unit,True,False
+412,13303852,2.5,60.274,Trial,9,13303852,HOP_RSI,RSI for a single hop calculated from flight and contact time,RSI (Flight/Contact Time),No Unit,True,False
+413,13303852,2.4574468085106385,60.942,Trial,10,13303852,HOP_RSI,RSI for a single hop calculated from flight and contact time,RSI (Flight/Contact Time),No Unit,True,False
+414,13303853,80.68101505434784,53.494,Trial,0,13303853,HOP_RSI_JH,RSI for a single hop calculated from jump height and contact time,RSI (Jump Height/Contact Time),RSIModified,True,False
+415,13303853,119.94556721153845,54.024,Trial,1,13303853,HOP_RSI_JH,RSI for a single hop calculated from jump height and contact time,RSI (Jump Height/Contact Time),RSIModified,True,False
+416,13303853,139.7893381818182,54.622,Trial,2,13303853,HOP_RSI_JH,RSI for a single hop calculated from jump height and contact time,RSI (Jump Height/Contact Time),RSIModified,True,False
+417,13303853,146.62031377777777,55.25,Trial,3,13303853,HOP_RSI_JH,RSI for a single hop calculated from jump height and contact time,RSI (Jump Height/Contact Time),RSIModified,True,False
+418,13303853,141.89062623655914,55.9,Trial,4,13303853,HOP_RSI_JH,RSI for a single hop calculated from jump height and contact time,RSI (Jump Height/Contact Time),RSIModified,True,False
+419,13303853,118.3292297473404,56.552,Trial,5,13303853,HOP_RSI_JH,RSI for a single hop calculated from jump height and contact time,RSI (Jump Height/Contact Time),RSIModified,True,False
+420,13303853,16.29412615384615,58.382,Trial,6,13303853,HOP_RSI_JH,RSI for a single hop calculated from jump height and contact time,RSI (Jump Height/Contact Time),RSIModified,True,False
+421,13303853,142.51901217105265,59.004,Trial,7,13303853,HOP_RSI_JH,RSI for a single hop calculated from jump height and contact time,RSI (Jump Height/Contact Time),RSIModified,True,False
+422,13303853,127.33494276685393,59.652,Trial,8,13303853,HOP_RSI_JH,RSI for a single hop calculated from jump height and contact time,RSI (Jump Height/Contact Time),RSIModified,True,False
+423,13303853,147.09975,60.274,Trial,9,13303853,HOP_RSI_JH,RSI for a single hop calculated from jump height and contact time,RSI (Jump Height/Contact Time),RSIModified,True,False
+424,13303853,139.17357730053195,60.942,Trial,10,13303853,HOP_RSI_JH,RSI for a single hop calculated from jump height and contact time,RSI (Jump Height/Contact Time),RSIModified,True,False
+425,13303854,65559.18745613602,53.4,Trial,0,13303854,HOP_STIFFNESS,Stiffness during takeoff for a single hop,Active Stiffness,Newton Per Meter,True,True
+426,13303854,81497.94462075591,53.93,Trial,1,13303854,HOP_STIFFNESS,Stiffness during takeoff for a single hop,Active Stiffness,Newton Per Meter,True,True
+427,13303854,104385.92425647032,54.534,Trial,2,13303854,HOP_STIFFNESS,Stiffness during takeoff for a single hop,Active Stiffness,Newton Per Meter,True,True
+428,13303854,160565.66759336504,55.158,Trial,3,13303854,HOP_STIFFNESS,Stiffness during takeoff for a single hop,Active Stiffness,Newton Per Meter,True,True
+429,13303854,259797.96511110492,55.804,Trial,4,13303854,HOP_STIFFNESS,Stiffness during takeoff for a single hop,Active Stiffness,Newton Per Meter,True,True
+430,13303854,595436.2003371787,56.43,Trial,5,13303854,HOP_STIFFNESS,Stiffness during takeoff for a single hop,Active Stiffness,Newton Per Meter,True,True
+431,13303854,10259.343015011958,58.284,Trial,6,13303854,HOP_STIFFNESS,Stiffness during takeoff for a single hop,Active Stiffness,Newton Per Meter,True,True
+432,13303854,16967.202803498665,58.9,Trial,7,13303854,HOP_STIFFNESS,Stiffness during takeoff for a single hop,Active Stiffness,Newton Per Meter,True,True
+433,13303854,23225.198790687722,59.558,Trial,8,13303854,HOP_STIFFNESS,Stiffness during takeoff for a single hop,Active Stiffness,Newton Per Meter,True,True
+434,13303854,22964.79935247067,60.176,Trial,9,13303854,HOP_STIFFNESS,Stiffness during takeoff for a single hop,Active Stiffness,Newton Per Meter,True,True
+435,13303854,25972.303817399094,60.846,Trial,10,13303854,HOP_STIFFNESS,Stiffness during takeoff for a single hop,Active Stiffness,Newton Per Meter,True,True
+436,13303854,32002.161055628676,53.402,Left,0,13303854,HOP_STIFFNESS,Stiffness during takeoff for a single hop,Active Stiffness,Newton Per Meter,True,True
+437,13303854,40832.55121121831,53.934,Left,1,13303854,HOP_STIFFNESS,Stiffness during takeoff for a single hop,Active Stiffness,Newton Per Meter,True,True
+438,13303854,54180.38238017001,54.534,Left,2,13303854,HOP_STIFFNESS,Stiffness during takeoff for a single hop,Active Stiffness,Newton Per Meter,True,True
+439,13303854,86417.55276438664,55.158,Left,3,13303854,HOP_STIFFNESS,Stiffness during takeoff for a single hop,Active Stiffness,Newton Per Meter,True,True
+440,13303854,139178.3861146832,55.806,Left,4,13303854,HOP_STIFFNESS,Stiffness during takeoff for a single hop,Active Stiffness,Newton Per Meter,True,True
+441,13303854,342421.3018971238,56.434,Left,5,13303854,HOP_STIFFNESS,Stiffness during takeoff for a single hop,Active Stiffness,Newton Per Meter,True,True
+442,13303854,5692.703084407657,58.282,Left,6,13303854,HOP_STIFFNESS,Stiffness during takeoff for a single hop,Active Stiffness,Newton Per Meter,True,True
+443,13303854,8377.780765220106,58.906,Left,7,13303854,HOP_STIFFNESS,Stiffness during takeoff for a single hop,Active Stiffness,Newton Per Meter,True,True
+444,13303854,12685.793247581427,59.558,Left,8,13303854,HOP_STIFFNESS,Stiffness during takeoff for a single hop,Active Stiffness,Newton Per Meter,True,True
+445,13303854,12117.173238370808,60.176,Left,9,13303854,HOP_STIFFNESS,Stiffness during takeoff for a single hop,Active Stiffness,Newton Per Meter,True,True
+446,13303854,12600.686285200472,60.846,Left,10,13303854,HOP_STIFFNESS,Stiffness during takeoff for a single hop,Active Stiffness,Newton Per Meter,True,True
+447,13303854,33557.02640050734,53.4,Right,0,13303854,HOP_STIFFNESS,Stiffness during takeoff for a single hop,Active Stiffness,Newton Per Meter,True,True
+448,13303854,40665.3934095376,53.926,Right,1,13303854,HOP_STIFFNESS,Stiffness during takeoff for a single hop,Active Stiffness,Newton Per Meter,True,True
+449,13303854,50205.5418763003,54.532,Right,2,13303854,HOP_STIFFNESS,Stiffness during takeoff for a single hop,Active Stiffness,Newton Per Meter,True,True
+450,13303854,74148.1148289784,55.154,Right,3,13303854,HOP_STIFFNESS,Stiffness during takeoff for a single hop,Active Stiffness,Newton Per Meter,True,True
+451,13303854,120619.5789964217,55.802,Right,4,13303854,HOP_STIFFNESS,Stiffness during takeoff for a single hop,Active Stiffness,Newton Per Meter,True,True
+452,13303854,253014.8984400549,56.42,Right,5,13303854,HOP_STIFFNESS,Stiffness during takeoff for a single hop,Active Stiffness,Newton Per Meter,True,True
+453,13303854,4566.639930604301,58.288,Right,6,13303854,HOP_STIFFNESS,Stiffness during takeoff for a single hop,Active Stiffness,Newton Per Meter,True,True
+454,13303854,8589.422038278557,58.9,Right,7,13303854,HOP_STIFFNESS,Stiffness during takeoff for a single hop,Active Stiffness,Newton Per Meter,True,True
+455,13303854,10539.405543106295,59.556,Right,8,13303854,HOP_STIFFNESS,Stiffness during takeoff for a single hop,Active Stiffness,Newton Per Meter,True,True
+456,13303854,10847.626114099861,60.168,Right,9,13303854,HOP_STIFFNESS,Stiffness during takeoff for a single hop,Active Stiffness,Newton Per Meter,True,True
+457,13303854,13371.617532198621,60.844,Right,10,13303854,HOP_STIFFNESS,Stiffness during takeoff for a single hop,Active Stiffness,Newton Per Meter,True,True
+458,13303854,4.63350156930221,53.4,Asym,0,13303854,HOP_STIFFNESS,Stiffness during takeoff for a single hop,Active Stiffness,Newton Per Meter,True,True
+459,13303854,-0.40937388608426173,53.93,Asym,1,13303854,HOP_STIFFNESS,Stiffness during takeoff for a single hop,Active Stiffness,Newton Per Meter,True,True
+460,13303854,-7.336309433881919,54.534,Asym,2,13303854,HOP_STIFFNESS,Stiffness during takeoff for a single hop,Active Stiffness,Newton Per Meter,True,True
+461,13303854,-14.197853957818355,55.158,Asym,3,13303854,HOP_STIFFNESS,Stiffness during takeoff for a single hop,Active Stiffness,Newton Per Meter,True,True
+462,13303854,-13.334546862017083,55.804,Asym,4,13303854,HOP_STIFFNESS,Stiffness during takeoff for a single hop,Active Stiffness,Newton Per Meter,True,True
+463,13303854,-26.1100588549044,56.43,Asym,5,13303854,HOP_STIFFNESS,Stiffness during takeoff for a single hop,Active Stiffness,Newton Per Meter,True,True
+464,13303854,-19.780816548954547,58.284,Asym,6,13303854,HOP_STIFFNESS,Stiffness during takeoff for a single hop,Active Stiffness,Newton Per Meter,True,True
+465,13303854,2.4639757147253487,58.9,Asym,7,13303854,HOP_STIFFNESS,Stiffness during takeoff for a single hop,Active Stiffness,Newton Per Meter,True,True
+466,13303854,-16.91961757995973,59.558,Asym,8,13303854,HOP_STIFFNESS,Stiffness during takeoff for a single hop,Active Stiffness,Newton Per Meter,True,True
+467,13303854,-10.477254878643965,60.176,Asym,9,13303854,HOP_STIFFNESS,Stiffness during takeoff for a single hop,Active Stiffness,Newton Per Meter,True,True
+468,13303854,5.76542998737258,60.846,Asym,10,13303854,HOP_STIFFNESS,Stiffness during takeoff for a single hop,Active Stiffness,Newton Per Meter,True,True
+469,13303855,15353.580106835327,55.25,Trial,0,13303855,HOP_BEST_PEAK_POWER,Peak power of the best hop,Best Peak Power,Watt,False,False
+470,13303856,14178.319565926146,55.25,Trial,0,13303856,HOP_MEAN_PEAK_POWER,Mean peak power of the best n hops,Mean Peak Power,Watt,False,False
+471,13303857,16.542339042225635,55.25,Trial,0,13303857,HOP_FATIGUE_PEAK_POWER,Fatigue of peak power,Peak Power Fatigue,Watt,False,False
+472,13303858,6828.911027528538,53.494,Trial,0,13303858,HOP_PEAK_POWER,Peak power for a single hop,Peak Power,Watt,True,False
+473,13303858,10066.260537673268,54.024,Trial,1,13303858,HOP_PEAK_POWER,Peak power for a single hop,Peak Power,Watt,True,False
+474,13303858,12751.173985698888,54.622,Trial,2,13303858,HOP_PEAK_POWER,Peak power for a single hop,Peak Power,Watt,True,False
+475,13303858,15353.580106835327,55.25,Trial,3,13303858,HOP_PEAK_POWER,Peak power for a single hop,Peak Power,Watt,True,False
+476,13303858,16955.85638571391,55.9,Trial,4,13303858,HOP_PEAK_POWER,Peak power for a single hop,Peak Power,Watt,True,False
+477,13303858,12870.466124468698,56.552,Trial,5,13303858,HOP_PEAK_POWER,Peak power for a single hop,Peak Power,Watt,True,False
+478,13303858,16162.999688595643,58.382,Trial,6,13303858,HOP_PEAK_POWER,Peak power for a single hop,Peak Power,Watt,True,False
+479,13303858,14821.353974606525,59.004,Trial,7,13303858,HOP_PEAK_POWER,Peak power for a single hop,Peak Power,Watt,True,False
+480,13303858,13571.105653212122,59.652,Trial,8,13303858,HOP_PEAK_POWER,Peak power for a single hop,Peak Power,Watt,True,False
+481,13303858,11009.633376776084,60.274,Trial,9,13303858,HOP_PEAK_POWER,Peak power for a single hop,Peak Power,Watt,True,False
+482,13303858,9969.80551557226,60.942,Trial,10,13303858,HOP_PEAK_POWER,Peak power for a single hop,Peak Power,Watt,True,False
+483,13303859,5792.009459098999,55.25,Trial,0,13303859,HOP_BEST_AVERAGE_POWER,Average power when in contact with platform during the best hop,Best Average Power,Watt,False,False
+484,13303860,5351.704638467125,55.25,Trial,0,13303860,HOP_MEAN_AVERAGE_POWER,Mean best n hops' average power,Mean Average Power,Watt,False,False
+485,13303861,20.236229960656622,55.25,Trial,0,13303861,HOP_FATIGUE_AVERAGE_POWER,Fatigue of average power,Average Power Fatigue,Watt,False,False
+486,13303862,2712.892058898635,53.494,Trial,0,13303862,HOP_AVERAGE_POWER,Average power when in contact with platform for a single hop,Average Power,Watt,True,False
+487,13303862,3940.9942734960127,54.024,Trial,1,13303862,HOP_AVERAGE_POWER,Average power when in contact with platform for a single hop,Average Power,Watt,True,False
+488,13303862,4875.258240235512,54.622,Trial,2,13303862,HOP_AVERAGE_POWER,Average power when in contact with platform for a single hop,Average Power,Watt,True,False
+489,13303862,5792.009459098999,55.25,Trial,3,13303862,HOP_AVERAGE_POWER,Average power when in contact with platform for a single hop,Average Power,Watt,True,False
+490,13303862,6239.8676883959015,55.9,Trial,4,13303862,HOP_AVERAGE_POWER,Average power when in contact with platform for a single hop,Average Power,Watt,True,False
+491,13303862,5712.916832407803,56.552,Trial,5,13303862,HOP_AVERAGE_POWER,Average power when in contact with platform for a single hop,Average Power,Watt,True,False
+492,13303862,1409.3388664284691,58.382,Trial,6,13303862,HOP_AVERAGE_POWER,Average power when in contact with platform for a single hop,Average Power,Watt,True,False
+493,13303862,5372.011679839464,59.004,Trial,7,13303862,HOP_AVERAGE_POWER,Average power when in contact with platform for a single hop,Average Power,Watt,True,False
+494,13303862,5167.530151688398,59.652,Trial,8,13303862,HOP_AVERAGE_POWER,Average power when in contact with platform for a single hop,Average Power,Watt,True,False
+495,13303862,4479.376124765749,60.274,Trial,9,13303862,HOP_AVERAGE_POWER,Average power when in contact with platform for a single hop,Average Power,Watt,True,False
+496,13303862,4215.302504390012,60.942,Trial,10,13303862,HOP_AVERAGE_POWER,Average power when in contact with platform for a single hop,Average Power,Watt,True,False

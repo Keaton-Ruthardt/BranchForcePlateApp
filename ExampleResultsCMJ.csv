@@ -1,0 +1,641 @@
+,resultId,value,time,limb,repeat,definition_id,result_key,description,name,unit,repeatable,asymmetry
+0,655365,21.025999999999225,21.026,Trial,0,655365,START_OF_MOVEMENT,Absolute time from the start of recording to start of movement,Start of Movement,Second,False,True
+1,655366,17.549728610341617,21.026,Trial,0,655366,START_OF_MOVEMENT_THRESHOLD,Threshold used for start of movement detection,Start of Movement Detection Threshold,Newton,False,False
+2,655367,21.025999999999225,21.026,Trial,0,655367,START_OF_INTEGRATION,"Start time point for impulse, velocity and displacement integration",Start of Integration,Second,False,False
+3,655386,90.3,0.0,Trial,0,655386,BODY_WEIGHT,Mass of the profile in kilograms,Bodyweight in Kilograms,Kilo,False,False
+4,655387,90.3,0.0,Trial,0,655387,BODY_WEIGHT_LBS,Mass of the profile in pounds,Bodyweight in Pounds,Pound,False,False
+5,6553602,21.655999999998876,21.656,Trial,0,6553602,BEGIN_CONCENTRIC_PHASE,Asbolute time from the start of recording to the start of the concentric phase,Start of Concentric Phase,Second,False,False
+6,6553603,-31.80029639279121,21.656,Trial,0,6553603,COUNTERMOVEMENT_DEPTH,The amount of displacement the CM goes through from contact (zero position) to the lowest value. Note if the hips and knees are flexed at contact this is still the reference zero position.,Countermovement Depth,Centimeter,False,False
+7,6553604,60.293,21.846,Trial,0,6553604,BODYMASS_RELATIVE_TAKEOFF_POWER,Peak power divided by body mass,Peak Power / BM,Watt Per Kilo,False,False
+8,6553606,0.5919999999996719,22.504,Trial,0,6553606,FLIGHT_TIME,The time interval between take-off and landing,Flight Time,Millisecond,False,False
+9,6553607,42.960972319952376,22.504,Trial,0,6553607,JUMP_HEIGHT,Jump height calculated from flight time,Jump Height (Flight Time),Centimeter,False,False
+10,6553608,1609.3388233726962,22.576,Trial,0,6553608,JUMP_HEIGHT_RELATIVE_LANDING_RFD,Jump Height (FT) Relative Landing RFD,Jump Height (FT) Relative Landing RFD,Newton Per Second Per Centimeter,False,False
+11,6553609,115.872,22.576,Trial,0,6553609,JUMP_HEIGHT_RELATIVE_PEAK_LANDING_FORCE,Jump Height (FT) Relative Peak Landing Force,Jump Height (FT) Relative Peak Landing Force,Newton Per Centimeter,False,False
+12,6553610,42.80273628190645,22.208,Trial,0,6553610,IMPULSE_JUMP_HEIGHT,Jump height taken from the max displacement of the CM during the flight phase subtracting the displacement at the instant of take-off,Jump Height (Imp-Dis),Centimeter,False,False
+13,6553611,42.836484961750116,21.912,Trial,0,6553611,JUMP_HEIGHT_IMP_MOM,"Jump height is determined from the Kinetic energy relationship after establishing the velocity at the instant of take-off (derived by determining the change in velocity from the impulse measurment throughout the contact phase, utilises the trapezium/simpsons rule)",Jump Height (Imp-Mom),Centimeter,False,False
+14,6553612,69138.761,22.576,Trial,0,6553612,LANDING_RFD,Landing Rate of Force Development,Landing RFD,Newton Per Second,False,True
+15,6553612,36870.768,22.576,Left,0,6553612,LANDING_RFD,Landing Rate of Force Development,Landing RFD,Newton Per Second,False,True
+16,6553612,34204.221,22.576,Right,0,6553612,LANDING_RFD,Landing Rate of Force Development,Landing RFD,Newton Per Second,False,True
+17,6553612,-7.2,22.576,Asym,0,6553612,LANDING_RFD,Landing Rate of Force Development,Landing RFD,Newton Per Second,False,True
+18,6553613,16.91377776333757,22.504,Trial,0,6553613,JUMP_HEIGHT_INCHES,"Jump height calculated from flight time, in inches",Jump Height (Flight Time) in Inches,Inch,False,False
+19,6553614,16.864766965925984,21.912,Trial,0,6553614,JUMP_HEIGHT_INCHES_IMP_MOM,"Jump height is determined from the Kinetic energy relationship after establishing the velocity at the instant of take-off (derived by determining the change in velocity from the impulse measurment throughout the contact phase, utilises the trapezium/simpsons rule)",Jump Height (Imp-Mom) in Inches,Inch,False,False
+20,6553615,2.948,23.502,Trial,0,6553615,MEAN_LANDING_ACCELERATION,The average acceleration during landing,Mean Landing Acceleration,Meter Per Second Per Second,False,False
+21,6553616,968.505,23.502,Trial,0,6553616,MEAN_LANDING_POWER,The average power (force x velocity) during landing,Mean Landing Power,Watt,False,False
+22,6553617,-0.092,23.502,Trial,0,6553617,MEAN_LANDING_VELOCITY,The average velocity during landing,Mean Landing Velocity,Meter Per Second,False,False
+23,6553618,11.205,21.912,Trial,0,6553618,MEAN_TAKEOFF_ACCELERATION,Mean Takeoff Acceleration,Mean Takeoff Acceleration,Meter Per Second Per Second,False,False
+24,6553619,1897.316,21.912,Trial,0,6553619,MEAN_TAKEOFF_FORCE,The average force in the concentric phase,Concentric Mean Force,Newton,False,True
+25,6553619,930.517,21.912,Left,0,6553619,MEAN_TAKEOFF_FORCE,The average force in the concentric phase,Concentric Mean Force,Newton,False,True
+26,6553619,966.799,21.912,Right,0,6553619,MEAN_TAKEOFF_FORCE,The average force in the concentric phase,Concentric Mean Force,Newton,False,True
+27,6553619,3.8,21.912,Asym,0,6553619,MEAN_TAKEOFF_FORCE,The average force in the concentric phase,Concentric Mean Force,Newton,False,True
+28,6553620,888.7439309466156,21.656,Trial,0,6553620,MEAN_ECCENTRIC_FORCE,The average force in the eccentric phase,Eccentric Mean Force,Newton,False,True
+29,6553620,438.89149339037147,21.656,Left,0,6553620,MEAN_ECCENTRIC_FORCE,The average force in the eccentric phase,Eccentric Mean Force,Newton,False,True
+30,6553620,449.85243755624924,21.656,Right,0,6553620,MEAN_ECCENTRIC_FORCE,The average force in the eccentric phase,Eccentric Mean Force,Newton,False,True
+31,6553620,2.43656435995353,21.656,Asym,0,6553620,MEAN_ECCENTRIC_FORCE,The average force in the eccentric phase,Eccentric Mean Force,Newton,False,True
+32,6553621,445.6558554170128,21.656,Trial,0,6553621,MEAN_ECCENTRIC_POWER,Eccentric Mean Power,Eccentric Mean Power,Watt,False,False
+33,6553622,46.84215850372919,21.656,Trial,0,6553622,MEAN_ECC_CON_RATIO,Ratio of mean forces in the eccentric and concentric phases,Eccentric:Concentric Mean Force Ratio,Percent,False,True
+34,6553622,47.16641341776288,21.656,Left,0,6553622,MEAN_ECC_CON_RATIO,Ratio of mean forces in the eccentric and concentric phases,Eccentric:Concentric Mean Force Ratio,Percent,False,True
+35,6553622,46.53007233179595,21.656,Right,0,6553622,MEAN_ECC_CON_RATIO,Ratio of mean forces in the eccentric and concentric phases,Eccentric:Concentric Mean Force Ratio,Percent,False,True
+36,6553622,-1.349140288303725,21.656,Asym,0,6553622,MEAN_ECC_CON_RATIO,Ratio of mean forces in the eccentric and concentric phases,Eccentric:Concentric Mean Force Ratio,Percent,False,True
+37,6553623,3005.967,21.912,Trial,0,6553623,MEAN_CONCENTRIC_POWER,The average power (force x velocity) in the concentric phase,Concentric Mean Power,Watt,False,False
+38,6553624,33.289,21.912,Trial,0,6553624,BODYMASS_RELATIVE_MEAN_CONCENTRIC_POWER,The average power (force x velocity) in the concentric phase divided by body mass,Concentric Mean Power / BM,Watt Per Kilo,False,False
+39,6553625,4.935280790886077,21.656,Trial,0,6553625,BODYMASS_RELATIVE_MEAN_ECCENTRIC_POWER,The average power (force x velocity) in the eccentric phase divided by body mass,Eccentric Mean Power / BM,Watt Per Kilo,False,False
+40,6553626,1.745,21.912,Trial,0,6553626,MEAN_TAKEOFF_VELOCITY,The average velocity during the concentric phase,Concentric Mean Velocity,Meter Per Second,False,False
+41,6553627,45.321,22.576,Trial,0,6553627,PEAK_LANDING_ACCELERATION,Peak acceleration during landing,Peak Landing Acceleration,Meter Per Second Per Second,False,False
+42,6553628,4977.990766389658,22.576,Trial,0,6553628,PEAK_LANDING_FORCE,Peak force during landing,Peak Landing Force,Newton,False,True
+43,6553628,2654.695,22.576,Left,0,6553628,PEAK_LANDING_FORCE,Peak force during landing,Peak Landing Force,Newton,False,True
+44,6553628,2394.295,22.574,Right,0,6553628,PEAK_LANDING_FORCE,Peak force during landing,Peak Landing Force,Newton,False,True
+45,6553628,-9.8,22.576,Asym,0,6553628,PEAK_LANDING_FORCE,Peak force during landing,Peak Landing Force,Newton,False,True
+46,6553629,10638.197,22.574,Trial,0,6553629,PEAK_LANDING_POWER,Peak power (force x velocity) during landing,Peak Landing Power,Watt,False,False
+47,6553630,0.822,23.092,Trial,0,6553630,PEAK_LANDING_VELOCITY,Peak velocity during landing,Peak Landing Velocity,Meter Per Second,False,False
+48,6553631,14.756,21.724,Trial,0,6553631,PEAK_TAKEOFF_ACCELERATION,Peak acceleration during takeoff,Peak Takeoff Acceleration,Meter Per Second Per Second,False,False
+49,6553632,2217.9907663896583,21.724,Trial,0,6553632,PEAK_TAKEOFF_FORCE,Peak force over the entire takeoff phase,Takeoff Peak Force,Newton,False,True
+50,6553632,1085.695,21.818,Left,0,6553632,PEAK_TAKEOFF_FORCE,Peak force over the entire takeoff phase,Takeoff Peak Force,Newton,False,True
+51,6553632,1177.295,21.702,Right,0,6553632,PEAK_TAKEOFF_FORCE,Peak force over the entire takeoff phase,Takeoff Peak Force,Newton,False,True
+52,6553632,7.8,21.724,Asym,0,6553632,PEAK_TAKEOFF_FORCE,Peak force over the entire takeoff phase,Takeoff Peak Force,Newton,False,True
+53,6553633,5444.477,21.846,Trial,0,6553633,PEAK_TAKEOFF_POWER,The maximum power (force x velocity) value in the concentric phase or from start of movement if there is no concentric phase,Peak Power,Watt,False,False
+54,6553634,3.023,21.89,Trial,0,6553634,PEAK_TAKEOFF_VELOCITY,The highest vertical velocity value just prior to take-off,Concentric Peak Velocity,Meter Per Second,False,False
+55,6553637,3205.8823529429533,21.724,Trial,0,6553637,CONCENTRIC_RFD,Rate of force development over the concentric phase,Concentric RFD,Newton Per Second,False,True
+56,6553637,2308.8235294130427,21.724,Left,0,6553637,CONCENTRIC_RFD,Rate of force development over the concentric phase,Concentric RFD,Newton Per Second,False,True
+57,6553637,897.058823529909,21.724,Right,0,6553637,CONCENTRIC_RFD,Rate of force development over the concentric phase,Concentric RFD,Newton Per Second,False,True
+58,6553637,-61.146496815286596,21.724,Asym,0,6553637,CONCENTRIC_RFD,Rate of force development over the concentric phase,Concentric RFD,Newton Per Second,False,True
+59,6553638,1670.0000000009256,21.756,Trial,0,6553638,CONCENTRIC_RFD_100,Rate of force development during the first 100ms of the concentric phase,Concentric RFD - 100ms,Newton Per Second,False,True
+60,6553638,1650.0000000009134,21.756,Left,0,6553638,CONCENTRIC_RFD_100,Rate of force development during the first 100ms of the concentric phase,Concentric RFD - 100ms,Newton Per Second,False,True
+61,6553638,20.000000000011084,21.756,Right,0,6553638,CONCENTRIC_RFD_100,Rate of force development during the first 100ms of the concentric phase,Concentric RFD - 100ms,Newton Per Second,False,True
+62,6553638,-98.78787878787878,21.756,Asym,0,6553638,CONCENTRIC_RFD_100,Rate of force development during the first 100ms of the concentric phase,Concentric RFD - 100ms,Newton Per Second,False,True
+63,6553639,-350.000000000194,21.856,Trial,0,6553639,CONCENTRIC_RFD_200,Rate of force development during the first 200ms of the concentric phase,Concentric RFD - 200ms,Newton Per Second,False,True
+64,6553639,460.00000000025494,21.856,Left,0,6553639,CONCENTRIC_RFD_200,Rate of force development during the first 200ms of the concentric phase,Concentric RFD - 200ms,Newton Per Second,False,True
+65,6553639,-810.0000000004495,21.856,Right,0,6553639,CONCENTRIC_RFD_200,Rate of force development during the first 200ms of the concentric phase,Concentric RFD - 200ms,Newton Per Second,False,True
+66,6553639,-100.0,21.856,Asym,0,6553639,CONCENTRIC_RFD_200,Rate of force development during the first 200ms of the concentric phase,Concentric RFD - 200ms,Newton Per Second,False,True
+67,6553640,3980.000000002206,21.706,Trial,0,6553640,CONCENTRIC_RFD_50,Rate of force development during the first 50ms of the concentric phase,Concentric RFD - 50ms,Newton Per Second,False,True
+68,6553640,2400.00000000133,21.706,Left,0,6553640,CONCENTRIC_RFD_50,Rate of force development during the first 50ms of the concentric phase,Concentric RFD - 50ms,Newton Per Second,False,True
+69,6553640,1580.0000000008756,21.706,Right,0,6553640,CONCENTRIC_RFD_50,Rate of force development during the first 50ms of the concentric phase,Concentric RFD - 50ms,Newton Per Second,False,True
+70,6553640,-34.166666666666664,21.706,Asym,0,6553640,CONCENTRIC_RFD_50,Rate of force development during the first 50ms of the concentric phase,Concentric RFD - 50ms,Newton Per Second,False,True
+71,6553641,3980.0,21.706,Trial,0,6553641,CONCENTRIC_RFD_MAX,Maximum rate of force development within a 50ms window over the concentric phase,Concentric Maximum RFD,Newton Per Second,False,True
+72,6553641,2420.0,21.708,Left,0,6553641,CONCENTRIC_RFD_MAX,Maximum rate of force development within a 50ms window over the concentric phase,Concentric Maximum RFD,Newton Per Second,False,True
+73,6553641,1580.0,21.706,Right,0,6553641,CONCENTRIC_RFD_MAX,Maximum rate of force development within a 50ms window over the concentric phase,Concentric Maximum RFD,Newton Per Second,False,True
+74,6553641,-34.710743801652896,21.706,Asym,0,6553641,CONCENTRIC_RFD_MAX,Maximum rate of force development within a 50ms window over the concentric phase,Concentric Maximum RFD,Newton Per Second,False,True
+75,6553642,0.06799999999996231,21.724,Trial,0,6553642,TIME_TO_PEAK_FORCE,Time between start of the concentric phase to peak force,Concentric Time to Peak Force,Millisecond,False,True
+76,6553642,0.16199999999991022,21.818,Left,0,6553642,TIME_TO_PEAK_FORCE,Time between start of the concentric phase to peak force,Concentric Time to Peak Force,Millisecond,False,True
+77,6553642,0.045999999999974506,21.702,Right,0,6553642,TIME_TO_PEAK_FORCE,Time between start of the concentric phase to peak force,Concentric Time to Peak Force,Millisecond,False,True
+78,6553642,-71.60493827160494,21.724,Asym,0,6553642,TIME_TO_PEAK_FORCE,Time between start of the concentric phase to peak force,Concentric Time to Peak Force,Millisecond,False,True
+79,6553643,0.885999999999509,21.912,Trial,0,6553643,CONTRACTION_TIME,Time on the ground between start of movement and takeoff,Contraction Time,Millisecond,False,False
+80,6553644,0.6299999999996508,21.656,Trial,0,6553644,ECCENTRIC_TIME,Duration of the eccentric phase,Eccentric Duration,Millisecond,False,False
+81,6553645,0.6979999999996132,21.724,Trial,0,6553645,START_TO_PEAK_FORCE_TIME,Time between start of movement and peak force,Movement Start to Peak Force,Second,False,False
+82,6553646,0.82,21.846,Trial,0,6553646,START_TO_PEAK_POWER_TIME,Time between start of movement and peak power,Movement Start to Peak Power,Second,False,False
+83,6553647,45.321,22.576,Trial,0,6553647,WEIGHT_RELATIVE_PEAK_LANDING_FORCE,Landing net (above body-weight) peak force relative to body mass,Landing Net Peak Force / BM,Newton Per Kilo,False,False
+84,6553648,14.756,21.724,Trial,0,6553648,WEIGHT_RELATIVE_PEAK_TAKEOFF_FORCE,Peak net (above body-weight) takeoff force relative to body mass,Peak Net Takeoff Force / BM,Newton Per Kilo,False,False
+85,6553649,35.50257312229184,21.724,Trial,0,6553649,RELATIVE_CONCENTRIC_RFD,Rate of force development over the concentric phase to peak force relative to body mass,Concentric RFD / BM,Newton Per Second Per Kilo,False,False
+86,6553655,2.8985596949179664,21.912,Trial,0,6553655,TAKEOFF_VELOCITY,The vertical velocity at the instant of take-off,Vertical Velocity at Takeoff,Meter Per Second,False,False
+87,6553657,0.2559999999998581,21.912,Trial,0,6553657,CONCENTRIC_DURATION,Length of the concentric phase,Concentric Duration,Millisecond,False,False
+88,6553658,140.63492063492063,21.912,Trial,0,6553658,CONCENTRIC_ECCENTRIC_DURATION_RATIO,Ratio of total contraction time to eccentric duration as %,Contraction Time:Eccentric Duration,Percent,False,False
+89,6553659,246.09375,21.912,Trial,0,6553659,ECCENTRIC_CONCENTRIC_DURATION_RATIO,Ratio of eccentric to concentric duration as %,Eccentric:Concentric Duration,Percent,False,False
+90,6553660,0.6681715575620768,21.912,Trial,0,6553660,FLIGHT_CONTRACTION_TIME_RATIO,Ratio of flight time to contraction time,Flight Time:Contraction Time,No Unit,False,False
+91,6553661,0.9396825396825397,21.912,Trial,0,6553661,FLIGHT_ECCENTRIC_TIME_RATIO,Ratio of flight time to eccentric duration,FlightTime:Eccentric Duration,No Unit,False,False
+92,6553662,21.433999999999,21.434,Trial,0,6553662,BEGIN_BRAKING_PHASE,Absolute time from the start of recording to the start of braking phase (minimum force during eccentric phase),Start of Braking Phase,Second,False,False
+93,6553663,508.99076638965835,21.434,Trial,0,6553663,MIN_ECCENTRIC_FORCE,Minimum force during the eccentric phase,Minimum Eccentric Force,Newton,False,False
+94,6553664,0.22199999999987696,21.656,Trial,0,6553664,BRAKING_PHASE_DURATION,The time period from minimum force to the start of the concentric phase,Braking Phase Duration,Millisecond,False,False
+95,6553665,21.517999999998953,21.518,Trial,0,6553665,BEGIN_ECC_DECEL_PHASE,Absolute time from the start of recording to the start of eccentric deceleration phase (end of eccentric acceleration phase),Start of Eccentric Deceleration Phase,Second,False,False
+96,6553666,0.4079999999997739,21.434,Trial,0,6553666,TIME_TO_BRAKING_PHASE,Time period from the start of the movement to minimum force eccentric (braking) phase,Time to Braking Phase,Second,False,False
+97,6553667,0.4919999999997273,21.518,Trial,0,6553667,ECCENTRIC_ACCEL_PHASE_DURATION,The time period from start of movement and to maximum negative velocity,Eccentric Acceleration Phase Duration,Second,False,False
+98,6553668,0.13799999999992352,21.656,Trial,0,6553668,ECCENTRIC_DECEL_PHASE_DURATION,The time period from maximum negative velocity to zero velocity (start of concentric phase),Eccentric Deceleration Phase Duration,Second,False,False
+99,6553669,25.056433408577877,21.656,Trial,0,6553669,BEAKING_CONTRACTION_DURATION_RATIO,Braking phase duration to contraction time ratio,Braking Phase Duration:Contraction Time,Percent,False,False
+100,6553670,86.71875,21.656,Trial,0,6553670,BEAKING_CONCENTRIC_DURATION_RATIO,Braking phase duration to concentric phase duration ratio,Braking Phase Duration:Concentric Duration,Percent,False,False
+101,6553671,1272.187194961087,21.656,Trial,0,6553671,MEAN_ECCENTRIC_BRAKING_FORCE,Mean force during the eccentric braking phase (from minimum force to the end of the eccentric phase),Eccentric Mean Braking Force,Newton,False,False
+102,6553672,1614.847909246802,21.656,Trial,0,6553672,MEAN_ECCENTRIC_DECELERATION_FORCE,Mean force from during the eccentric deceleration phase.,Eccentric Mean Deceleration Force,Newton,False,False
+103,6553673,2041.9907663896583,21.846,Trial,0,6553673,FORCE_AT_PEAK_POWER,Force at point of peak power,Force at Peak Power,Newton,False,True
+104,6553673,1048.6952908587257,21.846,Left,0,6553673,FORCE_AT_PEAK_POWER,Force at point of peak power,Force at Peak Power,Newton,False,True
+105,6553673,993.2954755309325,21.846,Right,0,6553673,FORCE_AT_PEAK_POWER,Force at point of peak power,Force at Peak Power,Newton,False,True
+106,6553673,-5.2827371125533436,21.846,Asym,0,6553673,FORCE_AT_PEAK_POWER,Force at point of peak power,Force at Peak Power,Newton,False,True
+107,6553674,61.697513569448724,21.656,Trial,0,6553674,CONCENTRIC_IMPULSE_50MS,Total net impulse over first 50ms of the concentric phase,Concentric Impulse-50ms,Newton Second,False,True
+108,6553674,48.23476454290956,21.656,Left,0,6553674,CONCENTRIC_IMPULSE_50MS,Total net impulse over first 50ms of the concentric phase,Concentric Impulse-50ms,Newton Second,False,True
+109,6553674,57.73977377651464,21.656,Right,0,6553674,CONCENTRIC_IMPULSE_50MS,Total net impulse over first 50ms of the concentric phase,Concentric Impulse-50ms,Newton Second,False,True
+110,6553674,16.461805462547886,21.656,Asym,0,6553674,CONCENTRIC_IMPULSE_50MS,Total net impulse over first 50ms of the concentric phase,Concentric Impulse-50ms,Newton Second,False,True
+111,6553675,127.56202713889516,21.656,Trial,0,6553675,CONCENTRIC_IMPULSE_100MS,Total net impulse over first 100ms of the concentric phase,Concentric Impulse-100ms,Newton Second,False,True
+112,6553675,101.21252908581648,21.656,Left,0,6553675,CONCENTRIC_IMPULSE_100MS,Total net impulse over first 100ms of the concentric phase,Concentric Impulse-100ms,Newton Second,False,True
+113,6553675,114.9035475530296,21.656,Right,0,6553675,CONCENTRIC_IMPULSE_100MS,Total net impulse over first 100ms of the concentric phase,Concentric Impulse-100ms,Newton Second,False,True
+114,6553675,11.915226952322351,21.656,Asym,0,6553675,CONCENTRIC_IMPULSE_100MS,Total net impulse over first 100ms of the concentric phase,Concentric Impulse-100ms,Newton Second,False,True
+115,6553676,162.95163473778595,21.656,Trial,0,6553676,CONCENTRIC_IMPULSE_P1,Net impulse during 1st 50% (time-wise) of concentric phase,P1 Concentric Impulse,Newton Second,False,True
+116,6553676,130.9579972298443,21.656,Left,0,6553676,CONCENTRIC_IMPULSE_P1,Net impulse during 1st 50% (time-wise) of concentric phase,P1 Concentric Impulse,Newton Second,False,True
+117,6553676,145.3428208678788,21.656,Right,0,6553676,CONCENTRIC_IMPULSE_P1,Net impulse during 1st 50% (time-wise) of concentric phase,P1 Concentric Impulse,Newton Second,False,True
+118,6553676,9.897168330805112,21.656,Asym,0,6553676,CONCENTRIC_IMPULSE_P1,Net impulse during 1st 50% (time-wise) of concentric phase,P1 Concentric Impulse,Newton Second,False,True
+119,6553677,97.860634737822,21.784,Trial,0,6553677,CONCENTRIC_IMPULSE_P2,Net impulse during 2nd 50% (time-wise) of concentric phase,P2 Concentric Impulse,Newton Second,False,True
+120,6553677,108.20899722985693,21.784,Left,0,6553677,CONCENTRIC_IMPULSE_P2,Net impulse during 2nd 50% (time-wise) of concentric phase,P2 Concentric Impulse,Newton Second,False,True
+121,6553677,103.00082086790228,21.784,Right,0,6553677,CONCENTRIC_IMPULSE_P2,Net impulse during 2nd 50% (time-wise) of concentric phase,P2 Concentric Impulse,Newton Second,False,True
+122,6553677,-4.813071459198053,21.784,Asym,0,6553677,CONCENTRIC_IMPULSE_P2,Net impulse during 2nd 50% (time-wise) of concentric phase,P2 Concentric Impulse,Newton Second,False,True
+123,6553678,6716.216216219938,21.656,Trial,0,6553678,ECCENTRIC_BRAKING_RFD,Eccentric RFD calculated from the initiation of the active (braking) phase to the end of the eccentric phase,Eccentric Braking RFD,Newton Per Second,False,True
+124,6553678,2833.3333333349037,21.656,Left,0,6553678,ECCENTRIC_BRAKING_RFD,Eccentric RFD calculated from the initiation of the active (braking) phase to the end of the eccentric phase,Eccentric Braking RFD,Newton Per Second,False,True
+125,6553678,2887.417218544647,21.656,Right,0,6553678,ECCENTRIC_BRAKING_RFD,Eccentric RFD calculated from the initiation of the active (braking) phase to the end of the eccentric phase,Eccentric Braking RFD,Newton Per Second,False,True
+126,6553678,1.873088685015295,21.656,Asym,0,6553678,ECCENTRIC_BRAKING_RFD,Eccentric RFD calculated from the initiation of the active (braking) phase to the end of the eccentric phase,Eccentric Braking RFD,Newton Per Second,False,True
+127,6553679,74.37670228372025,21.656,Trial,0,6553679,RELATIVE_ECCENTRIC_BRAKING_RFD,Eccentric RFD calculated from the initiation of the active (braking) phase to the end of the eccentric phase realtive to body-weight,Eccentric Braking RFD / BM,Newton Per Second Per Kilo,False,False
+128,6553680,4880.000000002705,21.534,Trial,0,6553680,ECCENTRIC_BRAKING_RFD_100MS,Eccentric RFD calculated over first 100ms of the braking phase,Eccentric Braking RFD-100ms,Newton Per Second,False,True
+129,6553680,2020.0000000011196,21.528,Left,0,6553680,ECCENTRIC_BRAKING_RFD_100MS,Eccentric RFD calculated over first 100ms of the braking phase,Eccentric Braking RFD-100ms,Newton Per Second,False,True
+130,6553680,200.00000000011084,21.454,Right,0,6553680,ECCENTRIC_BRAKING_RFD_100MS,Eccentric RFD calculated over first 100ms of the braking phase,Eccentric Braking RFD-100ms,Newton Per Second,False,True
+131,6553680,-90.0990099009901,21.534,Asym,0,6553680,ECCENTRIC_BRAKING_RFD_100MS,Eccentric RFD calculated over first 100ms of the braking phase,Eccentric Braking RFD-100ms,Newton Per Second,False,True
+132,6553681,54.04208194908865,21.534,Trial,0,6553681,RELATIVE_ECCENTRIC_BRAKING_RFD_100MS,Eccentric RFD calculated over first 100ms of the braking phase relative to body mass,Eccentric Braking RFD-100ms / BM,Newton Per Second Per Kilo,False,False
+133,6553682,8072.463768120416,21.656,Trial,0,6553682,ECCENTRIC_DECEL_RFD,Rate of force development calculated over the eccentric deceleration phase,Eccentric Deceleration RFD,Newton Per Second,False,True
+134,6553682,3492.753623190342,21.656,Left,0,6553682,ECCENTRIC_DECEL_RFD,Rate of force development calculated over the eccentric deceleration phase,Eccentric Deceleration RFD,Newton Per Second,False,True
+135,6553682,4579.710144930074,21.656,Right,0,6553682,ECCENTRIC_DECEL_RFD,Rate of force development calculated over the eccentric deceleration phase,Eccentric Deceleration RFD,Newton Per Second,False,True
+136,6553682,23.734177215189867,21.656,Asym,0,6553682,ECCENTRIC_DECEL_RFD,Rate of force development calculated over the eccentric deceleration phase,Eccentric Deceleration RFD,Newton Per Second,False,True
+137,6553683,89.3960550179448,21.656,Trial,0,6553683,RELATIVE_ECCENTRIC_DECEL_RFD,Rate of force development calculated over the eccentric deceleration phase relative to body mass,Eccentric Deceleration RFD / BM,Newton Per Second Per Kilo,False,False
+138,6553684,24.562466958910946,21.724,Trial,0,6553684,RELATIVE_PEAK_TAKEOFF_FORCE,Peak force over the entire takeoff phase relative to body mass,Takeoff Peak Force / BM,Newton Per Kilo,False,False
+139,6553685,2217.9907663896583,21.724,Trial,0,6553685,PEAK_CONCENTRIC_FORCE,Peak force over the concentric phase,Concentric Peak Force,Newton,False,True
+140,6553685,1085.6952908587257,21.818,Left,0,6553685,PEAK_CONCENTRIC_FORCE,Peak force over the concentric phase,Concentric Peak Force,Newton,False,True
+141,6553685,1177.2954755309327,21.702,Right,0,6553685,PEAK_CONCENTRIC_FORCE,Peak force over the concentric phase,Concentric Peak Force,Newton,False,True
+142,6553685,7.780560324577604,21.724,Asym,0,6553685,PEAK_CONCENTRIC_FORCE,Peak force over the concentric phase,Concentric Peak Force,Newton,False,True
+143,6553686,24.562466958910946,21.724,Trial,0,6553686,RELATIVE_PEAK_CONCENTRIC_FORCE,Peak force over the concentric phase relative to body mass,Concentric Peak Force / BM,Newton Per Kilo,False,False
+144,6553687,1999.9907663896583,21.656,Trial,0,6553687,PEAK_ECCENTRIC_FORCE,Peak force over the eccentric phase,Eccentric Peak Force,Newton,False,True
+145,6553687,917.6952908587258,21.606,Left,0,6553687,PEAK_ECCENTRIC_FORCE,Peak force over the eccentric phase,Eccentric Peak Force,Newton,False,True
+146,6553687,1097.2954755309327,21.656,Right,0,6553687,PEAK_ECCENTRIC_FORCE,Peak force over the eccentric phase,Eccentric Peak Force,Newton,False,True
+147,6553687,16.36753168833639,21.656,Asym,0,6553687,PEAK_ECCENTRIC_FORCE,Peak force over the eccentric phase,Eccentric Peak Force,Newton,False,True
+148,6553688,22.148291986596437,21.656,Trial,0,6553688,RELATIVE_PEAK_ECCENTRIC_FORCE,Peak force over the eccentric phase relative to body mass,Eccentric Peak Force / BM,Newton Per Kilo,False,False
+149,6553689,55.12725101206709,22.576,Trial,0,6553689,RELATIVE_PEAK_LANDING_FORCE,Peak force on landing relative to body mass,Peak Landing Force / BM,Newton Per Kilo,False,False
+150,6553690,1343.6653982860664,21.912,Trial,0,6553690,MEAN_ECC_CON_POWER_TIME,"Power during eccentric (converted to absolute values) + concentric phases, divided by the total contraction time",Mean Eccentric+Concentric Power:Time,Watt Per Second,False,False
+151,6553691,4688.635544724023,21.656,Trial,0,6553691,LOWER_LIMB_STIFFNESS,Change in vertical force divided by displacement of CoM during the eccentric phase,Lower-Limb Stiffness,Newton Per Meter,False,False
+152,6553692,28547.00378426887,21.912,Trial,0,6553692,CONCENTRIC_RPD,Rate of power development from start of concentric phase to peak power,Concentric RPD,Watt Per Second,False,False
+153,6553693,316.13514711261206,21.912,Trial,0,6553693,RELATIVE_CONCENTRIC_RPD,Rate of power development from start of concentric phase to peak power relative to body mass,Concentric RPD / BM,Watt Per Second Per Kilo,False,False
+154,6553694,30090.114988397574,21.706,Trial,0,6553694,CONCENTRIC_RPD_50MS,Rate of power development for 50ms from start of the concentric phase,Concentric RPD - 50ms,Watt Per Second,False,False
+155,6553695,333.2238647663076,21.706,Trial,0,6553695,RELATIVE_CONCENTRIC_RPD_50MS,Rate of power development for 50ms from start of the concentric phase to peak power relative to body mass,Concentric RPD-50ms / BM,Watt Per Second Per Kilo,False,False
+156,6553696,30629.087043742187,21.756,Trial,0,6553696,CONCENTRIC_RPD_100MS,Rate of power development for 100ms from start of the concentric phase,Concentric RPD - 100ms,Watt Per Second,False,False
+157,6553697,339.19254754974736,21.756,Trial,0,6553697,RELATIVE_CONCENTRIC_RPD_100MS,Rate of power development for 100ms from start of the concentric phase to peak power relative to body mass,Concentric RPD-100ms / BM,Watt Per Second Per Kilo,False,False
+158,6553698,48.488682076722554,22.504,Trial,0,6553698,RSI_MODIFIED,Jump height (flight time) / Contraction time,RSI-modified,RSIModified,False,False
+159,6553699,1057.1442156343044,21.912,Trial,0,6553699,TOTAL_WORK,"Integrating the power-time curve from the SoM through the concentric phase, until the power output reaches zero",Total Work,Joule,False,False
+160,6553700,2.666259385818234,21.846,Trial,0,6553700,VELOCITY_AT_PEAK_POWER,Vertical velocity at the point of peak power during takeoff,Velocity at Peak Power,Meter Per Second,False,False
+161,6553701,-1.1080893297478693,21.518,Trial,0,6553701,ECCENTRIC_PEAK_VELOCITY,Maximum negative velocity during the eccentric phase (ie. velocity at the start of the eccentric deceleration phase),Eccentric Peak Velocity,Meter Per Second,False,False
+162,6553702,1499.2001473768269,21.576,Trial,0,6553702,ECCENTRIC_PEAK_POWER,Peak power during the eccentric phase,Eccentric Peak Power,Watt,False,False
+163,6553703,85.87096024845657,21.434,Trial,0,6553703,ECCENTRIC_BRAKING_IMPULSE,Net impulse from the initiation of the active (braking) phase to the end of the eccentric phase,Eccentric Braking Impulse,Newton Second,False,True
+164,6553703,137.50935457056093,21.434,Left,0,6553703,ECCENTRIC_BRAKING_IMPULSE,Net impulse from the initiation of the active (braking) phase to the end of the eccentric phase,Eccentric Braking Impulse,Newton Second,False,True
+165,6553703,144.95159556778674,21.434,Right,0,6553703,ECCENTRIC_BRAKING_IMPULSE,Net impulse from the initiation of the active (braking) phase to the end of the eccentric phase,Eccentric Braking Impulse,Newton Second,False,True
+166,6553703,5.13429394693723,21.434,Asym,0,6553703,ECCENTRIC_BRAKING_IMPULSE,Net impulse from the initiation of the active (braking) phase to the end of the eccentric phase,Eccentric Braking Impulse,Newton Second,False,True
+167,6553704,100.98813745171691,21.518,Trial,0,6553704,ECCENTRIC_DECEL_IMPULSE,Net impulse from the start of eccentric deceleration to the end of the eccentric phase,Eccentric Deceleration Impulse,Newton Second,False,True
+168,6553704,106.06595013844539,21.518,Left,0,6553704,ECCENTRIC_DECEL_IMPULSE,Net impulse from the start of eccentric deceleration to the end of the eccentric phase,Eccentric Deceleration Impulse,Newton Second,False,True
+169,6553704,117.12677562320378,21.518,Right,0,6553704,ECCENTRIC_DECEL_IMPULSE,Net impulse from the start of eccentric deceleration to the end of the eccentric phase,Eccentric Deceleration Impulse,Newton Second,False,True
+170,6553704,9.443464507501695,21.518,Asym,0,6553704,ECCENTRIC_DECEL_IMPULSE,Net impulse from the start of eccentric deceleration to the end of the eccentric phase,Eccentric Deceleration Impulse,Newton Second,False,True
+171,6553712,260.8122694756081,21.656,Trial,0,6553712,CONCENTRIC_IMPULSE,Area under the Fz curve from transition point at zero velocity (max negative displacement) (start of concentric phase) to take-off - net impulse,Concentric Impulse,Newton Second,False,True
+172,6553712,239.1669944597012,21.656,Left,0,6553712,CONCENTRIC_IMPULSE,Area under the Fz curve from transition point at zero velocity (max negative displacement) (start of concentric phase) to take-off - net impulse,Concentric Impulse,Newton Second,False,True
+173,6553712,248.3436417357811,21.656,Right,0,6553712,CONCENTRIC_IMPULSE,Area under the Fz curve from transition point at zero velocity (max negative displacement) (start of concentric phase) to take-off - net impulse,Concentric Impulse,Newton Second,False,True
+174,6553712,3.6951408185610672,21.656,Asym,0,6553712,CONCENTRIC_IMPULSE,Area under the Fz curve from transition point at zero velocity (max negative displacement) (start of concentric phase) to take-off - net impulse,Concentric Impulse,Newton Second,False,True
+175,6553713,1999.9907663896583,21.656,Trial,0,6553713,FORCE_AT_ZERO_VELOCITY,The combined (total) force at the instant velocity is zero prior to takeoff,Force at Zero Velocity,Newton,False,True
+176,6553713,902.6952908587258,21.656,Left,0,6553713,FORCE_AT_ZERO_VELOCITY,The combined (total) force at the instant velocity is zero prior to takeoff,Force at Zero Velocity,Newton,False,True
+177,6553713,1097.2954755309327,21.656,Right,0,6553713,FORCE_AT_ZERO_VELOCITY,The combined (total) force at the instant velocity is zero prior to takeoff,Force at Zero Velocity,Newton,False,True
+178,6553713,17.7345290317586,21.656,Asym,0,6553713,FORCE_AT_ZERO_VELOCITY,The combined (total) force at the instant velocity is zero prior to takeoff,Force at Zero Velocity,Newton,False,True
+179,6553714,715.1517578197788,22.514,Trial,0,6553714,POSITIVE_IMPULSE,Area above BW in takeoff and landing phases,Positive Impulse,Newton Second,False,True
+180,6553714,747.1133074788105,22.514,Left,0,6553714,POSITIVE_IMPULSE,Area above BW in takeoff and landing phases,Positive Impulse,Newton Second,False,True
+181,6553714,812.7958836560601,22.514,Right,0,6553714,POSITIVE_IMPULSE,Area above BW in takeoff and landing phases,Positive Impulse,Newton Second,False,True
+182,6553714,8.081066538108066,22.514,Asym,0,6553714,POSITIVE_IMPULSE,Area above BW in takeoff and landing phases,Positive Impulse,Newton Second,False,True
+183,6553716,-100.06046647623266,21.026,Trial,0,6553716,ECCENTRIC_UNLOADING_IMPULSE,Net impulse from start of movement to start of the deceleration phase,Eccentric Unloading Impulse,Newton Second,False,True
+184,6553716,169.99208310239888,21.026,Left,0,6553716,ECCENTRIC_UNLOADING_IMPULSE,Net impulse from start of movement to start of the deceleration phase,Eccentric Unloading Impulse,Newton Second,False,True
+185,6553716,165.63337396112732,21.026,Right,0,6553716,ECCENTRIC_UNLOADING_IMPULSE,Net impulse from start of movement to start of the deceleration phase,Eccentric Unloading Impulse,Newton Second,False,True
+186,6553716,-2.5640659622048316,21.026,Asym,0,6553716,ECCENTRIC_UNLOADING_IMPULSE,Net impulse from start of movement to start of the deceleration phase,Eccentric Unloading Impulse,Newton Second,False,True
+187,6553717,373.0155009567463,21.516,Trial,0,6553717,POSITIVE_TAKEOFF_IMPULSE,Area above BW in the takeoff phase,Positive Takeoff Impulse,Newton Second,False,True
+188,6553717,341.2450387809745,21.516,Left,0,6553717,POSITIVE_TAKEOFF_IMPULSE,Area above BW in the takeoff phase,Positive Takeoff Impulse,Newton Second,False,True
+189,6553717,362.943507848368,21.516,Right,0,6553717,POSITIVE_TAKEOFF_IMPULSE,Area above BW in the takeoff phase,Positive Takeoff Impulse,Newton Second,False,True
+190,6553717,5.978470091951269,21.516,Asym,0,6553717,POSITIVE_TAKEOFF_IMPULSE,Area above BW in the takeoff phase,Positive Takeoff Impulse,Newton Second,False,True
+191,6553718,6974.748722444151,21.724,Trial,0,6553718,CMJ_STIFFNESS,Peak force during takeoff / displacement at start of concentric phase (min displacement),CMJ Stiffness,Newton Per Meter,False,True
+192,6553718,3414.1043135209306,21.818,Left,0,6553718,CMJ_STIFFNESS,Peak force during takeoff / displacement at start of concentric phase (min displacement),CMJ Stiffness,Newton Per Meter,False,True
+193,6553718,3702.152523955132,21.702,Right,0,6553718,CMJ_STIFFNESS,Peak force during takeoff / displacement at start of concentric phase (min displacement),CMJ Stiffness,Newton Per Meter,False,True
+194,6553718,7.780560324577604,21.724,Asym,0,6553718,CMJ_STIFFNESS,Peak force during takeoff / displacement at start of concentric phase (min displacement),CMJ Stiffness,Newton Per Meter,False,True
+195,6553720,21.01125523571429,21.912,Trial,0,6553720,BODYMASS_RELATIVE_MEAN_TAKEOFF_FORCE,The average force in the concentric phase relative to body mass,Concentric Mean Force / BM,Newton Per Kilo,False,False
+196,6553722,16.60243795544659,21.576,Trial,0,6553722,BODYMASS_RELATIVE_ECCENTRIC_PEAK_POWER,Eccentric Peak Power divided by Body Mass,Eccentric Peak Power / BM,Watt Per Kilo,False,False
+197,6553724,0.2753616434661761,21.576,Trial,0,6553724,ECC_CON_PEAK_POWER_RATIO,Ratio of Eccentric Peak Power to Concentric Peak Power,Eccentric Peak Power:Concentric Peak Power,No Unit,False,False
+198,6553725,0.6005501871478288,21.784,Trial,0,6553725,CON_P2_CON_P1_IMPULSE_RATIO,Ratio of P2 Concentric Impulse to P1 Concentric Impulse,P2 Concentric Impulse:P1 Concentric Impulse,No Unit,False,True
+199,6553725,0.826287813793757,21.784,Left,0,6553725,CON_P2_CON_P1_IMPULSE_RATIO,Ratio of P2 Concentric Impulse to P1 Concentric Impulse,P2 Concentric Impulse:P1 Concentric Impulse,No Unit,False,True
+200,6553725,0.708674981350013,21.784,Right,0,6553725,CON_P2_CON_P1_IMPULSE_RATIO,Ratio of P2 Concentric Impulse to P1 Concentric Impulse,P2 Concentric Impulse:P1 Concentric Impulse,No Unit,False,True
+201,6553725,-14.233882005804393,21.784,Asym,0,6553725,CON_P2_CON_P1_IMPULSE_RATIO,Ratio of P2 Concentric Impulse to P1 Concentric Impulse,P2 Concentric Impulse:P1 Concentric Impulse,No Unit,False,True
+202,6553726,0.4890951924745439,21.656,Trial,0,6553726,CON_100MS_CON_IMPULSE_RATIO,Ratio of Concentric Impulse-100ms to Concentric Impulse,Concentric Impulse-100ms:Concentric Impulse,No Unit,False,True
+203,6553726,0.4231876949177887,21.656,Left,0,6553726,CON_100MS_CON_IMPULSE_RATIO,Ratio of Concentric Impulse-100ms to Concentric Impulse,Concentric Impulse-100ms:Concentric Impulse,No Unit,False,True
+204,6553726,0.4626796432150186,21.656,Right,0,6553726,CON_100MS_CON_IMPULSE_RATIO,Ratio of Concentric Impulse-100ms to Concentric Impulse,Concentric Impulse-100ms:Concentric Impulse,No Unit,False,True
+205,6553726,8.535484298123103,21.656,Asym,0,6553726,CON_100MS_CON_IMPULSE_RATIO,Ratio of Concentric Impulse-100ms to Concentric Impulse,Concentric Impulse-100ms:Concentric Impulse,No Unit,False,True
+206,6553727,139.69733517997796,22.504,Trial,0,6553727,LANDING_IMPULSE,Absolute Impulse from Landing to Peak Landing Force,Landing Impulse,Newton Second,False,True
+207,6553727,72.86906094178786,22.504,Left,0,6553727,LANDING_IMPULSE,Absolute Impulse from Landing to Peak Landing Force,Landing Impulse,Newton Second,False,True
+208,6553727,62.11068328713086,22.504,Right,0,6553727,LANDING_IMPULSE,Absolute Impulse from Landing to Peak Landing Force,Landing Impulse,Newton Second,False,True
+209,6553727,-14.763985586765601,22.504,Asym,0,6553727,LANDING_IMPULSE,Absolute Impulse from Landing to Peak Landing Force,Landing Impulse,Newton Second,False,True
+210,6553728,39540.000000021915,22.504,Trial,0,6553728,LANDING_RFD_50,Rate of force development over the first 50ms from landing,Landing RFD 50ms,Newton Per Second,False,False
+211,6553730,1.1183625409935427,21.518,Trial,0,6553730,BODYMASS_RELATIVE_ECC_DECEL_IMPULSE,Net impulse from the start of eccentric deceleration to the end of the eccentric phase relative to body mass,Eccentric Deceleration Impulse / BM,Newton Second Per Kilo,False,False
+212,6553731,12.936863366428804,21.656,Trial,0,6553731,DISPLACEMENT_AT_TAKEOFF,Displacement of the centre of mass when takeoff occurs,Displacement at Takeoff,Centimeter,False,False
+213,6553732,22.148291986596437,21.656,Trial,0,6553732,BM_REL_FORCE_AT_ZERO_VELOCITY,The combined force at the instant velocity is zero divided by body mass,Force at Zero Velocity / BM,Newton Per Kilo,False,False
+214,6553733,48.34817715775831,22.504,Trial,0,6553733,RSI_MODIFIED_IMP_MOM,Jump height (Imp-Mom) / Contraction time,RSI-modified (Imp-Mom),RSIModified,False,False
+215,6553734,5.3987888836709015,21.656,Trial,0,6553734,BM_REL_ABS_CON_IMPULSE,Absolute concentric impulse (area under the Fz curve from the transition point at zero velocity) divided by body mass,Concentric Impulse (Abs) / BM,Newton Second Per Kilo,False,False
+216,655365,31.86199999999322,31.862,Trial,0,655365,START_OF_MOVEMENT,Absolute time from the start of recording to start of movement,Start of Movement,Second,False,True
+217,655366,17.549728610341617,31.862,Trial,0,655366,START_OF_MOVEMENT_THRESHOLD,Threshold used for start of movement detection,Start of Movement Detection Threshold,Newton,False,False
+218,655367,31.86199999999322,31.862,Trial,0,655367,START_OF_INTEGRATION,"Start time point for impulse, velocity and displacement integration",Start of Integration,Second,False,False
+219,655386,90.3,0.0,Trial,0,655386,BODY_WEIGHT,Mass of the profile in kilograms,Bodyweight in Kilograms,Kilo,False,False
+220,655387,90.3,0.0,Trial,0,655387,BODY_WEIGHT_LBS,Mass of the profile in pounds,Bodyweight in Pounds,Pound,False,False
+221,6553602,32.377999999993605,32.378,Trial,0,6553602,BEGIN_CONCENTRIC_PHASE,Asbolute time from the start of recording to the start of the concentric phase,Start of Concentric Phase,Second,False,False
+222,6553603,-34.35827826179752,32.378,Trial,0,6553603,COUNTERMOVEMENT_DEPTH,The amount of displacement the CM goes through from contact (zero position) to the lowest value. Note if the hips and knees are flexed at contact this is still the reference zero position.,Countermovement Depth,Centimeter,False,False
+223,6553604,58.833,32.576,Trial,0,6553604,BODYMASS_RELATIVE_TAKEOFF_POWER,Peak power divided by body mass,Peak Power / BM,Watt Per Kilo,False,False
+224,6553606,0.594000000000726,33.234,Trial,0,6553606,FLIGHT_TIME,The time interval between take-off and landing,Flight Time,Millisecond,False,False
+225,6553607,43.251739492605715,33.234,Trial,0,6553607,JUMP_HEIGHT,Jump height calculated from flight time,Jump Height (Flight Time),Centimeter,False,False
+226,6553608,5342.09826673958,33.252,Trial,0,6553608,JUMP_HEIGHT_RELATIVE_LANDING_RFD,Jump Height (FT) Relative Landing RFD,Jump Height (FT) Relative Landing RFD,Newton Per Second Per Centimeter,False,False
+227,6553609,96.158,33.252,Trial,0,6553609,JUMP_HEIGHT_RELATIVE_PEAK_LANDING_FORCE,Jump Height (FT) Relative Peak Landing Force,Jump Height (FT) Relative Peak Landing Force,Newton Per Centimeter,False,False
+228,6553610,42.82551227771536,32.936,Trial,0,6553610,IMPULSE_JUMP_HEIGHT,Jump height taken from the max displacement of the CM during the flight phase subtracting the displacement at the instant of take-off,Jump Height (Imp-Dis),Centimeter,False,False
+229,6553611,42.848063312388916,32.64,Trial,0,6553611,JUMP_HEIGHT_IMP_MOM,"Jump height is determined from the Kinetic energy relationship after establishing the velocity at the instant of take-off (derived by determining the change in velocity from the impulse measurment throughout the contact phase, utilises the trapezium/simpsons rule)",Jump Height (Imp-Mom),Centimeter,False,False
+230,6553612,231055.043,33.252,Trial,0,6553612,LANDING_RFD,Landing Rate of Force Development,Landing RFD,Newton Per Second,False,True
+231,6553612,37495.647,33.252,Left,0,6553612,LANDING_RFD,Landing Rate of Force Development,Landing RFD,Newton Per Second,False,True
+232,6553612,132349.749,33.252,Right,0,6553612,LANDING_RFD,Landing Rate of Force Development,Landing RFD,Newton Per Second,False,True
+233,6553612,71.7,33.252,Asym,0,6553612,LANDING_RFD,Landing Rate of Force Development,Landing RFD,Newton Per Second,False,True
+234,6553613,17.028253089978364,33.234,Trial,0,6553613,JUMP_HEIGHT_INCHES,"Jump height calculated from flight time, in inches",Jump Height (Flight Time) in Inches,Inch,False,False
+235,6553614,16.86932537415083,32.64,Trial,0,6553614,JUMP_HEIGHT_INCHES_IMP_MOM,"Jump height is determined from the Kinetic energy relationship after establishing the velocity at the instant of take-off (derived by determining the change in velocity from the impulse measurment throughout the contact phase, utilises the trapezium/simpsons rule)",Jump Height (Imp-Mom) in Inches,Inch,False,False
+236,6553615,2.962,34.232,Trial,0,6553615,MEAN_LANDING_ACCELERATION,The average acceleration during landing,Mean Landing Acceleration,Meter Per Second Per Second,False,False
+237,6553616,1044.196,34.232,Trial,0,6553616,MEAN_LANDING_POWER,The average power (force x velocity) during landing,Mean Landing Power,Watt,False,False
+238,6553617,-0.09,34.232,Trial,0,6553617,MEAN_LANDING_VELOCITY,The average velocity during landing,Mean Landing Velocity,Meter Per Second,False,False
+239,6553618,11.066,32.64,Trial,0,6553618,MEAN_TAKEOFF_ACCELERATION,Mean Takeoff Acceleration,Mean Takeoff Acceleration,Meter Per Second Per Second,False,False
+240,6553619,1884.809,32.64,Trial,0,6553619,MEAN_TAKEOFF_FORCE,The average force in the concentric phase,Concentric Mean Force,Newton,False,True
+241,6553619,972.256,32.64,Left,0,6553619,MEAN_TAKEOFF_FORCE,The average force in the concentric phase,Concentric Mean Force,Newton,False,True
+242,6553619,912.553,32.64,Right,0,6553619,MEAN_TAKEOFF_FORCE,The average force in the concentric phase,Concentric Mean Force,Newton,False,True
+243,6553619,-6.1,32.64,Asym,0,6553619,MEAN_TAKEOFF_FORCE,The average force in the concentric phase,Concentric Mean Force,Newton,False,True
+244,6553620,885.8054382043284,32.378,Trial,0,6553620,MEAN_ECCENTRIC_FORCE,The average force in the eccentric phase,Eccentric Mean Force,Newton,False,True
+245,6553620,439.0852522486877,32.378,Left,0,6553620,MEAN_ECCENTRIC_FORCE,The average force in the eccentric phase,Eccentric Mean Force,Newton,False,True
+246,6553620,446.7201859556433,32.378,Right,0,6553620,MEAN_ECCENTRIC_FORCE,The average force in the eccentric phase,Eccentric Mean Force,Newton,False,True
+247,6553620,1.7091087322643774,32.378,Asym,0,6553620,MEAN_ECCENTRIC_FORCE,The average force in the eccentric phase,Eccentric Mean Force,Newton,False,True
+248,6553621,587.3935452995751,32.378,Trial,0,6553621,MEAN_ECCENTRIC_POWER,Eccentric Mean Power,Eccentric Mean Power,Watt,False,False
+249,6553622,46.9970942703023,32.378,Trial,0,6553622,MEAN_ECC_CON_RATIO,Ratio of mean forces in the eccentric and concentric phases,Eccentric:Concentric Mean Force Ratio,Percent,False,True
+250,6553622,45.161490266087675,32.378,Left,0,6553622,MEAN_ECC_CON_RATIO,Ratio of mean forces in the eccentric and concentric phases,Eccentric:Concentric Mean Force Ratio,Percent,False,True
+251,6553622,48.95279078020531,32.378,Right,0,6553622,MEAN_ECC_CON_RATIO,Ratio of mean forces in the eccentric and concentric phases,Eccentric:Concentric Mean Force Ratio,Percent,False,True
+252,6553622,7.744809751787835,32.378,Asym,0,6553622,MEAN_ECC_CON_RATIO,Ratio of mean forces in the eccentric and concentric phases,Eccentric:Concentric Mean Force Ratio,Percent,False,True
+253,6553623,3045.253,32.64,Trial,0,6553623,MEAN_CONCENTRIC_POWER,The average power (force x velocity) in the concentric phase,Concentric Mean Power,Watt,False,False
+254,6553624,33.724,32.64,Trial,0,6553624,BODYMASS_RELATIVE_MEAN_CONCENTRIC_POWER,The average power (force x velocity) in the concentric phase divided by body mass,Concentric Mean Power / BM,Watt Per Kilo,False,False
+255,6553625,6.504911908079459,32.378,Trial,0,6553625,BODYMASS_RELATIVE_MEAN_ECCENTRIC_POWER,The average power (force x velocity) in the eccentric phase divided by body mass,Eccentric Mean Power / BM,Watt Per Kilo,False,False
+256,6553626,1.826,32.64,Trial,0,6553626,MEAN_TAKEOFF_VELOCITY,The average velocity during the concentric phase,Concentric Mean Velocity,Meter Per Second,False,False
+257,6553627,36.251,33.252,Trial,0,6553627,PEAK_LANDING_ACCELERATION,Peak acceleration during landing,Peak Landing Acceleration,Meter Per Second Per Second,False,False
+258,6553628,4158.990766389658,33.252,Trial,0,6553628,PEAK_LANDING_FORCE,Peak force during landing,Peak Landing Force,Newton,False,True
+259,6553628,2624.695,33.304,Left,0,6553628,PEAK_LANDING_FORCE,Peak force during landing,Peak Landing Force,Newton,False,True
+260,6553628,2382.295,33.252,Right,0,6553628,PEAK_LANDING_FORCE,Peak force during landing,Peak Landing Force,Newton,False,True
+261,6553628,-9.2,33.252,Asym,0,6553628,PEAK_LANDING_FORCE,Peak force during landing,Peak Landing Force,Newton,False,True
+262,6553629,11946.442,33.252,Trial,0,6553629,PEAK_LANDING_POWER,Peak power (force x velocity) during landing,Peak Landing Power,Watt,False,False
+263,6553630,1.014,33.754,Trial,0,6553630,PEAK_LANDING_VELOCITY,Peak velocity during landing,Peak Landing Velocity,Meter Per Second,False,False
+264,6553631,16.982,32.378,Trial,0,6553631,PEAK_TAKEOFF_ACCELERATION,Peak acceleration during takeoff,Peak Takeoff Acceleration,Meter Per Second Per Second,False,False
+265,6553632,2461.9907663896583,32.362,Trial,0,6553632,PEAK_TAKEOFF_FORCE,Peak force over the entire takeoff phase,Takeoff Peak Force,Newton,False,True
+266,6553632,1226.695,32.37,Left,0,6553632,PEAK_TAKEOFF_FORCE,Peak force over the entire takeoff phase,Takeoff Peak Force,Newton,False,True
+267,6553632,1246.295,32.354,Right,0,6553632,PEAK_TAKEOFF_FORCE,Peak force over the entire takeoff phase,Takeoff Peak Force,Newton,False,True
+268,6553632,1.6,32.362,Asym,0,6553632,PEAK_TAKEOFF_FORCE,Peak force over the entire takeoff phase,Takeoff Peak Force,Newton,False,True
+269,6553633,5312.609,32.576,Trial,0,6553633,PEAK_TAKEOFF_POWER,The maximum power (force x velocity) value in the concentric phase or from start of movement if there is no concentric phase,Peak Power,Watt,False,False
+270,6553634,3.049,32.614,Trial,0,6553634,PEAK_TAKEOFF_VELOCITY,The highest vertical velocity value just prior to take-off,Concentric Peak Velocity,Meter Per Second,False,False
+271,6553637,0.0,32.378,Trial,0,6553637,CONCENTRIC_RFD,Rate of force development over the concentric phase,Concentric RFD,Newton Per Second,False,True
+272,6553637,0.0,32.378,Left,0,6553637,CONCENTRIC_RFD,Rate of force development over the concentric phase,Concentric RFD,Newton Per Second,False,True
+273,6553637,0.0,32.378,Right,0,6553637,CONCENTRIC_RFD,Rate of force development over the concentric phase,Concentric RFD,Newton Per Second,False,True
+274,6553637,0.0,32.378,Asym,0,6553637,CONCENTRIC_RFD,Rate of force development over the concentric phase,Concentric RFD,Newton Per Second,False,True
+275,6553638,-2999.999999996334,32.478,Trial,0,6553638,CONCENTRIC_RFD_100,Rate of force development during the first 100ms of the concentric phase,Concentric RFD - 100ms,Newton Per Second,False,True
+276,6553638,-1489.999999998179,32.478,Left,0,6553638,CONCENTRIC_RFD_100,Rate of force development during the first 100ms of the concentric phase,Concentric RFD - 100ms,Newton Per Second,False,True
+277,6553638,-1509.9999999981546,32.478,Right,0,6553638,CONCENTRIC_RFD_100,Rate of force development during the first 100ms of the concentric phase,Concentric RFD - 100ms,Newton Per Second,False,True
+278,6553638,1.3422818791946385,32.478,Asym,0,6553638,CONCENTRIC_RFD_100,Rate of force development during the first 100ms of the concentric phase,Concentric RFD - 100ms,Newton Per Second,False,True
+279,6553639,-2609.9999999968104,32.578,Trial,0,6553639,CONCENTRIC_RFD_200,Rate of force development during the first 200ms of the concentric phase,Concentric RFD - 200ms,Newton Per Second,False,True
+280,6553639,-1064.9999999986978,32.578,Left,0,6553639,CONCENTRIC_RFD_200,Rate of force development during the first 200ms of the concentric phase,Concentric RFD - 200ms,Newton Per Second,False,True
+281,6553639,-1544.9999999981123,32.578,Right,0,6553639,CONCENTRIC_RFD_200,Rate of force development during the first 200ms of the concentric phase,Concentric RFD - 200ms,Newton Per Second,False,True
+282,6553639,45.0704225352114,32.578,Asym,0,6553639,CONCENTRIC_RFD_200,Rate of force development during the first 200ms of the concentric phase,Concentric RFD - 200ms,Newton Per Second,False,True
+283,6553640,-2979.999999996358,32.428,Trial,0,6553640,CONCENTRIC_RFD_50,Rate of force development during the first 50ms of the concentric phase,Concentric RFD - 50ms,Newton Per Second,False,True
+284,6553640,-1779.9999999978247,32.428,Left,0,6553640,CONCENTRIC_RFD_50,Rate of force development during the first 50ms of the concentric phase,Concentric RFD - 50ms,Newton Per Second,False,True
+285,6553640,-1199.9999999985334,32.428,Right,0,6553640,CONCENTRIC_RFD_50,Rate of force development during the first 50ms of the concentric phase,Concentric RFD - 50ms,Newton Per Second,False,True
+286,6553640,-48.33333333333334,32.428,Asym,0,6553640,CONCENTRIC_RFD_50,Rate of force development during the first 50ms of the concentric phase,Concentric RFD - 50ms,Newton Per Second,False,True
+287,6553642,0.0,32.378,Trial,0,6553642,TIME_TO_PEAK_FORCE,Time between start of the concentric phase to peak force,Concentric Time to Peak Force,Millisecond,False,True
+288,6553642,0.0,32.378,Left,0,6553642,TIME_TO_PEAK_FORCE,Time between start of the concentric phase to peak force,Concentric Time to Peak Force,Millisecond,False,True
+289,6553642,0.0,32.378,Right,0,6553642,TIME_TO_PEAK_FORCE,Time between start of the concentric phase to peak force,Concentric Time to Peak Force,Millisecond,False,True
+290,6553642,0.0,32.378,Asym,0,6553642,TIME_TO_PEAK_FORCE,Time between start of the concentric phase to peak force,Concentric Time to Peak Force,Millisecond,False,True
+291,6553643,0.7780000000007057,32.64,Trial,0,6553643,CONTRACTION_TIME,Time on the ground between start of movement and takeoff,Contraction Time,Millisecond,False,False
+292,6553644,0.5160000000003855,32.378,Trial,0,6553644,ECCENTRIC_TIME,Duration of the eccentric phase,Eccentric Duration,Millisecond,False,False
+293,6553645,0.5000000000003659,32.362,Trial,0,6553645,START_TO_PEAK_FORCE_TIME,Time between start of movement and peak force,Movement Start to Peak Force,Second,False,False
+294,6553646,0.714,32.576,Trial,0,6553646,START_TO_PEAK_POWER_TIME,Time between start of movement and peak power,Movement Start to Peak Power,Second,False,False
+295,6553647,36.251,33.252,Trial,0,6553647,WEIGHT_RELATIVE_PEAK_LANDING_FORCE,Landing net (above body-weight) peak force relative to body mass,Landing Net Peak Force / BM,Newton Per Kilo,False,False
+296,6553648,17.458,32.362,Trial,0,6553648,WEIGHT_RELATIVE_PEAK_TAKEOFF_FORCE,Peak net (above body-weight) takeoff force relative to body mass,Peak Net Takeoff Force / BM,Newton Per Kilo,False,False
+297,6553649,0.0,32.378,Trial,0,6553649,RELATIVE_CONCENTRIC_RFD,Rate of force development over the concentric phase to peak force relative to body mass,Concentric RFD / BM,Newton Per Second Per Kilo,False,False
+298,6553655,2.8989513969104026,32.64,Trial,0,6553655,TAKEOFF_VELOCITY,The vertical velocity at the instant of take-off,Vertical Velocity at Takeoff,Meter Per Second,False,False
+299,6553657,0.2620000000003202,32.64,Trial,0,6553657,CONCENTRIC_DURATION,Length of the concentric phase,Concentric Duration,Millisecond,False,False
+300,6553658,150.77519379847374,32.64,Trial,0,6553658,CONCENTRIC_ECCENTRIC_DURATION_RATIO,Ratio of total contraction time to eccentric duration as %,Contraction Time:Eccentric Duration,Percent,False,False
+301,6553659,196.9465648854026,32.64,Trial,0,6553659,ECCENTRIC_CONCENTRIC_DURATION_RATIO,Ratio of eccentric to concentric duration as %,Eccentric:Concentric Duration,Percent,False,False
+302,6553660,0.7634961439591095,32.64,Trial,0,6553660,FLIGHT_CONTRACTION_TIME_RATIO,Ratio of flight time to contraction time,Flight Time:Contraction Time,No Unit,False,False
+303,6553661,1.1511627906982214,32.64,Trial,0,6553661,FLIGHT_ECCENTRIC_TIME_RATIO,Ratio of flight time to eccentric duration,FlightTime:Eccentric Duration,No Unit,False,False
+304,6553662,32.10199999999327,32.102,Trial,0,6553662,BEGIN_BRAKING_PHASE,Absolute time from the start of recording to the start of braking phase (minimum force during eccentric phase),Start of Braking Phase,Second,False,False
+305,6553663,343.99076638965835,32.102,Trial,0,6553663,MIN_ECCENTRIC_FORCE,Minimum force during the eccentric phase,Minimum Eccentric Force,Newton,False,False
+306,6553664,0.2760000000003373,32.378,Trial,0,6553664,BRAKING_PHASE_DURATION,The time period from minimum force to the start of the concentric phase,Braking Phase Duration,Millisecond,False,False
+307,6553665,32.25799999999346,32.258,Trial,0,6553665,BEGIN_ECC_DECEL_PHASE,Absolute time from the start of recording to the start of eccentric deceleration phase (end of eccentric acceleration phase),Start of Eccentric Deceleration Phase,Second,False,False
+308,6553666,0.24000000000004817,32.102,Trial,0,6553666,TIME_TO_BRAKING_PHASE,Time period from the start of the movement to minimum force eccentric (braking) phase,Time to Braking Phase,Second,False,False
+309,6553667,0.3960000000002388,32.258,Trial,0,6553667,ECCENTRIC_ACCEL_PHASE_DURATION,The time period from start of movement and to maximum negative velocity,Eccentric Acceleration Phase Duration,Second,False,False
+310,6553668,0.12000000000014666,32.378,Trial,0,6553668,ECCENTRIC_DECEL_PHASE_DURATION,The time period from maximum negative velocity to zero velocity (start of concentric phase),Eccentric Deceleration Phase Duration,Second,False,False
+311,6553669,35.475578406180844,32.378,Trial,0,6553669,BEAKING_CONTRACTION_DURATION_RATIO,Braking phase duration to contraction time ratio,Braking Phase Duration:Contraction Time,Percent,False,False
+312,6553670,105.34351145038168,32.378,Trial,0,6553670,BEAKING_CONCENTRIC_DURATION_RATIO,Braking phase duration to concentric phase duration ratio,Braking Phase Duration:Concentric Duration,Percent,False,False
+313,6553671,1126.6022771810249,32.378,Trial,0,6553671,MEAN_ECCENTRIC_BRAKING_FORCE,Mean force during the eccentric braking phase (from minimum force to the end of the eccentric phase),Eccentric Mean Braking Force,Newton,False,False
+314,6553672,1905.302241799495,32.378,Trial,0,6553672,MEAN_ECCENTRIC_DECELERATION_FORCE,Mean force from during the eccentric deceleration phase.,Eccentric Mean Deceleration Force,Newton,False,False
+315,6553673,1915.9907663896583,32.576,Trial,0,6553673,FORCE_AT_PEAK_POWER,Force at point of peak power,Force at Peak Power,Newton,False,True
+316,6553673,1011.6952908587258,32.576,Left,0,6553673,FORCE_AT_PEAK_POWER,Force at point of peak power,Force at Peak Power,Newton,False,True
+317,6553673,904.2954755309325,32.576,Right,0,6553673,FORCE_AT_PEAK_POWER,Force at point of peak power,Force at Peak Power,Newton,False,True
+318,6553673,-10.615826355842026,32.576,Asym,0,6553673,FORCE_AT_PEAK_POWER,Force at point of peak power,Force at Peak Power,Newton,False,True
+319,6553674,72.7255135695718,32.378,Trial,0,6553674,CONCENTRIC_IMPULSE_50MS,Total net impulse over first 50ms of the concentric phase,Concentric Impulse-50ms,Newton Second,False,True
+320,6553674,58.60176454300791,32.378,Left,0,6553674,CONCENTRIC_IMPULSE_50MS,Total net impulse over first 50ms of the concentric phase,Concentric Impulse-50ms,Newton Second,False,True
+321,6553674,58.400773776617996,32.378,Right,0,6553674,CONCENTRIC_IMPULSE_50MS,Total net impulse over first 50ms of the concentric phase,Concentric Impulse-50ms,Newton Second,False,True
+322,6553674,-0.3429773283403554,32.378,Asym,0,6553674,CONCENTRIC_IMPULSE_50MS,Total net impulse over first 50ms of the concentric phase,Concentric Impulse-50ms,Newton Second,False,True
+323,6553675,138.8010271391355,32.378,Trial,0,6553675,CONCENTRIC_IMPULSE_100MS,Total net impulse over first 100ms of the concentric phase,Concentric Impulse-100ms,Newton Second,False,True
+324,6553675,113.74252908601161,32.378,Left,0,6553675,CONCENTRIC_IMPULSE_100MS,Total net impulse over first 100ms of the concentric phase,Concentric Impulse-100ms,Newton Second,False,True
+325,6553675,113.61254755323208,32.378,Right,0,6553675,CONCENTRIC_IMPULSE_100MS,Total net impulse over first 100ms of the concentric phase,Concentric Impulse-100ms,Newton Second,False,True
+326,6553675,-0.11427698489212168,32.378,Asym,0,6553675,CONCENTRIC_IMPULSE_100MS,Total net impulse over first 100ms of the concentric phase,Concentric Impulse-100ms,Newton Second,False,True
+327,6553676,174.50853528086887,32.378,Trial,0,6553676,CONCENTRIC_IMPULSE_P1,Net impulse during 1st 50% (time-wise) of concentric phase,P1 Concentric Impulse,Newton Second,False,True
+328,6553676,145.25338781181193,32.378,Left,0,6553676,CONCENTRIC_IMPULSE_P1,Net impulse during 1st 50% (time-wise) of concentric phase,P1 Concentric Impulse,Newton Second,False,True
+329,6553676,144.3754118191976,32.378,Right,0,6553676,CONCENTRIC_IMPULSE_P1,Net impulse during 1st 50% (time-wise) of concentric phase,P1 Concentric Impulse,Newton Second,False,True
+330,6553676,-0.6044444166437044,32.378,Asym,0,6553676,CONCENTRIC_IMPULSE_P1,Net impulse during 1st 50% (time-wise) of concentric phase,P1 Concentric Impulse,Newton Second,False,True
+331,6553677,88.64543582354324,32.508,Trial,0,6553677,CONCENTRIC_IMPULSE_P2,Net impulse during 2nd 50% (time-wise) of concentric phase,P2 Concentric Impulse,Newton Second,False,True
+332,6553677,110.19777839348646,32.508,Left,0,6553677,CONCENTRIC_IMPULSE_P2,Net impulse during 2nd 50% (time-wise) of concentric phase,P2 Concentric Impulse,Newton Second,False,True
+333,6553677,95.33900277019956,32.508,Right,0,6553677,CONCENTRIC_IMPULSE_P2,Net impulse during 2nd 50% (time-wise) of concentric phase,P2 Concentric Impulse,Newton Second,False,True
+334,6553677,-13.483734282038096,32.508,Asym,0,6553677,CONCENTRIC_IMPULSE_P2,Net impulse during 2nd 50% (time-wise) of concentric phase,P2 Concentric Impulse,Newton Second,False,True
+335,6553678,7518.115942019797,32.378,Trial,0,6553678,ECCENTRIC_BRAKING_RFD,Eccentric RFD calculated from the initiation of the active (braking) phase to the end of the eccentric phase,Eccentric Braking RFD,Newton Per Second,False,True
+336,6553678,3799.999999995356,32.378,Left,0,6553678,ECCENTRIC_BRAKING_RFD,Eccentric RFD calculated from the initiation of the active (braking) phase to the end of the eccentric phase,Eccentric Braking RFD,Newton Per Second,False,True
+337,6553678,3771.4285714239622,32.378,Right,0,6553678,ECCENTRIC_BRAKING_RFD,Eccentric RFD calculated from the initiation of the active (braking) phase to the end of the eccentric phase,Eccentric Braking RFD,Newton Per Second,False,True
+338,6553678,-0.7518796992481263,32.378,Asym,0,6553678,ECCENTRIC_BRAKING_RFD,Eccentric RFD calculated from the initiation of the active (braking) phase to the end of the eccentric phase,Eccentric Braking RFD,Newton Per Second,False,True
+339,6553679,83.25709791827019,32.378,Trial,0,6553679,RELATIVE_ECCENTRIC_BRAKING_RFD,Eccentric RFD calculated from the initiation of the active (braking) phase to the end of the eccentric phase realtive to body-weight,Eccentric Braking RFD / BM,Newton Per Second Per Kilo,False,False
+340,6553680,2149.9999999973725,32.202,Trial,0,6553680,ECCENTRIC_BRAKING_RFD_100MS,Eccentric RFD calculated over first 100ms of the braking phase,Eccentric Braking RFD-100ms,Newton Per Second,False,True
+341,6553680,1159.999999998582,32.208,Left,0,6553680,ECCENTRIC_BRAKING_RFD_100MS,Eccentric RFD calculated over first 100ms of the braking phase,Eccentric Braking RFD-100ms,Newton Per Second,False,True
+342,6553680,959.9999999988268,32.198,Right,0,6553680,ECCENTRIC_BRAKING_RFD_100MS,Eccentric RFD calculated over first 100ms of the braking phase,Eccentric Braking RFD-100ms,Newton Per Second,False,True
+343,6553680,-17.24137931034481,32.202,Asym,0,6553680,ECCENTRIC_BRAKING_RFD_100MS,Eccentric RFD calculated over first 100ms of the braking phase,Eccentric Braking RFD-100ms,Newton Per Second,False,True
+344,6553681,23.809523809494713,32.202,Trial,0,6553681,RELATIVE_ECCENTRIC_BRAKING_RFD_100MS,Eccentric RFD calculated over first 100ms of the braking phase relative to body mass,Eccentric Braking RFD-100ms / BM,Newton Per Second Per Kilo,False,False
+345,6553682,12749.999999984419,32.378,Trial,0,6553682,ECCENTRIC_DECEL_RFD,Rate of force development calculated over the eccentric deceleration phase,Eccentric Deceleration RFD,Newton Per Second,False,True
+346,6553682,5908.333333326113,32.378,Left,0,6553682,ECCENTRIC_DECEL_RFD,Rate of force development calculated over the eccentric deceleration phase,Eccentric Deceleration RFD,Newton Per Second,False,True
+347,6553682,6841.666666658305,32.378,Right,0,6553682,ECCENTRIC_DECEL_RFD,Rate of force development calculated over the eccentric deceleration phase,Eccentric Deceleration RFD,Newton Per Second,False,True
+348,6553682,13.641900121802678,32.378,Asym,0,6553682,ECCENTRIC_DECEL_RFD,Rate of force development calculated over the eccentric deceleration phase,Eccentric Deceleration RFD,Newton Per Second,False,True
+349,6553683,141.196013288864,32.378,Trial,0,6553683,RELATIVE_ECCENTRIC_DECEL_RFD,Rate of force development calculated over the eccentric deceleration phase relative to body mass,Eccentric Deceleration RFD / BM,Newton Per Second Per Kilo,False,False
+350,6553684,27.26457105636388,32.362,Trial,0,6553684,RELATIVE_PEAK_TAKEOFF_FORCE,Peak force over the entire takeoff phase relative to body mass,Takeoff Peak Force / BM,Newton Per Kilo,False,False
+351,6553685,2418.9907663896583,32.378,Trial,0,6553685,PEAK_CONCENTRIC_FORCE,Peak force over the concentric phase,Concentric Peak Force,Newton,False,True
+352,6553685,1217.6952908587257,32.378,Left,0,6553685,PEAK_CONCENTRIC_FORCE,Peak force over the concentric phase,Concentric Peak Force,Newton,False,True
+353,6553685,1201.2954755309327,32.378,Right,0,6553685,PEAK_CONCENTRIC_FORCE,Peak force over the concentric phase,Concentric Peak Force,Newton,False,True
+354,6553685,-1.3467913895131989,32.378,Asym,0,6553685,PEAK_CONCENTRIC_FORCE,Peak force over the concentric phase,Concentric Peak Force,Newton,False,True
+355,6553686,26.788380580173403,32.378,Trial,0,6553686,RELATIVE_PEAK_CONCENTRIC_FORCE,Peak force over the concentric phase relative to body mass,Concentric Peak Force / BM,Newton Per Kilo,False,False
+356,6553687,2461.9907663896583,32.362,Trial,0,6553687,PEAK_ECCENTRIC_FORCE,Peak force over the eccentric phase,Eccentric Peak Force,Newton,False,True
+357,6553687,1226.6952908587257,32.37,Left,0,6553687,PEAK_ECCENTRIC_FORCE,Peak force over the eccentric phase,Eccentric Peak Force,Newton,False,True
+358,6553687,1246.2954755309327,32.354,Right,0,6553687,PEAK_ECCENTRIC_FORCE,Peak force over the eccentric phase,Eccentric Peak Force,Newton,False,True
+359,6553687,1.5726755859285397,32.362,Asym,0,6553687,PEAK_ECCENTRIC_FORCE,Peak force over the eccentric phase,Eccentric Peak Force,Newton,False,True
+360,6553688,27.26457105636388,32.362,Trial,0,6553688,RELATIVE_PEAK_ECCENTRIC_FORCE,Peak force over the eccentric phase relative to body mass,Eccentric Peak Force / BM,Newton Per Kilo,False,False
+361,6553689,46.05748357020663,33.252,Trial,0,6553689,RELATIVE_PEAK_LANDING_FORCE,Peak force on landing relative to body mass,Peak Landing Force / BM,Newton Per Kilo,False,False
+362,6553690,1826.0871643839369,32.64,Trial,0,6553690,MEAN_ECC_CON_POWER_TIME,"Power during eccentric (converted to absolute values) + concentric phases, divided by the total contraction time",Mean Eccentric+Concentric Power:Time,Watt Per Second,False,False
+363,6553691,6164.453247225062,32.378,Trial,0,6553691,LOWER_LIMB_STIFFNESS,Change in vertical force divided by displacement of CoM during the eccentric phase,Lower-Limb Stiffness,Newton Per Meter,False,False
+364,6553692,26644.835085139097,32.64,Trial,0,6553692,CONCENTRIC_RPD,Rate of power development from start of concentric phase to peak power,Concentric RPD,Watt Per Second,False,False
+365,6553693,295.07015598160683,32.64,Trial,0,6553693,RELATIVE_CONCENTRIC_RPD,Rate of power development from start of concentric phase to peak power relative to body mass,Concentric RPD / BM,Watt Per Second Per Kilo,False,False
+366,6553694,35132.16681665561,32.428,Trial,0,6553694,CONCENTRIC_RPD_50MS,Rate of power development for 50ms from start of the concentric phase,Concentric RPD - 50ms,Watt Per Second,False,False
+367,6553695,389.060540605267,32.428,Trial,0,6553695,RELATIVE_CONCENTRIC_RPD_50MS,Rate of power development for 50ms from start of the concentric phase to peak power relative to body mass,Concentric RPD-50ms / BM,Watt Per Second Per Kilo,False,False
+368,6553696,31878.378894858346,32.478,Trial,0,6553696,CONCENTRIC_RPD_100MS,Rate of power development for 100ms from start of the concentric phase,Concentric RPD - 100ms,Watt Per Second,False,False
+369,6553697,353.02745177030283,32.478,Trial,0,6553697,RELATIVE_CONCENTRIC_RPD_100MS,Rate of power development for 100ms from start of the concentric phase to peak power relative to body mass,Concentric RPD-100ms / BM,Watt Per Second Per Kilo,False,False
+370,6553698,55.5934954917307,33.234,Trial,0,6553698,RSI_MODIFIED,Jump height (flight time) / Contraction time,RSI-modified,RSIModified,False,False
+371,6553699,1108.1282668478982,32.64,Trial,0,6553699,TOTAL_WORK,"Integrating the power-time curve from the SoM through the concentric phase, until the power output reaches zero",Total Work,Joule,False,False
+372,6553700,2.7727740174094957,32.576,Trial,0,6553700,VELOCITY_AT_PEAK_POWER,Vertical velocity at the point of peak power during takeoff,Velocity at Peak Power,Meter Per Second,False,False
+373,6553701,-1.375998809851898,32.258,Trial,0,6553701,ECCENTRIC_PEAK_VELOCITY,Maximum negative velocity during the eccentric phase (ie. velocity at the start of the eccentric deceleration phase),Eccentric Peak Velocity,Meter Per Second,False,False
+374,6553702,2115.3353293613645,32.312,Trial,0,6553702,ECCENTRIC_PEAK_POWER,Peak power during the eccentric phase,Eccentric Peak Power,Watt,False,False
+375,6553703,66.02327490362637,32.102,Trial,0,6553703,ECCENTRIC_BRAKING_IMPULSE,Net impulse from the initiation of the active (braking) phase to the end of the eccentric phase,Eccentric Braking Impulse,Newton Second,False,True
+376,6553703,159.24790027720286,32.102,Left,0,6553703,ECCENTRIC_BRAKING_IMPULSE,Net impulse from the initiation of the active (braking) phase to the end of the eccentric phase,Eccentric Braking Impulse,Newton Second,False,True
+377,6553703,151.1845512467221,32.102,Right,0,6553703,ECCENTRIC_BRAKING_IMPULSE,Net impulse from the initiation of the active (braking) phase to the end of the eccentric phase,Eccentric Braking Impulse,Newton Second,False,True
+378,6553703,-5.063394252888039,32.102,Asym,0,6553703,ECCENTRIC_BRAKING_IMPULSE,Net impulse from the initiation of the active (braking) phase to the end of the eccentric phase,Eccentric Braking Impulse,Newton Second,False,True
+379,6553704,122.87403256690916,32.258,Trial,0,6553704,ECCENTRIC_DECEL_IMPULSE,Net impulse from the start of eccentric deceleration to the end of the eccentric phase,Eccentric Deceleration Impulse,Newton Second,False,True
+380,6553704,113.46643490318577,32.258,Left,0,6553704,ECCENTRIC_DECEL_IMPULSE,Net impulse from the start of eccentric deceleration to the end of the eccentric phase,Eccentric Deceleration Impulse,Newton Second,False,True
+381,6553704,115.67245706385324,32.258,Right,0,6553704,ECCENTRIC_DECEL_IMPULSE,Net impulse from the start of eccentric deceleration to the end of the eccentric phase,Eccentric Deceleration Impulse,Newton Second,False,True
+382,6553704,1.9071282971448507,32.258,Asym,0,6553704,ECCENTRIC_DECEL_IMPULSE,Net impulse from the start of eccentric deceleration to the end of the eccentric phase,Eccentric Deceleration Impulse,Newton Second,False,True
+383,6553712,263.15397110441216,32.378,Trial,0,6553712,CONCENTRIC_IMPULSE,Area under the Fz curve from transition point at zero velocity (max negative displacement) (start of concentric phase) to take-off - net impulse,Concentric Impulse,Newton Second,False,True
+384,6553712,255.45116620529848,32.378,Left,0,6553712,CONCENTRIC_IMPULSE,Area under the Fz curve from transition point at zero velocity (max negative displacement) (start of concentric phase) to take-off - net impulse,Concentric Impulse,Newton Second,False,True
+385,6553712,239.7144145893972,32.378,Right,0,6553712,CONCENTRIC_IMPULSE,Area under the Fz curve from transition point at zero velocity (max negative displacement) (start of concentric phase) to take-off - net impulse,Concentric Impulse,Newton Second,False,True
+386,6553712,-6.160375718642884,32.378,Asym,0,6553712,CONCENTRIC_IMPULSE,Area under the Fz curve from transition point at zero velocity (max negative displacement) (start of concentric phase) to take-off - net impulse,Concentric Impulse,Newton Second,False,True
+387,6553713,2418.9907663896583,32.378,Trial,0,6553713,FORCE_AT_ZERO_VELOCITY,The combined (total) force at the instant velocity is zero prior to takeoff,Force at Zero Velocity,Newton,False,True
+388,6553713,1217.6952908587257,32.378,Left,0,6553713,FORCE_AT_ZERO_VELOCITY,The combined (total) force at the instant velocity is zero prior to takeoff,Force at Zero Velocity,Newton,False,True
+389,6553713,1201.2954755309327,32.378,Right,0,6553713,FORCE_AT_ZERO_VELOCITY,The combined (total) force at the instant velocity is zero prior to takeoff,Force at Zero Velocity,Newton,False,True
+390,6553713,-1.3467913895131989,32.378,Asym,0,6553713,FORCE_AT_ZERO_VELOCITY,The combined (total) force at the instant velocity is zero prior to takeoff,Force at Zero Velocity,Newton,False,True
+391,6553714,420.22440150024585,33.244,Trial,0,6553714,POSITIVE_IMPULSE,Area above BW in takeoff and landing phases,Positive Impulse,Newton Second,False,True
+392,6553714,382.30981994506556,33.244,Left,0,6553714,POSITIVE_IMPULSE,Area above BW in takeoff and landing phases,Positive Impulse,Newton Second,False,True
+393,6553714,372.48468975114747,33.244,Right,0,6553714,POSITIVE_IMPULSE,Area above BW in takeoff and landing phases,Positive Impulse,Newton Second,False,True
+394,6553714,-2.5699392694987186,33.244,Asym,0,6553714,POSITIVE_IMPULSE,Area above BW in takeoff and landing phases,Positive Impulse,Newton Second,False,True
+395,6553716,-124.25269252980745,31.862,Trial,0,6553716,ECCENTRIC_UNLOADING_IMPULSE,Net impulse from start of movement to start of the deceleration phase,Eccentric Unloading Impulse,Newton Second,False,True
+396,6553716,112.35133518011301,31.862,Left,0,6553716,ECCENTRIC_UNLOADING_IMPULSE,Net impulse from start of movement to start of the deceleration phase,Eccentric Unloading Impulse,Newton Second,False,True
+397,6553716,114.0700083102909,31.862,Right,0,6553716,ECCENTRIC_UNLOADING_IMPULSE,Net impulse from start of movement to start of the deceleration phase,Eccentric Unloading Impulse,Newton Second,False,True
+398,6553716,1.5066827430246093,31.862,Asym,0,6553716,ECCENTRIC_UNLOADING_IMPULSE,Net impulse from start of movement to start of the deceleration phase,Eccentric Unloading Impulse,Newton Second,False,True
+399,6553717,399.62919715798614,32.256,Trial,0,6553717,POSITIVE_TAKEOFF_IMPULSE,Area above BW in the takeoff phase,Positive Takeoff Impulse,Newton Second,False,True
+400,6553717,364.0393047095862,32.256,Left,0,6553717,POSITIVE_TAKEOFF_IMPULSE,Area above BW in the takeoff phase,Positive Takeoff Impulse,Newton Second,False,True
+401,6553717,354.29837119156844,32.256,Right,0,6553717,POSITIVE_TAKEOFF_IMPULSE,Area above BW in the takeoff phase,Positive Takeoff Impulse,Newton Second,False,True
+402,6553717,-2.6757917049063216,32.256,Asym,0,6553717,POSITIVE_TAKEOFF_IMPULSE,Area above BW in the takeoff phase,Positive Takeoff Impulse,Newton Second,False,True
+403,6553718,7165.640686736945,32.362,Trial,0,6553718,CMJ_STIFFNESS,Peak force during takeoff / displacement at start of concentric phase (min displacement),CMJ Stiffness,Newton Per Meter,False,True
+404,6553718,3570.304895698661,32.37,Left,0,6553718,CMJ_STIFFNESS,Peak force during takeoff / displacement at start of concentric phase (min displacement),CMJ Stiffness,Newton Per Meter,False,True
+405,6553718,3627.3513650323707,32.354,Right,0,6553718,CMJ_STIFFNESS,Peak force during takeoff / displacement at start of concentric phase (min displacement),CMJ Stiffness,Newton Per Meter,False,True
+406,6553718,1.5726755859285397,32.362,Asym,0,6553718,CMJ_STIFFNESS,Peak force during takeoff / displacement at start of concentric phase (min displacement),CMJ Stiffness,Newton Per Meter,False,True
+407,6553720,20.87274582732927,32.64,Trial,0,6553720,BODYMASS_RELATIVE_MEAN_TAKEOFF_FORCE,The average force in the concentric phase relative to body mass,Concentric Mean Force / BM,Newton Per Kilo,False,False
+408,6553722,23.425640413747118,32.312,Trial,0,6553722,BODYMASS_RELATIVE_ECCENTRIC_PEAK_POWER,Eccentric Peak Power divided by Body Mass,Eccentric Peak Power / BM,Watt Per Kilo,False,False
+409,6553724,0.3981725672381298,32.312,Trial,0,6553724,ECC_CON_PEAK_POWER_RATIO,Ratio of Eccentric Peak Power to Concentric Peak Power,Eccentric Peak Power:Concentric Peak Power,No Unit,False,False
+410,6553725,0.5079719205760895,32.508,Trial,0,6553725,CON_P2_CON_P1_IMPULSE_RATIO,Ratio of P2 Concentric Impulse to P1 Concentric Impulse,P2 Concentric Impulse:P1 Concentric Impulse,No Unit,False,True
+411,6553725,0.7586589204807878,32.508,Left,0,6553725,CON_P2_CON_P1_IMPULSE_RATIO,Ratio of P2 Concentric Impulse to P1 Concentric Impulse,P2 Concentric Impulse:P1 Concentric Impulse,No Unit,False,True
+412,6553725,0.660354845530022,32.508,Right,0,6553725,CON_P2_CON_P1_IMPULSE_RATIO,Ratio of P2 Concentric Impulse to P1 Concentric Impulse,P2 Concentric Impulse:P1 Concentric Impulse,No Unit,False,True
+413,6553725,-12.957611424178229,32.508,Asym,0,6553725,CON_P2_CON_P1_IMPULSE_RATIO,Ratio of P2 Concentric Impulse to P1 Concentric Impulse,P2 Concentric Impulse:P1 Concentric Impulse,No Unit,False,True
+414,6553726,0.5274517673307811,32.378,Trial,0,6553726,CON_100MS_CON_IMPULSE_RATIO,Ratio of Concentric Impulse-100ms to Concentric Impulse,Concentric Impulse-100ms:Concentric Impulse,No Unit,False,True
+415,6553726,0.4452613420233914,32.378,Left,0,6553726,CON_100MS_CON_IMPULSE_RATIO,Ratio of Concentric Impulse-100ms to Concentric Impulse,Concentric Impulse-100ms:Concentric Impulse,No Unit,False,True
+416,6553726,0.47394958600148057,32.378,Right,0,6553726,CON_100MS_CON_IMPULSE_RATIO,Ratio of Concentric Impulse-100ms to Concentric Impulse,Concentric Impulse-100ms:Concentric Impulse,No Unit,False,True
+417,6553726,6.053015937859591,32.378,Asym,0,6553726,CON_100MS_CON_IMPULSE_RATIO,Ratio of Concentric Impulse-100ms to Concentric Impulse,Concentric Impulse-100ms:Concentric Impulse,No Unit,False,True
+418,6553727,21.11083379503965,33.234,Trial,0,6553727,LANDING_IMPULSE,Absolute Impulse from Landing to Peak Landing Force,Landing Impulse,Newton Second,False,True
+419,6553727,67.61167036019341,33.234,Left,0,6553727,LANDING_IMPULSE,Absolute Impulse from Landing to Peak Landing Force,Landing Impulse,Newton Second,False,True
+420,6553727,11.383318559570696,33.234,Right,0,6553727,LANDING_IMPULSE,Absolute Impulse from Landing to Peak Landing Force,Landing Impulse,Newton Second,False,True
+421,6553727,-83.16367795836521,33.234,Asym,0,6553727,LANDING_IMPULSE,Absolute Impulse from Landing to Peak Landing Force,Landing Impulse,Newton Second,False,True
+422,6553728,30099.999999963213,33.234,Trial,0,6553728,LANDING_RFD_50,Rate of force development over the first 50ms from landing,Landing RFD 50ms,Newton Per Second,False,False
+423,6553730,1.3607312576623385,32.258,Trial,0,6553730,BODYMASS_RELATIVE_ECC_DECEL_IMPULSE,Net impulse from the start of eccentric deceleration to the end of the eccentric phase relative to body mass,Eccentric Deceleration Impulse / BM,Newton Second Per Kilo,False,False
+424,6553731,13.567681100659378,32.378,Trial,0,6553731,DISPLACEMENT_AT_TAKEOFF,Displacement of the centre of mass when takeoff occurs,Displacement at Takeoff,Centimeter,False,False
+425,6553732,26.788380580173403,32.378,Trial,0,6553732,BM_REL_FORCE_AT_ZERO_VELOCITY,The combined force at the instant velocity is zero divided by body mass,Force at Zero Velocity / BM,Newton Per Kilo,False,False
+426,6553733,55.07463150687667,33.234,Trial,0,6553733,RSI_MODIFIED_IMP_MOM,Jump height (Imp-Mom) / Contraction time,RSI-modified (Imp-Mom),RSIModified,False,False
+427,6553734,5.483561249110694,32.378,Trial,0,6553734,BM_REL_ABS_CON_IMPULSE,Absolute concentric impulse (area under the Fz curve from the transition point at zero velocity) divided by body mass,Concentric Impulse (Abs) / BM,Newton Second Per Kilo,False,False
+428,655365,40.93400000000406,40.934,Trial,0,655365,START_OF_MOVEMENT,Absolute time from the start of recording to start of movement,Start of Movement,Second,False,True
+429,655366,19.549728610341617,40.934,Trial,0,655366,START_OF_MOVEMENT_THRESHOLD,Threshold used for start of movement detection,Start of Movement Detection Threshold,Newton,False,False
+430,655367,40.93400000000406,40.934,Trial,0,655367,START_OF_INTEGRATION,"Start time point for impulse, velocity and displacement integration",Start of Integration,Second,False,False
+431,655386,90.3,0.0,Trial,0,655386,BODY_WEIGHT,Mass of the profile in kilograms,Bodyweight in Kilograms,Kilo,False,False
+432,655387,90.3,0.0,Trial,0,655387,BODY_WEIGHT_LBS,Mass of the profile in pounds,Bodyweight in Pounds,Pound,False,False
+433,6553602,41.42400000000466,41.424,Trial,0,6553602,BEGIN_CONCENTRIC_PHASE,Asbolute time from the start of recording to the start of the concentric phase,Start of Concentric Phase,Second,False,False
+434,6553603,-33.30681940171101,41.424,Trial,0,6553603,COUNTERMOVEMENT_DEPTH,The amount of displacement the CM goes through from contact (zero position) to the lowest value. Note if the hips and knees are flexed at contact this is still the reference zero position.,Countermovement Depth,Centimeter,False,False
+435,6553604,56.965,41.608,Trial,0,6553604,BODYMASS_RELATIVE_TAKEOFF_POWER,Peak power divided by body mass,Peak Power / BM,Watt Per Kilo,False,False
+436,6553606,0.5920000000007235,42.268,Trial,0,6553606,FLIGHT_TIME,The time interval between take-off and landing,Flight Time,Millisecond,False,False
+437,6553607,42.96097232010501,42.268,Trial,0,6553607,JUMP_HEIGHT,Jump height calculated from flight time,Jump Height (Flight Time),Centimeter,False,False
+438,6553608,1798.669424743992,42.334,Trial,0,6553608,JUMP_HEIGHT_RELATIVE_LANDING_RFD,Jump Height (FT) Relative Landing RFD,Jump Height (FT) Relative Landing RFD,Newton Per Second Per Centimeter,False,False
+439,6553609,118.712,42.334,Trial,0,6553609,JUMP_HEIGHT_RELATIVE_PEAK_LANDING_FORCE,Jump Height (FT) Relative Peak Landing Force,Jump Height (FT) Relative Peak Landing Force,Newton Per Centimeter,False,False
+440,6553610,41.45868140603908,41.966,Trial,0,6553610,IMPULSE_JUMP_HEIGHT,Jump height taken from the max displacement of the CM during the flight phase subtracting the displacement at the instant of take-off,Jump Height (Imp-Dis),Centimeter,False,False
+441,6553611,41.50406521583929,41.676,Trial,0,6553611,JUMP_HEIGHT_IMP_MOM,"Jump height is determined from the Kinetic energy relationship after establishing the velocity at the instant of take-off (derived by determining the change in velocity from the impulse measurment throughout the contact phase, utilises the trapezium/simpsons rule)",Jump Height (Imp-Mom),Centimeter,False,False
+442,6553612,77272.587,42.334,Trial,0,6553612,LANDING_RFD,Landing Rate of Force Development,Landing RFD,Newton Per Second,False,True
+443,6553612,39374.171,42.334,Left,0,6553612,LANDING_RFD,Landing Rate of Force Development,Landing RFD,Newton Per Second,False,True
+444,6553612,43375.733,42.334,Right,0,6553612,LANDING_RFD,Landing Rate of Force Development,Landing RFD,Newton Per Second,False,True
+445,6553612,9.2,42.334,Asym,0,6553612,LANDING_RFD,Landing Rate of Force Development,Landing RFD,Newton Per Second,False,True
+446,6553613,16.91377776339766,42.268,Trial,0,6553613,JUMP_HEIGHT_INCHES,"Jump height calculated from flight time, in inches",Jump Height (Flight Time) in Inches,Inch,False,False
+447,6553614,16.340191979541146,41.676,Trial,0,6553614,JUMP_HEIGHT_INCHES_IMP_MOM,"Jump height is determined from the Kinetic energy relationship after establishing the velocity at the instant of take-off (derived by determining the change in velocity from the impulse measurment throughout the contact phase, utilises the trapezium/simpsons rule)",Jump Height (Imp-Mom) in Inches,Inch,False,False
+448,6553615,2.959,43.266,Trial,0,6553615,MEAN_LANDING_ACCELERATION,The average acceleration during landing,Mean Landing Acceleration,Meter Per Second Per Second,False,False
+449,6553616,1039.497,43.266,Trial,0,6553616,MEAN_LANDING_POWER,The average power (force x velocity) during landing,Mean Landing Power,Watt,False,False
+450,6553617,-0.097,43.266,Trial,0,6553617,MEAN_LANDING_VELOCITY,The average velocity during landing,Mean Landing Velocity,Meter Per Second,False,False
+451,6553618,11.321,41.676,Trial,0,6553618,MEAN_TAKEOFF_ACCELERATION,Mean Takeoff Acceleration,Mean Takeoff Acceleration,Meter Per Second Per Second,False,False
+452,6553619,1907.818,41.676,Trial,0,6553619,MEAN_TAKEOFF_FORCE,The average force in the concentric phase,Concentric Mean Force,Newton,False,True
+453,6553619,951.837,41.676,Left,0,6553619,MEAN_TAKEOFF_FORCE,The average force in the concentric phase,Concentric Mean Force,Newton,False,True
+454,6553619,955.981,41.676,Right,0,6553619,MEAN_TAKEOFF_FORCE,The average force in the concentric phase,Concentric Mean Force,Newton,False,True
+455,6553619,0.4,41.676,Asym,0,6553619,MEAN_TAKEOFF_FORCE,The average force in the concentric phase,Concentric Mean Force,Newton,False,True
+456,6553620,885.8891403733966,41.424,Trial,0,6553620,MEAN_ECCENTRIC_FORCE,The average force in the eccentric phase,Eccentric Mean Force,Newton,False,True
+457,6553620,429.21561606197827,41.424,Left,0,6553620,MEAN_ECCENTRIC_FORCE,The average force in the eccentric phase,Eccentric Mean Force,Newton,False,True
+458,6553620,456.67352431142064,41.424,Right,0,6553620,MEAN_ECCENTRIC_FORCE,The average force in the eccentric phase,Eccentric Mean Force,Newton,False,True
+459,6553620,6.012590349055997,41.424,Asym,0,6553620,MEAN_ECCENTRIC_FORCE,The average force in the eccentric phase,Eccentric Mean Force,Newton,False,True
+460,6553621,599.5090950328147,41.424,Trial,0,6553621,MEAN_ECCENTRIC_POWER,Eccentric Mean Power,Eccentric Mean Power,Watt,False,False
+461,6553622,46.434688994526866,41.424,Trial,0,6553622,MEAN_ECC_CON_RATIO,Ratio of mean forces in the eccentric and concentric phases,Eccentric:Concentric Mean Force Ratio,Percent,False,True
+462,6553622,45.0933936825716,41.424,Left,0,6553622,MEAN_ECC_CON_RATIO,Ratio of mean forces in the eccentric and concentric phases,Eccentric:Concentric Mean Force Ratio,Percent,False,True
+463,6553622,47.77017075067766,41.424,Right,0,6553622,MEAN_ECC_CON_RATIO,Ratio of mean forces in the eccentric and concentric phases,Eccentric:Concentric Mean Force Ratio,Percent,False,True
+464,6553622,5.603448817624508,41.424,Asym,0,6553622,MEAN_ECC_CON_RATIO,Ratio of mean forces in the eccentric and concentric phases,Eccentric:Concentric Mean Force Ratio,Percent,False,True
+465,6553623,3032.99,41.676,Trial,0,6553623,MEAN_CONCENTRIC_POWER,The average power (force x velocity) in the concentric phase,Concentric Mean Power,Watt,False,False
+466,6553624,33.588,41.676,Trial,0,6553624,BODYMASS_RELATIVE_MEAN_CONCENTRIC_POWER,The average power (force x velocity) in the concentric phase divided by body mass,Concentric Mean Power / BM,Watt Per Kilo,False,False
+467,6553625,6.639081894051104,41.424,Trial,0,6553625,BODYMASS_RELATIVE_MEAN_ECCENTRIC_POWER,The average power (force x velocity) in the eccentric phase divided by body mass,Eccentric Mean Power / BM,Watt Per Kilo,False,False
+468,6553626,1.802,41.676,Trial,0,6553626,MEAN_TAKEOFF_VELOCITY,The average velocity during the concentric phase,Concentric Mean Velocity,Meter Per Second,False,False
+469,6553627,46.672,42.334,Trial,0,6553627,PEAK_LANDING_ACCELERATION,Peak acceleration during landing,Peak Landing Acceleration,Meter Per Second Per Second,False,False
+470,6553628,5099.990766389658,42.334,Trial,0,6553628,PEAK_LANDING_FORCE,Peak force during landing,Peak Landing Force,Newton,False,True
+471,6553628,2598.695,42.334,Left,0,6553628,PEAK_LANDING_FORCE,Peak force during landing,Peak Landing Force,Newton,False,True
+472,6553628,2689.295,42.33,Right,0,6553628,PEAK_LANDING_FORCE,Peak force during landing,Peak Landing Force,Newton,False,True
+473,6553628,3.4,42.334,Asym,0,6553628,PEAK_LANDING_FORCE,Peak force during landing,Peak Landing Force,Newton,False,True
+474,6553629,12143.588,42.33,Trial,0,6553629,PEAK_LANDING_POWER,Peak power (force x velocity) during landing,Peak Landing Power,Watt,False,False
+475,6553630,0.954,42.822,Trial,0,6553630,PEAK_LANDING_VELOCITY,Peak velocity during landing,Peak Landing Velocity,Meter Per Second,False,False
+476,6553631,17.225,41.436,Trial,0,6553631,PEAK_TAKEOFF_ACCELERATION,Peak acceleration during takeoff,Peak Takeoff Acceleration,Meter Per Second Per Second,False,False
+477,6553632,2440.9907663896583,41.436,Trial,0,6553632,PEAK_TAKEOFF_FORCE,Peak force over the entire takeoff phase,Takeoff Peak Force,Newton,False,True
+478,6553632,1173.695,41.434,Left,0,6553632,PEAK_TAKEOFF_FORCE,Peak force over the entire takeoff phase,Takeoff Peak Force,Newton,False,True
+479,6553632,1269.295,41.436,Right,0,6553632,PEAK_TAKEOFF_FORCE,Peak force over the entire takeoff phase,Takeoff Peak Force,Newton,False,True
+480,6553632,7.5,41.436,Asym,0,6553632,PEAK_TAKEOFF_FORCE,Peak force over the entire takeoff phase,Takeoff Peak Force,Newton,False,True
+481,6553633,5143.963,41.608,Trial,0,6553633,PEAK_TAKEOFF_POWER,The maximum power (force x velocity) value in the concentric phase or from start of movement if there is no concentric phase,Peak Power,Watt,False,False
+482,6553634,2.978,41.652,Trial,0,6553634,PEAK_TAKEOFF_VELOCITY,The highest vertical velocity value just prior to take-off,Concentric Peak Velocity,Meter Per Second,False,False
+483,6553637,666.666666665852,41.436,Trial,0,6553637,CONCENTRIC_RFD,Rate of force development over the concentric phase,Concentric RFD,Newton Per Second,False,True
+484,6553637,83.3333333332315,41.436,Left,0,6553637,CONCENTRIC_RFD,Rate of force development over the concentric phase,Concentric RFD,Newton Per Second,False,True
+485,6553637,583.3333333326204,41.436,Right,0,6553637,CONCENTRIC_RFD,Rate of force development over the concentric phase,Concentric RFD,Newton Per Second,False,True
+486,6553637,85.71428571428571,41.436,Asym,0,6553637,CONCENTRIC_RFD,Rate of force development over the concentric phase,Concentric RFD,Newton Per Second,False,True
+487,6553638,-3069.999999996248,41.524,Trial,0,6553638,CONCENTRIC_RFD_100,Rate of force development during the first 100ms of the concentric phase,Concentric RFD - 100ms,Newton Per Second,False,True
+488,6553638,-1189.9999999985457,41.524,Left,0,6553638,CONCENTRIC_RFD_100,Rate of force development during the first 100ms of the concentric phase,Concentric RFD - 100ms,Newton Per Second,False,True
+489,6553638,-1879.9999999977024,41.524,Right,0,6553638,CONCENTRIC_RFD_100,Rate of force development during the first 100ms of the concentric phase,Concentric RFD - 100ms,Newton Per Second,False,True
+490,6553638,57.98319327731092,41.524,Asym,0,6553638,CONCENTRIC_RFD_100,Rate of force development during the first 100ms of the concentric phase,Concentric RFD - 100ms,Newton Per Second,False,True
+491,6553639,-3344.999999995912,41.624,Trial,0,6553639,CONCENTRIC_RFD_200,Rate of force development during the first 200ms of the concentric phase,Concentric RFD - 200ms,Newton Per Second,False,True
+492,6553639,-1304.9999999984045,41.624,Left,0,6553639,CONCENTRIC_RFD_200,Rate of force development during the first 200ms of the concentric phase,Concentric RFD - 200ms,Newton Per Second,False,True
+493,6553639,-2039.9999999975075,41.624,Right,0,6553639,CONCENTRIC_RFD_200,Rate of force development during the first 200ms of the concentric phase,Concentric RFD - 200ms,Newton Per Second,False,True
+494,6553639,56.32183908045989,41.624,Asym,0,6553639,CONCENTRIC_RFD_200,Rate of force development during the first 200ms of the concentric phase,Concentric RFD - 200ms,Newton Per Second,False,True
+495,6553640,-1979.9999999975803,41.474,Trial,0,6553640,CONCENTRIC_RFD_50,Rate of force development during the first 50ms of the concentric phase,Concentric RFD - 50ms,Newton Per Second,False,True
+496,6553640,-1039.999999998729,41.474,Left,0,6553640,CONCENTRIC_RFD_50,Rate of force development during the first 50ms of the concentric phase,Concentric RFD - 50ms,Newton Per Second,False,True
+497,6553640,-939.9999999988512,41.474,Right,0,6553640,CONCENTRIC_RFD_50,Rate of force development during the first 50ms of the concentric phase,Concentric RFD - 50ms,Newton Per Second,False,True
+498,6553640,-10.638297872340425,41.474,Asym,0,6553640,CONCENTRIC_RFD_50,Rate of force development during the first 50ms of the concentric phase,Concentric RFD - 50ms,Newton Per Second,False,True
+499,6553642,0.012000000000014666,41.436,Trial,0,6553642,TIME_TO_PEAK_FORCE,Time between start of the concentric phase to peak force,Concentric Time to Peak Force,Millisecond,False,True
+500,6553642,0.010000000000012221,41.434,Left,0,6553642,TIME_TO_PEAK_FORCE,Time between start of the concentric phase to peak force,Concentric Time to Peak Force,Millisecond,False,True
+501,6553642,0.012000000000014666,41.436,Right,0,6553642,TIME_TO_PEAK_FORCE,Time between start of the concentric phase to peak force,Concentric Time to Peak Force,Millisecond,False,True
+502,6553642,16.666666666666664,41.436,Asym,0,6553642,TIME_TO_PEAK_FORCE,Time between start of the concentric phase to peak force,Concentric Time to Peak Force,Millisecond,False,True
+503,6553643,0.7420000000009068,41.676,Trial,0,6553643,CONTRACTION_TIME,Time on the ground between start of movement and takeoff,Contraction Time,Millisecond,False,False
+504,6553644,0.49000000000059885,41.424,Trial,0,6553644,ECCENTRIC_TIME,Duration of the eccentric phase,Eccentric Duration,Millisecond,False,False
+505,6553645,0.5020000000006135,41.436,Trial,0,6553645,START_TO_PEAK_FORCE_TIME,Time between start of movement and peak force,Movement Start to Peak Force,Second,False,False
+506,6553646,0.674,41.608,Trial,0,6553646,START_TO_PEAK_POWER_TIME,Time between start of movement and peak power,Movement Start to Peak Power,Second,False,False
+507,6553647,46.672,42.334,Trial,0,6553647,WEIGHT_RELATIVE_PEAK_LANDING_FORCE,Landing net (above body-weight) peak force relative to body mass,Landing Net Peak Force / BM,Newton Per Kilo,False,False
+508,6553648,17.225,41.436,Trial,0,6553648,WEIGHT_RELATIVE_PEAK_TAKEOFF_FORCE,Peak net (above body-weight) takeoff force relative to body mass,Peak Net Takeoff Force / BM,Newton Per Kilo,False,False
+509,6553649,7.382798080463477,41.436,Trial,0,6553649,RELATIVE_CONCENTRIC_RFD,Rate of force development over the concentric phase to peak force relative to body mass,Concentric RFD / BM,Newton Per Second Per Kilo,False,False
+510,6553655,2.853124046195364,41.676,Trial,0,6553655,TAKEOFF_VELOCITY,The vertical velocity at the instant of take-off,Vertical Velocity at Takeoff,Meter Per Second,False,False
+511,6553657,0.252000000000308,41.676,Trial,0,6553657,CONCENTRIC_DURATION,Length of the concentric phase,Concentric Duration,Millisecond,False,False
+512,6553658,151.42857142857142,41.676,Trial,0,6553658,CONCENTRIC_ECCENTRIC_DURATION_RATIO,Ratio of total contraction time to eccentric duration as %,Contraction Time:Eccentric Duration,Percent,False,False
+513,6553659,194.44444444444446,41.676,Trial,0,6553659,ECCENTRIC_CONCENTRIC_DURATION_RATIO,Ratio of eccentric to concentric duration as %,Eccentric:Concentric Duration,Percent,False,False
+514,6553660,0.7978436657681941,41.676,Trial,0,6553660,FLIGHT_CONTRACTION_TIME_RATIO,Ratio of flight time to contraction time,Flight Time:Contraction Time,No Unit,False,False
+515,6553661,1.2081632653061225,41.676,Trial,0,6553661,FLIGHT_ECCENTRIC_TIME_RATIO,Ratio of flight time to eccentric duration,FlightTime:Eccentric Duration,No Unit,False,False
+516,6553662,41.16200000000434,41.162,Trial,0,6553662,BEGIN_BRAKING_PHASE,Absolute time from the start of recording to the start of braking phase (minimum force during eccentric phase),Start of Braking Phase,Second,False,False
+517,6553663,314.99076638965835,41.162,Trial,0,6553663,MIN_ECCENTRIC_FORCE,Minimum force during the eccentric phase,Minimum Eccentric Force,Newton,False,False
+518,6553664,0.2620000000003202,41.424,Trial,0,6553664,BRAKING_PHASE_DURATION,The time period from minimum force to the start of the concentric phase,Braking Phase Duration,Millisecond,False,False
+519,6553665,41.29800000000451,41.298,Trial,0,6553665,BEGIN_ECC_DECEL_PHASE,Absolute time from the start of recording to the start of eccentric deceleration phase (end of eccentric acceleration phase),Start of Eccentric Deceleration Phase,Second,False,False
+520,6553666,0.22800000000027865,41.162,Trial,0,6553666,TIME_TO_BRAKING_PHASE,Time period from the start of the movement to minimum force eccentric (braking) phase,Time to Braking Phase,Second,False,False
+521,6553667,0.36400000000044486,41.298,Trial,0,6553667,ECCENTRIC_ACCEL_PHASE_DURATION,The time period from start of movement and to maximum negative velocity,Eccentric Acceleration Phase Duration,Second,False,False
+522,6553668,0.126000000000154,41.424,Trial,0,6553668,ECCENTRIC_DECEL_PHASE_DURATION,The time period from maximum negative velocity to zero velocity (start of concentric phase),Eccentric Deceleration Phase Duration,Second,False,False
+523,6553669,35.309973045822105,41.424,Trial,0,6553669,BEAKING_CONTRACTION_DURATION_RATIO,Braking phase duration to contraction time ratio,Braking Phase Duration:Contraction Time,Percent,False,False
+524,6553670,103.96825396825396,41.424,Trial,0,6553670,BEAKING_CONCENTRIC_DURATION_RATIO,Braking phase duration to concentric phase duration ratio,Braking Phase Duration:Concentric Duration,Percent,False,False
+525,6553671,1173.2786451775366,41.424,Trial,0,6553671,MEAN_ECCENTRIC_BRAKING_FORCE,Mean force during the eccentric braking phase (from minimum force to the end of the eccentric phase),Eccentric Mean Braking Force,Newton,False,False
+526,6553672,1855.443891389659,41.424,Trial,0,6553672,MEAN_ECCENTRIC_DECELERATION_FORCE,Mean force from during the eccentric deceleration phase.,Eccentric Mean Deceleration Force,Newton,False,False
+527,6553673,1941.9907663896583,41.608,Trial,0,6553673,FORCE_AT_PEAK_POWER,Force at point of peak power,Force at Peak Power,Newton,False,True
+528,6553673,996.6952908587258,41.608,Left,0,6553673,FORCE_AT_PEAK_POWER,Force at point of peak power,Force at Peak Power,Newton,False,True
+529,6553673,945.2954755309325,41.608,Right,0,6553673,FORCE_AT_PEAK_POWER,Force at point of peak power,Force at Peak Power,Newton,False,True
+530,6553673,-5.1570239971243925,41.608,Asym,0,6553673,FORCE_AT_PEAK_POWER,Force at point of peak power,Force at Peak Power,Newton,False,True
+531,6553674,75.56751356957528,41.424,Trial,0,6553674,CONCENTRIC_IMPULSE_50MS,Total net impulse over first 50ms of the concentric phase,Concentric Impulse-50ms,Newton Second,False,True
+532,6553674,57.52276454300659,41.424,Left,0,6553674,CONCENTRIC_IMPULSE_50MS,Total net impulse over first 50ms of the concentric phase,Concentric Impulse-50ms,Newton Second,False,True
+533,6553674,62.32177377662278,41.424,Right,0,6553674,CONCENTRIC_IMPULSE_50MS,Total net impulse over first 50ms of the concentric phase,Concentric Impulse-50ms,Newton Second,False,True
+534,6553674,7.700373309041346,41.424,Asym,0,6553674,CONCENTRIC_IMPULSE_50MS,Total net impulse over first 50ms of the concentric phase,Concentric Impulse-50ms,Newton Second,False,True
+535,6553675,142.87602713914046,41.424,Trial,0,6553675,CONCENTRIC_IMPULSE_100MS,Total net impulse over first 100ms of the concentric phase,Concentric Impulse-100ms,Newton Second,False,True
+536,6553675,111.90652908600939,41.424,Left,0,6553675,CONCENTRIC_IMPULSE_100MS,Total net impulse over first 100ms of the concentric phase,Concentric Impulse-100ms,Newton Second,False,True
+537,6553675,119.52354755323925,41.424,Right,0,6553675,CONCENTRIC_IMPULSE_100MS,Total net impulse over first 100ms of the concentric phase,Concentric Impulse-100ms,Newton Second,False,True
+538,6553675,6.372818263143526,41.424,Asym,0,6553675,CONCENTRIC_IMPULSE_100MS,Total net impulse over first 100ms of the concentric phase,Concentric Impulse-100ms,Newton Second,False,True
+539,6553676,174.29273419530995,41.424,Trial,0,6553676,CONCENTRIC_IMPULSE_P1,Net impulse during 1st 50% (time-wise) of concentric phase,P1 Concentric Impulse,Newton Second,False,True
+540,6553676,139.07360664836943,41.424,Left,0,6553676,CONCENTRIC_IMPULSE_P1,Net impulse during 1st 50% (time-wise) of concentric phase,P1 Concentric Impulse,Newton Second,False,True
+541,6553676,146.79722991707683,41.424,Right,0,6553676,CONCENTRIC_IMPULSE_P1,Net impulse during 1st 50% (time-wise) of concentric phase,P1 Concentric Impulse,Newton Second,False,True
+542,6553676,5.261423034392636,41.424,Asym,0,6553676,CONCENTRIC_IMPULSE_P1,Net impulse during 1st 50% (time-wise) of concentric phase,P1 Concentric Impulse,Newton Second,False,True
+543,6553677,84.70073419520048,41.55,Trial,0,6553677,CONCENTRIC_IMPULSE_P2,Net impulse during 2nd 50% (time-wise) of concentric phase,P2 Concentric Impulse,Newton Second,False,True
+544,6553677,101.51160664832351,41.55,Left,0,6553677,CONCENTRIC_IMPULSE_P2,Net impulse during 2nd 50% (time-wise) of concentric phase,P2 Concentric Impulse,Newton Second,False,True
+545,6553677,94.76722991701322,41.55,Right,0,6553677,CONCENTRIC_IMPULSE_P2,Net impulse during 2nd 50% (time-wise) of concentric phase,P2 Concentric Impulse,Newton Second,False,True
+546,6553677,-6.643946395879123,41.55,Asym,0,6553677,CONCENTRIC_IMPULSE_P2,Net impulse during 2nd 50% (time-wise) of concentric phase,P2 Concentric Impulse,Newton Second,False,True
+547,6553678,8083.969465638976,41.424,Trial,0,6553678,ECCENTRIC_BRAKING_RFD,Eccentric RFD calculated from the initiation of the active (braking) phase to the end of the eccentric phase,Eccentric Braking RFD,Newton Per Second,False,True
+548,6553678,3569.9300699257064,41.424,Left,0,6553678,ECCENTRIC_BRAKING_RFD,Eccentric RFD calculated from the initiation of the active (braking) phase to the end of the eccentric phase,Eccentric Braking RFD,Newton Per Second,False,True
+549,6553678,4540.322580639612,41.424,Right,0,6553678,ECCENTRIC_BRAKING_RFD,Eccentric RFD calculated from the initiation of the active (braking) phase to the end of the eccentric phase,Eccentric Braking RFD,Newton Per Second,False,True
+550,6553678,21.37276577773914,41.424,Asym,0,6553678,ECCENTRIC_BRAKING_RFD,Eccentric RFD calculated from the initiation of the active (braking) phase to the end of the eccentric phase,Eccentric Braking RFD,Newton Per Second,False,True
+551,6553679,89.52347138027659,41.424,Trial,0,6553679,RELATIVE_ECCENTRIC_BRAKING_RFD,Eccentric RFD calculated from the initiation of the active (braking) phase to the end of the eccentric phase realtive to body-weight,Eccentric Braking RFD / BM,Newton Per Second Per Kilo,False,False
+552,6553680,3149.99999999615,41.262,Trial,0,6553680,ECCENTRIC_BRAKING_RFD_100MS,Eccentric RFD calculated over first 100ms of the braking phase,Eccentric Braking RFD-100ms,Newton Per Second,False,True
+553,6553680,1529.9999999981299,41.238,Left,0,6553680,ECCENTRIC_BRAKING_RFD_100MS,Eccentric RFD calculated over first 100ms of the braking phase,Eccentric Braking RFD-100ms,Newton Per Second,False,True
+554,6553680,1909.9999999976658,41.276,Right,0,6553680,ECCENTRIC_BRAKING_RFD_100MS,Eccentric RFD calculated over first 100ms of the braking phase,Eccentric Braking RFD-100ms,Newton Per Second,False,True
+555,6553680,19.8952879581152,41.262,Asym,0,6553680,ECCENTRIC_BRAKING_RFD_100MS,Eccentric RFD calculated over first 100ms of the braking phase,Eccentric Braking RFD-100ms,Newton Per Second,False,True
+556,6553681,34.883720930189924,41.262,Trial,0,6553681,RELATIVE_ECCENTRIC_BRAKING_RFD_100MS,Eccentric RFD calculated over first 100ms of the braking phase relative to body mass,Eccentric Braking RFD-100ms / BM,Newton Per Second Per Kilo,False,False
+557,6553682,12166.666666651798,41.424,Trial,0,6553682,ECCENTRIC_DECEL_RFD,Rate of force development calculated over the eccentric deceleration phase,Eccentric Deceleration RFD,Newton Per Second,False,True
+558,6553682,6007.936507929166,41.424,Left,0,6553682,ECCENTRIC_DECEL_RFD,Rate of force development calculated over the eccentric deceleration phase,Eccentric Deceleration RFD,Newton Per Second,False,True
+559,6553682,6158.730158722632,41.424,Right,0,6553682,ECCENTRIC_DECEL_RFD,Rate of force development calculated over the eccentric deceleration phase,Eccentric Deceleration RFD,Newton Per Second,False,True
+560,6553682,2.4484536082474215,41.424,Asym,0,6553682,ECCENTRIC_DECEL_RFD,Rate of force development calculated over the eccentric deceleration phase,Eccentric Deceleration RFD,Newton Per Second,False,True
+561,6553683,134.73606496845844,41.424,Trial,0,6553683,RELATIVE_ECCENTRIC_DECEL_RFD,Rate of force development calculated over the eccentric deceleration phase relative to body mass,Eccentric Deceleration RFD / BM,Newton Per Second Per Kilo,False,False
+562,6553684,27.032012916828997,41.436,Trial,0,6553684,RELATIVE_PEAK_TAKEOFF_FORCE,Peak force over the entire takeoff phase relative to body mass,Takeoff Peak Force / BM,Newton Per Kilo,False,False
+563,6553685,2440.9907663896583,41.436,Trial,0,6553685,PEAK_CONCENTRIC_FORCE,Peak force over the concentric phase,Concentric Peak Force,Newton,False,True
+564,6553685,1173.6952908587257,41.434,Left,0,6553685,PEAK_CONCENTRIC_FORCE,Peak force over the concentric phase,Concentric Peak Force,Newton,False,True
+565,6553685,1269.2954755309327,41.436,Right,0,6553685,PEAK_CONCENTRIC_FORCE,Peak force over the concentric phase,Concentric Peak Force,Newton,False,True
+566,6553685,7.531751787913563,41.436,Asym,0,6553685,PEAK_CONCENTRIC_FORCE,Peak force over the concentric phase,Concentric Peak Force,Newton,False,True
+567,6553686,27.032012916828997,41.436,Trial,0,6553686,RELATIVE_PEAK_CONCENTRIC_FORCE,Peak force over the concentric phase relative to body mass,Concentric Peak Force / BM,Newton Per Kilo,False,False
+568,6553687,2432.9907663896583,41.424,Trial,0,6553687,PEAK_ECCENTRIC_FORCE,Peak force over the eccentric phase,Eccentric Peak Force,Newton,False,True
+569,6553687,1170.6952908587257,41.424,Left,0,6553687,PEAK_ECCENTRIC_FORCE,Peak force over the eccentric phase,Eccentric Peak Force,Newton,False,True
+570,6553687,1262.2954755309327,41.424,Right,0,6553687,PEAK_ECCENTRIC_FORCE,Peak force over the eccentric phase,Eccentric Peak Force,Newton,False,True
+571,6553687,7.256635743994814,41.424,Asym,0,6553687,PEAK_ECCENTRIC_FORCE,Peak force over the eccentric phase,Eccentric Peak Force,Newton,False,True
+572,6553688,26.943419339863325,41.424,Trial,0,6553688,RELATIVE_PEAK_ECCENTRIC_FORCE,Peak force over the eccentric phase relative to body mass,Eccentric Peak Force / BM,Newton Per Kilo,False,False
+573,6553689,56.47830306079356,42.334,Trial,0,6553689,RELATIVE_PEAK_LANDING_FORCE,Peak force on landing relative to body mass,Peak Landing Force / BM,Newton Per Kilo,False,False
+574,6553690,1929.6597787988917,41.676,Trial,0,6553690,MEAN_ECC_CON_POWER_TIME,"Power during eccentric (converted to absolute values) + concentric phases, divided by the total contraction time",Mean Eccentric+Concentric Power:Time,Watt Per Second,False,False
+575,6553691,6359.0581089564985,41.424,Trial,0,6553691,LOWER_LIMB_STIFFNESS,Change in vertical force divided by displacement of CoM during the eccentric phase,Lower-Limb Stiffness,Newton Per Meter,False,False
+576,6553692,27757.707089102318,41.676,Trial,0,6553692,CONCENTRIC_RPD,Rate of power development from start of concentric phase to peak power,Concentric RPD,Watt Per Second,False,False
+577,6553693,307.3943199236137,41.676,Trial,0,6553693,RELATIVE_CONCENTRIC_RPD,Rate of power development from start of concentric phase to peak power relative to body mass,Concentric RPD / BM,Watt Per Second Per Kilo,False,False
+578,6553694,37631.916362930984,41.474,Trial,0,6553694,CONCENTRIC_RPD_50MS,Rate of power development for 50ms from start of the concentric phase,Concentric RPD - 50ms,Watt Per Second,False,False
+579,6553695,416.74325983312275,41.474,Trial,0,6553695,RELATIVE_CONCENTRIC_RPD_50MS,Rate of power development for 50ms from start of the concentric phase to peak power relative to body mass,Concentric RPD-50ms / BM,Watt Per Second Per Kilo,False,False
+580,6553696,32953.42881996464,41.524,Trial,0,6553696,CONCENTRIC_RPD_100MS,Rate of power development for 100ms from start of the concentric phase,Concentric RPD - 100ms,Watt Per Second,False,False
+581,6553697,364.93276655553314,41.524,Trial,0,6553697,RELATIVE_CONCENTRIC_RPD_100MS,Rate of power development for 100ms from start of the concentric phase to peak power relative to body mass,Concentric RPD-100ms / BM,Watt Per Second Per Kilo,False,False
+582,6553698,57.89888452837265,42.268,Trial,0,6553698,RSI_MODIFIED,Jump height (flight time) / Contraction time,RSI-modified,RSIModified,False,False
+583,6553699,1065.2562885414723,41.676,Trial,0,6553699,TOTAL_WORK,"Integrating the power-time curve from the SoM through the concentric phase, until the power output reaches zero",Total Work,Joule,False,False
+584,6553700,2.6488093346281514,41.608,Trial,0,6553700,VELOCITY_AT_PEAK_POWER,Vertical velocity at the point of peak power during takeoff,Velocity at Peak Power,Meter Per Second,False,False
+585,6553701,-1.3725592604021688,41.298,Trial,0,6553701,ECCENTRIC_PEAK_VELOCITY,Maximum negative velocity during the eccentric phase (ie. velocity at the start of the eccentric deceleration phase),Eccentric Peak Velocity,Meter Per Second,False,False
+586,6553702,1969.3426447000425,41.338,Trial,0,6553702,ECCENTRIC_PEAK_POWER,Peak power during the eccentric phase,Eccentric Peak Power,Watt,False,False
+587,6553703,74.98597110418211,41.162,Trial,0,6553703,ECCENTRIC_BRAKING_IMPULSE,Net impulse from the initiation of the active (braking) phase to the end of the eccentric phase,Eccentric Braking Impulse,Newton Second,False,True
+588,6553703,154.56416620517513,41.162,Left,0,6553703,ECCENTRIC_BRAKING_IMPULSE,Net impulse from the initiation of the active (braking) phase to the end of the eccentric phase,Eccentric Braking Impulse,Newton Second,False,True
+589,6553703,152.43341458929052,41.162,Right,0,6553703,ECCENTRIC_BRAKING_IMPULSE,Net impulse from the initiation of the active (braking) phase to the end of the eccentric phase,Eccentric Braking Impulse,Newton Second,False,True
+590,6553703,-1.3785547246805927,41.162,Asym,0,6553703,ECCENTRIC_BRAKING_IMPULSE,Net impulse from the initiation of the active (braking) phase to the end of the eccentric phase,Eccentric Braking Impulse,Newton Second,False,True
+591,6553704,122.58573419524673,41.298,Trial,0,6553704,ECCENTRIC_DECEL_IMPULSE,Net impulse from the start of eccentric deceleration to the end of the eccentric phase,Eccentric Deceleration Impulse,Newton Second,False,True
+592,6553704,116.96260664834242,41.298,Left,0,6553704,ECCENTRIC_DECEL_IMPULSE,Net impulse from the start of eccentric deceleration to the end of the eccentric phase,Eccentric Deceleration Impulse,Newton Second,False,True
+593,6553704,117.20122991704069,41.298,Right,0,6553704,ECCENTRIC_DECEL_IMPULSE,Net impulse from the start of eccentric deceleration to the end of the eccentric phase,Eccentric Deceleration Impulse,Newton Second,False,True
+594,6553704,0.20360133495798877,41.298,Asym,0,6553704,ECCENTRIC_DECEL_IMPULSE,Net impulse from the start of eccentric deceleration to the end of the eccentric phase,Eccentric Deceleration Impulse,Newton Second,False,True
+595,6553712,258.9934683905105,41.424,Trial,0,6553712,CONCENTRIC_IMPULSE,Area under the Fz curve from transition point at zero velocity (max negative displacement) (start of concentric phase) to take-off - net impulse,Concentric Impulse,Newton Second,False,True
+596,6553712,240.58521329669298,41.424,Left,0,6553712,CONCENTRIC_IMPULSE,Area under the Fz curve from transition point at zero velocity (max negative displacement) (start of concentric phase) to take-off - net impulse,Concentric Impulse,Newton Second,False,True
+597,6553712,241.56445983409012,41.424,Right,0,6553712,CONCENTRIC_IMPULSE,Area under the Fz curve from transition point at zero velocity (max negative displacement) (start of concentric phase) to take-off - net impulse,Concentric Impulse,Newton Second,False,True
+598,6553712,0.4053769077080674,41.424,Asym,0,6553712,CONCENTRIC_IMPULSE,Area under the Fz curve from transition point at zero velocity (max negative displacement) (start of concentric phase) to take-off - net impulse,Concentric Impulse,Newton Second,False,True
+599,6553713,2432.9907663896583,41.424,Trial,0,6553713,FORCE_AT_ZERO_VELOCITY,The combined (total) force at the instant velocity is zero prior to takeoff,Force at Zero Velocity,Newton,False,True
+600,6553713,1170.6952908587257,41.424,Left,0,6553713,FORCE_AT_ZERO_VELOCITY,The combined (total) force at the instant velocity is zero prior to takeoff,Force at Zero Velocity,Newton,False,True
+601,6553713,1262.2954755309327,41.424,Right,0,6553713,FORCE_AT_ZERO_VELOCITY,The combined (total) force at the instant velocity is zero prior to takeoff,Force at Zero Velocity,Newton,False,True
+602,6553713,7.256635743994814,41.424,Asym,0,6553713,FORCE_AT_ZERO_VELOCITY,The combined (total) force at the instant velocity is zero prior to takeoff,Force at Zero Velocity,Newton,False,True
+603,6553714,751.5932442516113,42.276,Trial,0,6553714,POSITIVE_IMPULSE,Area above BW in takeoff and landing phases,Positive Impulse,Newton Second,False,True
+604,6553714,775.3515429372355,42.276,Left,0,6553714,POSITIVE_IMPULSE,Area above BW in takeoff and landing phases,Positive Impulse,Newton Second,False,True
+605,6553714,776.3461098809119,42.276,Right,0,6553714,POSITIVE_IMPULSE,Area above BW in takeoff and landing phases,Positive Impulse,Newton Second,False,True
+606,6553714,0.12810870448347844,42.276,Asym,0,6553714,POSITIVE_IMPULSE,Area above BW in takeoff and landing phases,Positive Impulse,Newton Second,False,True
+607,6553716,-123.9421012143158,40.934,Trial,0,6553716,ECCENTRIC_UNLOADING_IMPULSE,Net impulse from start of movement to start of the deceleration phase,Eccentric Unloading Impulse,Newton Second,False,True
+608,6553716,92.65508587268943,40.934,Left,0,6553716,ECCENTRIC_UNLOADING_IMPULSE,Net impulse from start of movement to start of the deceleration phase,Eccentric Unloading Impulse,Newton Second,False,True
+609,6553716,105.73955309338858,40.934,Right,0,6553716,ECCENTRIC_UNLOADING_IMPULSE,Net impulse from start of movement to start of the deceleration phase,Eccentric Unloading Impulse,Newton Second,False,True
+610,6553716,12.374241083791063,40.934,Asym,0,6553716,ECCENTRIC_UNLOADING_IMPULSE,Net impulse from start of movement to start of the deceleration phase,Eccentric Unloading Impulse,Newton Second,False,True
+611,6553717,392.9022966151985,41.296,Trial,0,6553717,POSITIVE_TAKEOFF_IMPULSE,Area above BW in the takeoff phase,Positive Takeoff Impulse,Newton Second,False,True
+612,6553717,353.40391412785567,41.296,Left,0,6553717,POSITIVE_TAKEOFF_IMPULSE,Area above BW in the takeoff phase,Positive Takeoff Impulse,Newton Second,False,True
+613,6553717,356.4367802405095,41.296,Right,0,6553717,POSITIVE_TAKEOFF_IMPULSE,Area above BW in the takeoff phase,Positive Takeoff Impulse,Newton Second,False,True
+614,6553717,0.8508847236829421,41.296,Asym,0,6553717,POSITIVE_TAKEOFF_IMPULSE,Area above BW in the takeoff phase,Positive Takeoff Impulse,Newton Second,False,True
+615,6553718,7328.801759630828,41.436,Trial,0,6553718,CMJ_STIFFNESS,Peak force during takeoff / displacement at start of concentric phase (min displacement),CMJ Stiffness,Newton Per Meter,False,True
+616,6553718,3523.888837006249,41.434,Left,0,6553718,CMJ_STIFFNESS,Peak force during takeoff / displacement at start of concentric phase (min displacement),CMJ Stiffness,Newton Per Meter,False,True
+617,6553718,3810.9176989314315,41.436,Right,0,6553718,CMJ_STIFFNESS,Peak force during takeoff / displacement at start of concentric phase (min displacement),CMJ Stiffness,Newton Per Meter,False,True
+618,6553718,7.531751787913563,41.436,Asym,0,6553718,CMJ_STIFFNESS,Peak force during takeoff / displacement at start of concentric phase (min displacement),CMJ Stiffness,Newton Per Meter,False,True
+619,6553720,21.1275474866356,41.676,Trial,0,6553720,BODYMASS_RELATIVE_MEAN_TAKEOFF_FORCE,The average force in the concentric phase relative to body mass,Concentric Mean Force / BM,Newton Per Kilo,False,False
+620,6553722,21.808888645626162,41.338,Trial,0,6553722,BODYMASS_RELATIVE_ECCENTRIC_PEAK_POWER,Eccentric Peak Power divided by Body Mass,Eccentric Peak Power / BM,Watt Per Kilo,False,False
+621,6553724,0.38284539399254575,41.338,Trial,0,6553724,ECC_CON_PEAK_POWER_RATIO,Ratio of Eccentric Peak Power to Concentric Peak Power,Eccentric Peak Power:Concentric Peak Power,No Unit,False,False
+622,6553725,0.485968245241285,41.55,Trial,0,6553725,CON_P2_CON_P1_IMPULSE_RATIO,Ratio of P2 Concentric Impulse to P1 Concentric Impulse,P2 Concentric Impulse:P1 Concentric Impulse,No Unit,False,True
+623,6553725,0.7299128072876053,41.55,Left,0,6553725,CON_P2_CON_P1_IMPULSE_RATIO,Ratio of P2 Concentric Impulse to P1 Concentric Impulse,P2 Concentric Impulse:P1 Concentric Impulse,No Unit,False,True
+624,6553725,0.6455655189852394,41.55,Right,0,6553725,CON_P2_CON_P1_IMPULSE_RATIO,Ratio of P2 Concentric Impulse to P1 Concentric Impulse,P2 Concentric Impulse:P1 Concentric Impulse,No Unit,False,True
+625,6553725,-11.555803304206282,41.55,Asym,0,6553725,CON_P2_CON_P1_IMPULSE_RATIO,Ratio of P2 Concentric Impulse to P1 Concentric Impulse,P2 Concentric Impulse:P1 Concentric Impulse,No Unit,False,True
+626,6553726,0.5516588044749913,41.424,Trial,0,6553726,CON_100MS_CON_IMPULSE_RATIO,Ratio of Concentric Impulse-100ms to Concentric Impulse,Concentric Impulse-100ms:Concentric Impulse,No Unit,False,True
+627,6553726,0.46514300506076706,41.424,Left,0,6553726,CON_100MS_CON_IMPULSE_RATIO,Ratio of Concentric Impulse-100ms to Concentric Impulse,Concentric Impulse-100ms:Concentric Impulse,No Unit,False,True
+628,6553726,0.49478945551564046,41.424,Right,0,6553726,CON_100MS_CON_IMPULSE_RATIO,Ratio of Concentric Impulse-100ms to Concentric Impulse,Concentric Impulse-100ms:Concentric Impulse,No Unit,False,True
+629,6553726,5.991730447039867,41.424,Asym,0,6553726,CON_100MS_CON_IMPULSE_RATIO,Ratio of Concentric Impulse-100ms to Concentric Impulse,Concentric Impulse-100ms:Concentric Impulse,No Unit,False,True
+630,6553727,119.12739058186305,42.268,Trial,0,6553727,LANDING_IMPULSE,Absolute Impulse from Landing to Peak Landing Force,Landing Impulse,Newton Second,False,True
+631,6553727,56.97088919674552,42.268,Left,0,6553727,LANDING_IMPULSE,Absolute Impulse from Landing to Peak Landing Force,Landing Impulse,Newton Second,False,True
+632,6553727,51.791319482981116,42.268,Right,0,6553727,LANDING_IMPULSE,Absolute Impulse from Landing to Peak Landing Force,Landing Impulse,Newton Second,False,True
+633,6553727,-9.09160763820461,42.268,Asym,0,6553727,LANDING_IMPULSE,Absolute Impulse from Landing to Peak Landing Force,Landing Impulse,Newton Second,False,True
+634,6553728,32879.999999959815,42.268,Trial,0,6553728,LANDING_RFD_50,Rate of force development over the first 50ms from landing,Landing RFD 50ms,Newton Per Second,False,False
+635,6553730,1.3575385846649695,41.298,Trial,0,6553730,BODYMASS_RELATIVE_ECC_DECEL_IMPULSE,Net impulse from the start of eccentric deceleration to the end of the eccentric phase relative to body mass,Eccentric Deceleration Impulse / BM,Newton Second Per Kilo,False,False
+636,6553731,12.173325148078417,41.424,Trial,0,6553731,DISPLACEMENT_AT_TAKEOFF,Displacement of the centre of mass when takeoff occurs,Displacement at Takeoff,Centimeter,False,False
+637,6553732,26.943419339863325,41.424,Trial,0,6553732,BM_REL_FORCE_AT_ZERO_VELOCITY,The combined force at the instant velocity is zero divided by body mass,Force at Zero Velocity / BM,Newton Per Kilo,False,False
+638,6553733,55.93539786494416,42.268,Trial,0,6553733,RSI_MODIFIED_IMP_MOM,Jump height (Imp-Mom) / Contraction time,RSI-modified (Imp-Mom),RSIModified,False,False
+639,6553734,5.339420521935586,41.424,Trial,0,6553734,BM_REL_ABS_CON_IMPULSE,Absolute concentric impulse (area under the Fz curve from the transition point at zero velocity) divided by body mass,Concentric Impulse (Abs) / BM,Newton Second Per Kilo,False,False

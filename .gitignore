@@ -1,0 +1,89 @@
+# Environment variables and secrets
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Google Cloud credentials
+Scripts/gcp_credentials.json
+gcp_credentials.json
+
+# Token cache
+.token_cache.json
+*.token_cache.json
+
+# API credentials
+VALDAPI.txt
+
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python dependencies and cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+BTvenv/
+my_env/
+BTmac/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Log files
+*.log
+logs/
+Scripts/*.log
+
+# Build outputs
+build/
+dist/
+*.egg-info/
+
+# PDF reports (generated files)
+*.pdf
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Backup files
+*.bak
+*.backup
+
+# Temporary files
+*.tmp
+*.temp
+processed_athletes.txt
+
+# React build
+performance_data_app/build/
+push-performance-insights-engine/build/
+
