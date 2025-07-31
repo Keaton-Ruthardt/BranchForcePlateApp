@@ -9,6 +9,7 @@ const { spawn } = require('child_process');
 class VALDAPIService {
   constructor() {
     this.baseURL = process.env.FORCEDECKS_URL;
+    this.profileURL = process.env.PROFILE_URL;
     this.clientId = process.env.CLIENT_ID;
     this.clientSecret = process.env.CLIENT_SECRET;
     this.authURL = process.env.AUTH_URL;
@@ -25,7 +26,7 @@ class VALDAPIService {
   }
   
   validateConfiguration() {
-    const required = ['FORCEDECKS_URL', 'CLIENT_ID', 'CLIENT_SECRET', 'AUTH_URL', 'TENANT_ID'];
+    const required = ['FORCEDECKS_URL', 'PROFILE_URL', 'CLIENT_ID', 'CLIENT_SECRET', 'AUTH_URL', 'TENANT_ID'];
     const missing = required.filter(key => !process.env[key]);
     
     if (missing.length > 0) {
@@ -35,6 +36,7 @@ class VALDAPIService {
     
     try {
       new URL(this.baseURL);
+      new URL(this.profileURL);
       new URL(this.authURL);
       return true;
     } catch (error) {
@@ -106,19 +108,43 @@ class VALDAPIService {
     }
     
     try {
-      const data = await this.makeAPIRequest('/profiles', {
-        search: searchTerm,
-        limit: 20
+      // Use PROFILE_URL instead of FORCEDECKS_URL, matching Python implementation
+      const token = await this.getAccessToken();
+      const response = await axios.get(`${this.profileURL}/profiles`, {
+        headers: {
+          'Authorization': `Bearer ${token}`,
+          'Content-Type': 'application/json'
+        },
+        params: {
+          tenantId: this.tenantId
+        },
+        timeout: 30000
       });
 
-      return data.map(profile => ({
-        athlete_id: profile.id,
-        athlete_name: profile.name,
-        source: 'live',
-        sport: profile.sport,
-        position: profile.position,
-        last_updated: new Date().toISOString()
-      }));
+      if (response.status === 200 && response.data.profiles) {
+        // Filter profiles by search term (matching Python logic)
+        const profiles = response.data.profiles.filter(profile => {
+          const fullName = `${profile.givenName || ''} ${profile.familyName || ''}`.toLowerCase();
+          const searchTerm_lower = searchTerm.toLowerCase();
+          
+          return fullName.includes(searchTerm_lower) ||
+                 (profile.givenName && profile.givenName.toLowerCase().includes(searchTerm_lower)) ||
+                 (profile.familyName && profile.familyName.toLowerCase().includes(searchTerm_lower)) ||
+                 (profile.externalId && profile.externalId.toString().toLowerCase().includes(searchTerm_lower));
+        });
+
+        return profiles.slice(0, 20).map(profile => ({
+          athlete_id: profile.profileId,
+          athlete_name: `${profile.givenName || ''} ${profile.familyName || ''}`.trim(),
+          source: 'live',
+          sport: profile.sport,
+          position: profile.position,
+          external_id: profile.externalId,
+          last_updated: new Date().toISOString()
+        }));
+      }
+      
+      return [];
     } catch (error) {
       console.error('❌ Search athletes failed:', error);
       return [];
@@ -131,18 +157,40 @@ class VALDAPIService {
     }
     
     try {
-      const data = await this.makeAPIRequest(`/profiles/${athleteId}`);
+      // Get all profiles first, then find the specific athlete
+      const token = await this.getAccessToken();
+      const response = await axios.get(`${this.profileURL}/profiles`, {
+        headers: {
+          'Authorization': `Bearer ${token}`,
+          'Content-Type': 'application/json'
+        },
+        params: {
+          tenantId: this.tenantId
+        },
+        timeout: 30000
+      });
+
+      if (response.status === 200 && response.data.profiles) {
+        const profile = response.data.profiles.find(p => p.profileId === athleteId);
+        
+        if (!profile) {
+          throw new Error(`Athlete with ID ${athleteId} not found`);
+        }
+        
+        return {
+          athlete_id: profile.profileId,
+          athlete_name: `${profile.givenName || ''} ${profile.familyName || ''}`.trim(),
+          sport: profile.sport,
+          position: profile.position,
+          date_of_birth: profile.dateOfBirth,
+          height: profile.height,
+          weight: profile.weight,
+          external_id: profile.externalId,
+          source: 'live'
+        };
+      }
       
-      return {
-        athlete_id: data.id,
-        athlete_name: data.name,
-        sport: data.sport,
-        position: data.position,
-        date_of_birth: data.dateOfBirth,
-        height: data.height,
-        weight: data.weight,
-        source: 'live'
-      };
+      throw new Error('Failed to fetch profiles');
     } catch (error) {
       console.error('❌ Get athlete profile failed:', error);
       throw error;
