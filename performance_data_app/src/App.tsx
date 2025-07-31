@@ -31,7 +31,11 @@ const theme = createTheme({
 });
 
 const App: React.FC = () => {
-  const [selectedAthlete, setSelectedAthlete] = useState<string | null>(null);
+  const [selectedAthlete, setSelectedAthlete] = useState<{ name: string; id: string } | null>(null);
+
+  const handleAthleteSelect = (athleteName: string, athleteId: string) => {
+    setSelectedAthlete({ name: athleteName, id: athleteId });
+  };
 
   return (
     <ThemeProvider theme={theme}>
@@ -49,14 +53,14 @@ const App: React.FC = () => {
                 letterSpacing: '0.05em'
               }}
             >
-              VALD Performance Analytics
+              VALD Performance Analytics - Hybrid Live + Analytics
             </Typography>
           </Toolbar>
         </AppBar>
         
         <Container maxWidth="xl" sx={{ pt: 3, pb: 4 }}>
-          <AthleteSearch onSelect={setSelectedAthlete} />
-          {selectedAthlete && <AthleteResults athleteName={selectedAthlete} />}
+          <AthleteSearch onSelect={handleAthleteSelect} />
+          {selectedAthlete && <AthleteResults athleteName={selectedAthlete.name} />}
         </Container>
       </Box>
     </ThemeProvider>

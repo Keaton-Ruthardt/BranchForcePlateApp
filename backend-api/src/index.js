@@ -7,6 +7,8 @@ require('dotenv').config();
 
 const { login, authenticateJWT } = require('./auth');
 const { BigQuery } = require('@google-cloud/bigquery');
+const VALDAPIService = require('./vald-service');
+const AnalyticsService = require('./analytics-service');
 
 const app = express();
 const PORT = process.env.PORT || 4000;
@@ -27,34 +29,47 @@ app.get('/health', (req, res) => {
   res.json({ status: 'ok', message: 'Athlete Performance API is running.' });
 });
 
-// BigQuery utility
+// Initialize services
+const valdAPI = new VALDAPIService();
+const analytics = new AnalyticsService();
+
+// Legacy BigQuery utility (keeping for backwards compatibility)
 const bqClient = new BigQuery({
   keyFilename: path.join(__dirname, '../../Scripts/gcp_credentials.json'),
-  projectId: 'vald-ref-data', // Update if needed
+  projectId: 'vald-ref-data',
 });
 const DATASET = 'athlete_performance_db';
 
-// Search athletes by name (now returns athleteId and athleteName)
+// Hybrid athlete search - VALD API primary, BigQuery fallback
 app.get('/athletes', async (req, res) => {
   const search = req.query.search || '';
+  
   try {
-    const query = `
-      SELECT DISTINCT athlete_id, athlete_name
-      FROM \`${DATASET}.cmj_results\`
-      WHERE LOWER(athlete_name) LIKE @search
-      ORDER BY athlete_name
-      LIMIT 20
-    `;
-    const options = {
-      query,
-      params: { search: `%${search.toLowerCase()}%` },
-      location: 'US',
-    };
-    const [rows] = await bqClient.query(options);
-    res.json(rows);
+    // Primary: Search live athletes from VALD API
+    console.log(`Searching athletes for: "${search}"`);
+    const liveResults = await valdAPI.searchAthletes(search);
+    
+    if (liveResults && liveResults.length > 0) {
+      console.log(`Found ${liveResults.length} athletes from VALD API`);
+      return res.json(liveResults);
+    }
+    
+    // Fallback: Search cached athletes from BigQuery
+    console.log('VALD API returned no results, falling back to BigQuery');
+    const cachedResults = await analytics.searchAthletesFallback(search);
+    res.json(cachedResults);
+    
   } catch (err) {
-    console.error(err);
-    res.status(500).json({ error: 'Failed to search athletes' });
+    console.error('Athlete search error:', err);
+    
+    try {
+      // Final fallback to BigQuery
+      const cachedResults = await analytics.searchAthletesFallback(search);
+      res.json(cachedResults.map(r => ({ ...r, source: 'cached', error: 'API unavailable' })));
+    } catch (fallbackErr) {
+      console.error('Fallback search also failed:', fallbackErr);
+      res.status(500).json({ error: 'Failed to search athletes' });
+    }
   }
 });
 
@@ -160,7 +175,40 @@ app.get('/athletes/:athleteId/cmj-test-dates', async (req, res) => {
   }
 });
 
-// Get all test dates for an athlete by athlete name
+// Hybrid test dates - VALD API primary, BigQuery fallback
+app.get('/athletes/:athleteId/test-dates', async (req, res) => {
+  const athleteId = req.params.athleteId;
+  
+  try {
+    // Primary: Get live test dates from VALD API
+    console.log(`Getting test dates for athlete: ${athleteId}`);
+    const liveTestDates = await valdAPI.getAthleteTestDates(athleteId);
+    
+    if (liveTestDates && liveTestDates.length > 0) {
+      console.log(`Found ${liveTestDates.length} test dates from VALD API`);
+      return res.json(liveTestDates.map(date => ({ ...date, source: 'live' })));
+    }
+    
+    // Fallback: Get cached test dates from BigQuery
+    console.log('VALD API returned no test dates, falling back to BigQuery');
+    const cachedDates = await analytics.getTestDatesFallback(athleteId);
+    res.json(cachedDates);
+    
+  } catch (err) {
+    console.error('Test dates error:', err);
+    
+    try {
+      // Final fallback to BigQuery
+      const cachedDates = await analytics.getTestDatesFallback(athleteId);
+      res.json(cachedDates.map(d => ({ ...d, source: 'cached', error: 'API unavailable' })));
+    } catch (fallbackErr) {
+      console.error('Fallback test dates also failed:', fallbackErr);
+      res.status(500).json({ error: 'Failed to fetch test dates' });
+    }
+  }
+});
+
+// Legacy endpoint for backward compatibility
 app.get('/athletes/:athleteName/cmj-test-dates', async (req, res) => {
   const athleteName = decodeURIComponent(req.params.athleteName);
   try {
@@ -282,6 +330,71 @@ app.get('/athletes/:athleteName/cmj-metric-percentiles', async (req, res) => {
   } catch (err) {
     console.error('Failed to fetch metrics:', err);
     res.status(500).json({ error: 'Failed to fetch metrics' });
+  }
+});
+
+// NEW: Hybrid performance data endpoint - Live VALD + Analytics
+app.get('/athletes/:athleteId/performance-data', async (req, res) => {
+  const { athleteId } = req.params;
+  const { resultId, testDate } = req.query;
+  
+  if (!athleteId || (!resultId && !testDate)) {
+    return res.status(400).json({ error: 'Athlete ID and either result ID or test date required' });
+  }
+  
+  try {
+    console.log(`Getting hybrid performance data for athlete ${athleteId}, resultId: ${resultId}, testDate: ${testDate}`);
+    
+    // Step 1: Get live test data from VALD API
+    const liveTestData = await valdAPI.getTestResults(athleteId, resultId || testDate);
+    
+    if (!liveTestData || !liveTestData.cmj) {
+      return res.status(404).json({ error: 'No test data found' });
+    }
+    
+    // Step 2: Get athlete profile
+    const athleteProfile = await valdAPI.getAthleteProfile(athleteId);
+    
+    // Step 3: Calculate analytics from BigQuery for CMJ data
+    const cmjMetrics = liveTestData.cmj.metrics;
+    const [
+      metricsWithPercentiles,
+      compositeScore,
+      databaseBenchmarks,
+      athleteHistory
+    ] = await Promise.all([
+      analytics.calculateMultiplePercentiles(cmjMetrics, 'cmj'),
+      analytics.calculateCompositeScore(cmjMetrics, 'cmj'),
+      analytics.getDatabaseBenchmarks('cmj'),
+      analytics.getAthleteHistory(athleteId, 'cmj', 5)
+    ]);
+    
+    // Step 4: Combine live data with analytics
+    const hybridResponse = {
+      athlete: athleteProfile,
+      testData: {
+        ...liveTestData,
+        cmj: {
+          ...liveTestData.cmj,
+          metrics: metricsWithPercentiles,
+          compositeScore: compositeScore
+        }
+      },
+      benchmarks: databaseBenchmarks,
+      history: athleteHistory,
+      source: 'hybrid',
+      timestamp: new Date().toISOString()
+    };
+    
+    console.log(`Successfully retrieved hybrid data for ${athleteProfile.athlete_name}`);
+    res.json(hybridResponse);
+    
+  } catch (err) {
+    console.error('Hybrid performance data error:', err);
+    res.status(500).json({ 
+      error: 'Failed to fetch performance data',
+      details: err.message 
+    });
   }
 });
 
@@ -564,6 +677,150 @@ app.post('/generate-report', async (req, res) => {
     res.status(500).json({ error: 'Failed to generate report' });
   }
 });
+
+// NEW: Hybrid PDF report generation - Live VALD data + BigQuery analytics
+app.post('/generate-hybrid-report', async (req, res) => {
+  const { athleteId, resultId, testDate } = req.body;
+  
+  if (!athleteId || (!resultId && !testDate)) {
+    return res.status(400).json({ error: 'Athlete ID and either result ID or test date are required' });
+  }
+
+  try {
+    console.log(`Generating hybrid report for athlete ${athleteId}, resultId: ${resultId}, testDate: ${testDate}`);
+    
+    // Step 1: Get complete hybrid performance data
+    const hybridData = await getHybridPerformanceData(athleteId, resultId || testDate);
+    
+    if (!hybridData || !hybridData.testData.cmj) {
+      return res.status(404).json({ error: 'No test data found for report generation' });
+    }
+    
+    const { athlete, testData, benchmarks } = hybridData;
+    const cmjData = testData.cmj;
+    
+    // Step 2: Format test date
+    let formattedTestDate = 'Unknown Date';
+    if (cmjData.test_date) {
+      formattedTestDate = new Date(cmjData.test_date).toLocaleDateString();
+    }
+    
+    // Step 3: Extract metrics and percentiles
+    const metrics = cmjData.metrics;
+    
+    // Step 4: Call Python script with hybrid data
+    const pythonScript = path.join(__dirname, '../../Scripts/generate_report.py');
+    const pythonArgs = [
+      '--athlete-name', athlete.athlete_name,
+      '--test-date', formattedTestDate,
+      '--composite-score', cmjData.compositeScore?.toString() || '0',
+      '--concentric-impulse', metrics.CONCENTRIC_IMPULSE_Trial_Ns?.value?.toString() || '0',
+      '--eccentric-rfd', metrics.ECCENTRIC_BRAKING_RFD_Trial_N_s?.value?.toString() || '0',
+      '--peak-force', metrics.PEAK_CONCENTRIC_FORCE_Trial_N?.value?.toString() || '0',
+      '--takeoff-power', metrics.BODYMASS_RELATIVE_TAKEOFF_POWER_Trial_W_kg?.value?.toString() || '0',
+      '--rsi-modified', metrics.RSI_MODIFIED_Trial_RSI_mod?.value?.toString() || '0',
+      '--eccentric-impulse', metrics.ECCENTRIC_BRAKING_IMPULSE_Trial_Ns?.value?.toString() || '0',
+      '--avg-composite-score', benchmarks.cmj_composite_score?.average?.toString() || '0',
+      '--avg-concentric-impulse', benchmarks.CONCENTRIC_IMPULSE_Trial_Ns?.average?.toString() || '0',
+      '--avg-eccentric-rfd', benchmarks.ECCENTRIC_BRAKING_RFD_Trial_N_s?.average?.toString() || '0',
+      '--avg-peak-force', benchmarks.PEAK_CONCENTRIC_FORCE_Trial_N?.average?.toString() || '0',
+      '--avg-takeoff-power', benchmarks.BODYMASS_RELATIVE_TAKEOFF_POWER_Trial_W_kg?.average?.toString() || '0',
+      '--avg-rsi-modified', benchmarks.RSI_MODIFIED_Trial_RSI_mod?.average?.toString() || '0',
+      '--avg-eccentric-impulse', benchmarks.ECCENTRIC_BRAKING_IMPULSE_Trial_Ns?.average?.toString() || '0',
+      '--max-composite-score', '100', // Will be calculated from benchmarks
+      '--max-concentric-impulse', benchmarks.CONCENTRIC_IMPULSE_Trial_Ns?.maximum?.toString() || '500',
+      '--max-eccentric-rfd', benchmarks.ECCENTRIC_BRAKING_RFD_Trial_N_s?.maximum?.toString() || '10000',
+      '--max-peak-force', benchmarks.PEAK_CONCENTRIC_FORCE_Trial_N?.maximum?.toString() || '5000',
+      '--max-takeoff-power', benchmarks.BODYMASS_RELATIVE_TAKEOFF_POWER_Trial_W_kg?.maximum?.toString() || '50',
+      '--max-rsi-modified', benchmarks.RSI_MODIFIED_Trial_RSI_mod?.maximum?.toString() || '2.5',
+      '--max-eccentric-impulse', benchmarks.ECCENTRIC_BRAKING_IMPULSE_Trial_Ns?.maximum?.toString() || '200',
+      '--percentile-composite-score', cmjData.compositeScore?.toString() || '0',
+      '--percentile-concentric-impulse', metrics.CONCENTRIC_IMPULSE_Trial_Ns?.percentile?.toString() || '0',
+      '--percentile-eccentric-rfd', metrics.ECCENTRIC_BRAKING_RFD_Trial_N_s?.percentile?.toString() || '0',
+      '--percentile-peak-force', metrics.PEAK_CONCENTRIC_FORCE_Trial_N?.percentile?.toString() || '0',
+      '--percentile-takeoff-power', metrics.BODYMASS_RELATIVE_TAKEOFF_POWER_Trial_W_kg?.percentile?.toString() || '0',
+      '--percentile-rsi-modified', metrics.RSI_MODIFIED_Trial_RSI_mod?.percentile?.toString() || '0',
+      '--percentile-eccentric-impulse', metrics.ECCENTRIC_BRAKING_IMPULSE_Trial_Ns?.percentile?.toString() || '0'
+    ];
+    
+    const pythonProcess = spawn('python', [pythonScript, ...pythonArgs]);
+    
+    let pdfBuffer = Buffer.alloc(0);
+    let errorOutput = '';
+    
+    pythonProcess.stdout.on('data', (data) => {
+      pdfBuffer = Buffer.concat([pdfBuffer, data]);
+    });
+    
+    pythonProcess.stderr.on('data', (data) => {
+      errorOutput += data.toString();
+      console.error('Python script error:', data.toString());
+    });
+    
+    pythonProcess.on('close', (code) => {
+      if (code === 0 && pdfBuffer.length > 0) {
+        console.log('Hybrid PDF generated successfully, size:', pdfBuffer.length);
+        res.setHeader('Content-Type', 'application/pdf');
+        res.setHeader('Content-Disposition', `attachment; filename="${athlete.athlete_name}_${formattedTestDate}_hybrid_report.pdf"`);
+        res.send(pdfBuffer);
+      } else {
+        console.error('Python script failed with code:', code);
+        console.error('Error output:', errorOutput);
+        res.status(500).json({ 
+          error: 'Failed to generate hybrid PDF report',
+          details: errorOutput
+        });
+      }
+    });
+    
+    pythonProcess.on('error', (err) => {
+      console.error('Failed to start Python script:', err);
+      res.status(500).json({ error: 'Failed to start hybrid report generation' });
+    });
+    
+  } catch (err) {
+    console.error('Error generating hybrid report:', err);
+    res.status(500).json({ error: 'Failed to generate hybrid report' });
+  }
+});
+
+// Helper function for hybrid performance data
+async function getHybridPerformanceData(athleteId, identifier) {
+  // Get live test data from VALD API
+  const liveTestData = await valdAPI.getTestResults(athleteId, identifier);
+  
+  if (!liveTestData || !liveTestData.cmj) {
+    throw new Error('No test data found');
+  }
+  
+  // Get athlete profile
+  const athleteProfile = await valdAPI.getAthleteProfile(athleteId);
+  
+  // Calculate analytics from BigQuery for CMJ data
+  const cmjMetrics = liveTestData.cmj.metrics;
+  const [
+    metricsWithPercentiles,
+    compositeScore,
+    databaseBenchmarks
+  ] = await Promise.all([
+    analytics.calculateMultiplePercentiles(cmjMetrics, 'cmj'),
+    analytics.calculateCompositeScore(cmjMetrics, 'cmj'),
+    analytics.getDatabaseBenchmarks('cmj')
+  ]);
+  
+  return {
+    athlete: athleteProfile,
+    testData: {
+      ...liveTestData,
+      cmj: {
+        ...liveTestData.cmj,
+        metrics: metricsWithPercentiles,
+        compositeScore: compositeScore
+      }
+    },
+    benchmarks: databaseBenchmarks
+  };
+}
 
 app.listen(PORT, () => {
   console.log(`Backend API listening on port ${PORT}`);
